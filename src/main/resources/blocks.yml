@@ -5,11 +5,10 @@ ACACIA_BOAT:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Ship-shape (Acacia)
+    name: 整齊的 (相思)
     type: PHILOSOPHICAL
     lore:
-      - Live in the sunshine, swim the sea
-        and drink in the wild air
+      - 生活在陽光下，在海裡游泳，於狂野的空氣中喝酒
     shards: [ 1,0,0,0,1,0,0,0,2 ]
 
 ACACIA_BUTTON:
@@ -18,10 +17,10 @@ ACACIA_BUTTON:
     - HUMAN
     - MECHANICAL
   story:
-    name: Depressed (Acacia)
+    name: 鬱悶 (相思)
     type: HUMAN
     lore:
-      - Can get easily depressed
+      - 容易受到鬱悶
     shards: [ 0,1,0,0,2,0,0,1,0 ]
 
 ACACIA_DOOR:
@@ -30,12 +29,12 @@ ACACIA_DOOR:
     - HUMAN
     - MECHANICAL
   story:
-    name: Gateway (Acacia)
+    name: 出入口 (相思)
     type: HUMAN
     lore:
-      - Every entrance  is also an exit.
-      - Doors protects from the outside but
-      - don't let them keep you in!
+      - 每一個入口也是一個出口.
+      - 門可以保護外界，但
+      - 不要讓它們把你擋在門外!
     shards: [ 0,2,0,0,1,0,0,0,1 ]
 
 ACACIA_FENCE:
@@ -44,7 +43,7 @@ ACACIA_FENCE:
     - HUMAN
     - ANIMAL
   story:
-    name: Livestock (Acacia)
+    name: 家畜 (相思)
     type: ANIMAL
     lore:
       - Nothing brings more joy to a fence
@@ -58,11 +57,11 @@ ACACIA_FENCE_GATE:
     - MECHANICAL
     - ANIMAL
   story:
-    name: Gate (Acacia)
+    name: 門 (相思)
     type: MECHANICAL
     lore:
-      - Still round the corner there may wait,
-      - A new road or a secret gate.
+      - 仍然在轉角處可能等待,
+      - 新的路或秘密的門.
     shards: [ 0,2,0,0,1,1,0,0,0 ]
     author: J. R. R. Tolkien
 
@@ -72,7 +71,7 @@ ACACIA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (Acacia)
+    name: Leaf me alone! (相思)
     type: PHILOSOPHICAL
     lore:
       - Gently swaying in a cool breeze,
@@ -86,7 +85,7 @@ ACACIA_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (Acacia)
+    name: Punching Trees Gives Me Log (相思)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
@@ -99,7 +98,7 @@ ACACIA_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (Acacia)
+    name: Walk the Plank (相思)
     type: HUMAN
     lore:
       - The first step on your crafting journey
@@ -112,7 +111,7 @@ ACACIA_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Acacia)
+    name: Under Pressure (相思)
     type: VOID
     lore:
       - Being walked all over will drop any
@@ -125,7 +124,7 @@ ACACIA_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (Acacia)
+    name: Growth (相思)
     type: ELEMENTAL
     lore:
       - A youthful spirit empowered to grow
@@ -138,7 +137,7 @@ ACACIA_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (Acacia)
+    name: Signed (相思)
     type: PHILOSOPHICAL
     lore:
       - Imbued with the thoughts of those
@@ -150,7 +149,7 @@ ACACIA_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (Acacia)
+    name: A Cut Below (相思)
     type: HUMAN
     lore:
       - Ripped in half and divided from
@@ -163,7 +162,7 @@ ACACIA_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (Acacia)
+    name: Arise (相思)
     type: CELESTIAL
     lore:
       - Lives to feel the joy of others being
@@ -176,7 +175,7 @@ ACACIA_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (Acacia)
+    name: To the Pits (相思)
     type: VOID
     lore:
       - Awaiting the perfect moment to drop an
@@ -189,7 +188,7 @@ ACACIA_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (Acacia)
+    name: Punching Trees Gives Me Wood (相思)
     type: ELEMENTAL
     lore:
       - Every adventure begins with a good tree
@@ -12834,7 +12833,7 @@ WARPED_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (Acacia)
+    name: Under Pressure (相思)
     type: VOID
     lore:
       - Being walked all over will drop any
