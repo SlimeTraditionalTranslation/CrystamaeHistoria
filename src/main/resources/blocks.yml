@@ -46,8 +46,8 @@ ACACIA_FENCE:
     name: 家畜 (相思)
     type: ANIMAL
     lore:
-      - Nothing brings more joy to a fence
-      - than keeping your livestock safe.
+      - 能保護好牲畜的安全,
+      - 是你家的圍欄這一生最大的快樂.
     shards: [ 0,0,0,0,1,2,0,0,0 ]
 
 ACACIA_FENCE_GATE:
@@ -216,7 +216,7 @@ ALLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (Allium)
+    name: Sweet Smell (蔥屬)
     type: ANIMAL
     lore:
       - A wafting fragrance to quell the most
@@ -298,7 +298,7 @@ ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Andesite)
+    name: Half Pint (安山岩)
     type: HUMAN
     lore:
       - Half as big, and twice-so unappreciated
@@ -312,7 +312,7 @@ ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Andesite)
+    name: Rising on up (安山岩)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -326,7 +326,7 @@ ANDESITE_WALL:
     - CELESTIAL
     - HISTORICAL
   story:
-    name: Beating down the walls (Andesite)
+    name: Beating down the walls (安山岩)
     type: HISTORICAL
     lore:
       - Protecting for years working to keep
@@ -2360,7 +2360,7 @@ COBBLESTONE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Andesite)
+    name: Rising on up (安山岩)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -9447,7 +9447,7 @@ POLISHED_ANDESITE_SLAB:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Half Pint (Polished Andesite)
+    name: Half Pint (拋光安山岩)
     type: HUMAN
     lore:
       - Half as big, and twice-so unappreciated
@@ -9461,7 +9461,7 @@ POLISHED_ANDESITE_STAIRS:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Rising on up (Polished Andesite)
+    name: Rising on up (拋光安山岩)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
@@ -9475,7 +9475,7 @@ POLISHED_BASALT:
     - MECHANICAL
     - HUMAN
   story:
-    name: Time to Gleam (Basalt)
+    name: Time to Gleam (玄武岩)
     type: HUMAN
     lore:
       - With a bit of love, any block can
@@ -11322,7 +11322,7 @@ SMOOTH_BASALT:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Basalt)
+    name: A Debonair Delight (玄武岩)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -13567,7 +13567,7 @@ WRITTEN_BOOK:
     - PHILOSOPHICAL
     - HUMAN
   story:
-    name: The Press (Finished)
+    name: The Press (完成的)
     type: PHILOSOPHICAL
     lore:
       - Oh the day when humans invented
@@ -13581,7 +13581,7 @@ YELLOW_BANNER:
     - HISTORICAL
     - HUMAN
   story:
-    name: Flying Free (Yellow)
+    name: Flying Free (黃色)
     type: HISTORICAL
     lore:
       - Flying proud day after day for
@@ -13594,7 +13594,7 @@ YELLOW_BED:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: A Good Night (Yellow)
+    name: A Good Night (黃色)
     type: PHILOSOPHICAL
     lore:
       - It's commonly thought that a persons
@@ -13608,7 +13608,7 @@ YELLOW_CANDLE:
     - HUMAN
     - HISTORICAL
   story:
-    name: A Constant Drive (Yellow)
+    name: A Constant Drive (黃色)
     type: HUMAN
     lore:
       - Burning bright for as long as possible
@@ -13622,7 +13622,7 @@ YELLOW_CARPET:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Trampled (Yellow)
+    name: Trampled (黃色)
     type: PHILOSOPHICAL
     lore:
       - Trampled on a daily basis, the carpet
@@ -13636,7 +13636,7 @@ YELLOW_CONCRETE:
     - HUMAN
     - HISTORICAL
   story:
-    name: Future Proof (Yellow)
+    name: Future Proof (黃色)
     type: HISTORICAL
     lore:
       - A block able to withstand the test
@@ -13650,7 +13650,7 @@ YELLOW_CONCRETE_POWDER:
     - HUMAN
     - ELEMENTAL
   story:
-    name: Self Identification (Yellow)
+    name: Self Identification (黃色)
     type: HUMAN
     lore:
       - Being a blend of other distinct blocks
@@ -13664,7 +13664,7 @@ YELLOW_DYE:
   elements:
     - ALCHEMICAL
   story:
-    name: The Gamut (Yellow)
+    name: The Gamut (黃色)
     type: ALCHEMICAL
     lore:
       - Dye's singular purpose is to bring
@@ -13679,7 +13679,7 @@ YELLOW_GLAZED_TERRACOTTA:
     - HUMAN
     - CELESTIAL
   story:
-    name: Non-Stick (Yellow)
+    name: Non-Stick (黃色)
     type: HUMAN
     lore:
       - A complex composition allows this block
@@ -13693,7 +13693,7 @@ YELLOW_STAINED_GLASS:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Yellow)
+    name: Prism (黃色)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -13707,7 +13707,7 @@ YELLOW_STAINED_GLASS_PANE:
     - CELESTIAL
     - PHILOSOPHICAL
   story:
-    name: Prism (Yellow Pane)
+    name: Prism (黃色玻璃)
     type: CELESTIAL
     lore:
       - While this block has no innate magic
@@ -13721,7 +13721,7 @@ YELLOW_TERRACOTTA:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Sculptor's Delight (Yellow)
+    name: Sculptor's Delight (黃色)
     type: HUMAN
     lore:
       - Having the potential to be shaped into any
@@ -13734,7 +13734,7 @@ YELLOW_WOOL:
   elements:
     - ANIMAL
   story:
-    name: Soft! (yellow)
+    name: Soft! (黃色)
     type: ANIMAL
     lore:
       - Fluffy and yellow, the most comfortable
@@ -13748,7 +13748,7 @@ ZOMBIE_HEAD:
   elements:
     - VOID
   story:
-    name: Decapitation (Zombie)
+    name: Decapitation (殭屍)
     type: VOID
     lore:
       - While a despicable practice, some magics
