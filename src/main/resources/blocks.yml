@@ -71,12 +71,12 @@ ACACIA_LEAVES:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Leaf me alone! (相思)
+    name: 讓我一個人呆著! (相思)
     type: PHILOSOPHICAL
     lore:
-      - Gently swaying in a cool breeze,
-      - Leaves want nothing more than to be
-      - left alone to their thoughts.
+      - 在涼爽的微風中輕輕搖曳,
+      - 葉子只想
+      - 讓他們獨自思考.
     shards: [ 1,0,0,1,0,0,0,0,1 ]
 
 ACACIA_LOG:
@@ -85,11 +85,11 @@ ACACIA_LOG:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Log (相思)
+    name: 衝孔樹給了我日誌 (相思)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每一次冒險都從一棵好樹開始
+      - 用拳猛擊
     shards: [ 2,0,0,1,1,0,0,0,0 ]
 
 ACACIA_PLANKS:
@@ -98,11 +98,11 @@ ACACIA_PLANKS:
     - ELEMENTAL
     - HUMAN
   story:
-    name: Walk the Plank (相思)
+    name: 走上木板 (相思)
     type: HUMAN
     lore:
-      - The first step on your crafting journey
-      - driving new players forwards.
+      - 製作旅程的第一步
+      - 推動新玩家前進.
     shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 ACACIA_PRESSURE_PLATE:
@@ -111,11 +111,11 @@ ACACIA_PRESSURE_PLATE:
     - MECHANICAL
     - VOID
   story:
-    name: Under Pressure (相思)
+    name: 在壓力之下 (相思)
     type: VOID
     lore:
-      - Being walked all over will drop any
-      - spirit.
+      - 被走遍會掉任何
+      - 精神.
     shards: [ 0,2,0,0,1,0,0,1,0 ]
 
 ACACIA_SAPLING:
@@ -124,11 +124,11 @@ ACACIA_SAPLING:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Growth (相思)
+    name: 成長 (相思)
     type: ELEMENTAL
     lore:
-      - A youthful spirit empowered to grow
-      - into a mighty tree
+      - 一個年輕的精神
+      - 有能力成長為一棵大樹
     shards: [ 1,0,1,1,0,1,0,0,0 ]
 
 ACACIA_SIGN:
@@ -137,11 +137,11 @@ ACACIA_SIGN:
     - HUMAN
     - PHILOSOPHICAL
   story:
-    name: Signed (相思)
+    name: 署名 (相思)
     type: PHILOSOPHICAL
     lore:
-      - Imbued with the thoughts of those
-      - authors
+      - 充滿了那些作者的
+      - 想法
     shards: [ 0,0,0,0,1,0,1,1,1 ]
 
 ACACIA_SLAB:
@@ -149,11 +149,11 @@ ACACIA_SLAB:
   elements:
     - HUMAN
   story:
-    name: A Cut Below (相思)
+    name: 切開底下 (相思)
     type: HUMAN
     lore:
-      - Ripped in half and divided from
-      - self. A soul torn asunder
+      - 撕成兩半，與自己分開.
+      - 被撕裂的靈魂
     shards: [ 1,1,0,0,1,0,0,0,0 ]
 
 ACACIA_STAIRS:
@@ -162,11 +162,11 @@ ACACIA_STAIRS:
     - HUMAN
     - CELESTIAL
   story:
-    name: Arise (相思)
+    name: 出現 (相思)
     type: CELESTIAL
     lore:
-      - Lives to feel the joy of others being
-      - raised to new heights.
+      - 活著是為了感受他人
+      - 被提升到新高度的喜悅.
     shards: [ 0,1,0,0,1,0,1,0,1 ]
 
 ACACIA_TRAPDOOR:
@@ -175,11 +175,11 @@ ACACIA_TRAPDOOR:
     - HUMAN
     - VOID
   story:
-    name: To the Pits (相思)
+    name: 去坑 (相思)
     type: VOID
     lore:
-      - Awaiting the perfect moment to drop an
-      - unsuspecting person to their end
+      - 等待一個完美的時刻
+      - 讓一個毫無戒心的人走到盡頭
     shards: [ 0,1,0,0,1,0,0,1,0 ]
 
 ACACIA_WOOD:
@@ -188,11 +188,11 @@ ACACIA_WOOD:
     - ELEMENTAL
     - HISTORICAL
   story:
-    name: Punching Trees Gives Me Wood (相思)
+    name: 砍樹給我木頭 (相思)
     type: ELEMENTAL
     lore:
-      - Every adventure begins with a good tree
-      - punch
+      - 每一次冒險都從一個好的樹開始
+      - 砍
     shards: [ 2,0,0,1,1,0,0,0,0 ]
 
 ACTIVATOR_RAIL:
@@ -11223,7 +11223,7 @@ SKULL_BANNER_PATTERN:
     - HUMAN
     - ALCHEMICAL
   story:
-    name: Star Spangled (Skull)
+    name: Star Spangled (頭骨)
     type: HUMAN
     lore:
       - Absorbs magic generated from the pride
@@ -11250,7 +11250,7 @@ SLIME_BLOCK:
     - ANIMAL
     - ALCHEMICAL
   story:
-    name: A Sticky Situation (Slime)
+    name: A Sticky Situation (史萊姆)
     type: ALCHEMICAL
     lore:
       - Desperate to not be alone, this block
@@ -11264,7 +11264,7 @@ SMALL_AMETHYST_BUD:
     - VOID
     - ELEMENTAL
   story:
-    name: Devoid of magic (Small)
+    name: Devoid of magic (小的)
     type: VOID
     lore:
       - Amethyst buds are Crystal deposits that couldn't
@@ -11278,7 +11278,7 @@ SMALL_DRIPLEAF:
     - ELEMENTAL
     - PHILOSOPHICAL
   story:
-    name: Trying Hard (Small)
+    name: Trying Hard (小的)
     type: PHILOSOPHICAL
     lore:
       - The dripleaf tries it's absolute
@@ -11335,7 +11335,7 @@ SMOOTH_QUARTZ:
     - ELEMENTAL
     - CELESTIAL
   story:
-    name: A Debonair Delight (Quartz)
+    name: A Debonair Delight (石英)
     type: ELEMENTAL
     lore:
       - It should be criminal to be this
@@ -11349,7 +11349,7 @@ SMOOTH_QUARTZ_SLAB:
     - VOID
     - ALCHEMICAL
   story:
-    name: A Cut Below (Smooth Quartz)
+    name: A Cut Below (平滑石英方塊)
     type: HUMAN
     lore:
       - Ripped in half and divided from
@@ -11363,7 +11363,7 @@ SMOOTH_QUARTZ_STAIRS:
     - PHILOSOPHICAL
     - ALCHEMICAL
   story:
-    name: Rising on up (Smooth Quartz)
+    name: Rising on up (平滑石英方塊)
     type: PHILOSOPHICAL
     lore:
       - Every step is either an incline to
