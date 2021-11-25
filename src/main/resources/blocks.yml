@@ -201,13 +201,13 @@ ACTIVATOR_RAIL:
     - MECHANICAL
     - HUMAN
   story:
-    name: Activate!
+    name: 啟動!
     type: MECHANICAL
     lore:
-      - Nothing provides more of a rush than
-      - the cracking of a cart over this track.
-      - A singular purpose with an ecstatic
-      - result.
+      - 沒有什麼比一輛小車在
+      - 這條軌道上開裂更能帶來匆忙了.
+      - 一個令人欣喜若狂的結果
+      - 單一目的.
     shards: [ 0,2,0,0,1,0,0,0,0 ]
 
 ALLIUM:
@@ -216,11 +216,11 @@ ALLIUM:
     - ELEMENTAL
     - ANIMAL
   story:
-    name: Sweet Smell (蔥屬)
+    name: 甜甜的氣味 (蔥屬)
     type: ANIMAL
     lore:
-      - A wafting fragrance to quell the most
-      - vicious of temperaments.
+      - 飄散的芬芳最能平息
+      - 脾氣暴躁.
     shards: [ 1,0,0,0,0,1,0,0,0 ]
 
 AMETHYST_BLOCK:
