@@ -15,11 +15,11 @@ public class DummyRealisationAltar {
         "CRY_REALISATION_ALTAR_DUMMY_CRYSTAL",
         new ItemStack(Material.CHISELED_DEEPSLATE),
         ThemeType.MECHANISM,
-        "Realisation Altar",
-        "Crystals are gathered when mining the fully",
-        "formed crystals that gather around an active",
-        "Altar. Giving the Altar storied blocks will",
-        "produce crystals."
+        "真實祭壇",
+        "給予祭壇有著故事的",
+        "方塊將會產生水晶.",
+        "在真實祭壇周圍產生出的",
+        "水晶完全成長時即可開採."
     );
     public static final RecipeType TYPE = new RecipeType(Keys.REALISATION_DUMMY_CRYSTAL, STACK);
 }

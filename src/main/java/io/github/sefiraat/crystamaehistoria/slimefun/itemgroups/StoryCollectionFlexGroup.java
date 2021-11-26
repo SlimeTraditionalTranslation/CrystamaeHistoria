@@ -78,7 +78,7 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
 
     @Override
     public void open(Player p, PlayerProfile profile, SlimefunGuideMode mode) {
-        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "Crystamae Magic Compendium");
+        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "故事綱要");
 
         for (int slot : HEADER) {
             chestMenu.addItem(slot, ChestMenuUtils.getBackground(), (player1, i1, itemStack, clickAction) -> false);
@@ -218,18 +218,19 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
     private ItemStack getPoolsItemStack(@Nonnull BlockDefinition definition) {
         final List<StoryType> storyTypes = definition.getPools();
         final List<String> lore = Arrays.stream(new String[]{
-            "When chronicling this item, you",
-            "can draw latent stories from the",
-            "following story pools.",
+            "當你紀錄下這個物品時,",
+            "你可以描繪出潛藏在這個",
+            "物品深處的那些故事.",
             ""
         }).map(s -> ThemeType.PASSIVE.getColor() + s).collect(Collectors.toList());
 
         for (StoryType storyType : storyTypes) {
-            lore.add(ThemeType.CLICK_INFO.getColor() + ThemeType.toTitleCase(storyType.toString()));
+            ThemeType story_item_name = ThemeType.getByType(storyType);
+            lore.add(ThemeType.CLICK_INFO.getColor() + story_item_name.getLoreLine());
         }
         return new CustomItemStack(
             Material.DEEPSLATE_BRICK_SLAB,
-            ThemeType.MAIN.getColor() + "Chronicling Results",
+            ThemeType.MAIN.getColor() + "記錄結果",
             lore
         );
     }
@@ -272,14 +273,14 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
         final String chronicleCap = timesChronicled > 100 ? "(Capped at 100)" : "";
         final String realisationCap = timesRealised > 100 ? "(Capped at 100)" : "";
 
-        lore.add(MessageFormat.format("{0}Rank: {1}{2}", color, blockRank.getTheme().getColor(), blockRank.getTheme().getLoreLine()));
+        lore.add(MessageFormat.format("{0}等級: {1}{2}", color, blockRank.getTheme().getColor(), blockRank.getTheme().getLoreLine()));
         lore.add("");
-        lore.add(MessageFormat.format("{0}Times Chronicled: {1}{2} {3}", color, passive, timesChronicled, chronicleCap));
-        lore.add(MessageFormat.format("{0}Times Realised: {1}{2} {3}", color, passive, timesRealised, realisationCap));
+        lore.add(MessageFormat.format("{0}總記錄時間: {1}{2} {3}", color, passive, timesChronicled, chronicleCap));
+        lore.add(MessageFormat.format("{0}總真實化時間: {1}{2} {3}", color, passive, timesRealised, realisationCap));
 
         return new CustomItemStack(
             Material.TARGET,
-            ThemeType.MAIN.getColor() + "Item Statistics",
+            ThemeType.MAIN.getColor() + "物品統計",
             lore
         );
     }
@@ -290,12 +291,12 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
         final List<String> lore = new ArrayList<>();
         final StoryRank storyRank = PlayerStatistics.getStoryRank(player.getUniqueId());
 
-        lore.add(MessageFormat.format("{0}Stories Chronicled: {1}{2}", color, passive, PlayerStatistics.getStoriesUnlocked(player.getUniqueId())));
-        lore.add(MessageFormat.format("{0}Rank: {1}{2}", color, storyRank.getTheme().getColor(), storyRank.getTheme().getLoreLine()));
+        lore.add(MessageFormat.format("{0}故事記錄: {1}{2}", color, passive, PlayerStatistics.getStoriesUnlocked(player.getUniqueId())));
+        lore.add(MessageFormat.format("{0}頭銜: {1}{2}", color, storyRank.getTheme().getColor(), storyRank.getTheme().getLoreLine()));
 
         return new CustomItemStack(
             Material.TARGET,
-            ThemeType.MAIN.getColor() + "Story Statistics",
+            ThemeType.MAIN.getColor() + "故事統計",
             lore
         );
     }

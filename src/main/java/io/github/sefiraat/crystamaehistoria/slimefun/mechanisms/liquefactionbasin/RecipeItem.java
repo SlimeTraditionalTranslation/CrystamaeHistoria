@@ -58,7 +58,7 @@ public class RecipeItem {
         ItemStack itemStack = Materials.getDummyCrystalMap().get(storyTypes.get(index)).getItem().clone();
         ItemMeta itemMeta = itemStack.getItemMeta();
         List<String> list = new ArrayList<>();
-        list.add(ThemeType.CLICK_INFO.getColor() + "Minimum amount: " + ThemeType.PASSIVE.getColor() + amounts.get(index));
+        list.add(ThemeType.CLICK_INFO.getColor() + "最低數量: " + ThemeType.PASSIVE.getColor() + amounts.get(index));
         itemMeta.setLore(list);
         itemStack.setItemMeta(itemMeta);
         return itemStack;

@@ -76,7 +76,7 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
 
     @Override
     public void open(Player p, PlayerProfile profile, SlimefunGuideMode mode) {
-        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "Spell Compendium");
+        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "法術綱要");
 
         for (int slot : HEADER) {
             chestMenu.addItem(slot, ChestMenuUtils.getBackground(), (player1, i1, itemStack, clickAction) -> false);
@@ -223,21 +223,21 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
     private ItemStack getMechanismStack() {
         final List<String> lore = Arrays.stream(
             new String[]{
-                "Spells are created by combining",
-                "liquid crystamae in a Liquefaction",
-                "Basin.",
-                "The highest 3 amounts of liquid",
-                "determine the spell created (left).",
+                "法術是通過在液化池",
+                "中組合液態水晶而",
+                "產生的.",
+                "最高 3 種液體量",
+                "所決定製作的法術.",
                 "",
-                "Throw in a Spell Plate when ready",
-                "to create your spell."
+                "準備好製作你的法術時,",
+                "進一個法術板."
             }
         ).map(s -> ThemeType.PASSIVE.getColor() + s)
             .collect(Collectors.toList());
 
         return new CustomItemStack(
             Material.CAULDRON,
-            ThemeType.MAIN.getColor() + "Liquefaction Basin",
+            ThemeType.MAIN.getColor() + "液化池",
             lore
         );
     }
@@ -247,15 +247,15 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor color = ThemeType.CLICK_INFO.getColor();
         final ChatColor passive = ThemeType.PASSIVE.getColor();
 
-        final String crysta = MessageFormat.format("{0}Crysta Cost per Cast: {1}{2}", color, passive, spellCore.getCrystaCost());
-        final String crystaMulti = MessageFormat.format("{0}Crysta cost {1} with stave tier", color, spellCore.isDamageMultiplied() ? "increases" : "doesn't increase");
-        final String cooldown = MessageFormat.format("{0}Cooldown (sec) on use: {1}{2}", color, passive, spell.getSpellCore().getCooldownSeconds());
-        final String cooldownDivided = MessageFormat.format("{0}Cooldown {1} with stave tier", color, spellCore.isDamageMultiplied() ? "isn't reduced" : "is reduced");
+        final String crysta = MessageFormat.format("{0}每次施法所消耗的水晶: {1}{2}", color, passive, spellCore.getCrystaCost());
+        final String crystaMulti = MessageFormat.format("{0}水晶成本 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
+        final String cooldown = MessageFormat.format("{0}冷卻 (秒) 在使用時: {1}{2}", color, passive, spell.getSpellCore().getCooldownSeconds());
+        final String cooldownDivided = MessageFormat.format("{0}冷卻 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "沒有降低" : "降低");
 
 
         return new CustomItemStack(
             Material.GLOW_BERRIES,
-            ThemeType.MAIN.getColor() + "Basic Details",
+            ThemeType.MAIN.getColor() + "基礎詳細",
             crysta,
             crystaMulti,
             cooldown,
@@ -269,29 +269,29 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor passive = ThemeType.PASSIVE.getColor();
         final List<String> lore = new ArrayList<>();
 
-        final String damageMessage = MessageFormat.format("{0}Damage: {1}{2}", color, passive, spellCore.getDamageAmount());
-        final String damageMulti = MessageFormat.format("{0}Damage {1} with stave tier", color, spellCore.isDamageMultiplied() ? "increases" : "doesn't increase");
+        final String damageMessage = MessageFormat.format("{0}傷害: {1}{2}", color, passive, spellCore.getDamageAmount());
+        final String damageMulti = MessageFormat.format("{0}傷害 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
 
-        final String healMessage = MessageFormat.format("{0}Heal Amount: {1}{2}", color, passive, spellCore.getDamageAmount());
-        final String healMulti = MessageFormat.format("{0}Heal Amount {1} with stave tier", color, spellCore.isDamageMultiplied() ? "increases" : "doesn't increase");
+        final String healMessage = MessageFormat.format("{0}治療量: {1}{2}", color, passive, spellCore.getDamageAmount());
+        final String healMulti = MessageFormat.format("{0}治療量 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
 
         if (spellCore.isDamagingSpell()) {
             lore.add(damageMessage);
             lore.add(damageMulti);
         } else {
-            lore.add(passive + "This spell does not damage.");
+            lore.add(passive + "這個法術不會造成傷害.");
         }
 
         if (spellCore.isHealingSpell()) {
             lore.add(healMessage);
             lore.add(healMulti);
         } else {
-            lore.add(passive + "This spell does not heal.");
+            lore.add(passive + "這個法術不會治療.");
         }
 
         return new CustomItemStack(
             Material.MAP,
-            ThemeType.MAIN.getColor() + "Spell Values",
+            ThemeType.MAIN.getColor() + "法術值",
             lore
         );
     }
@@ -305,17 +305,17 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
 
         final int ticks = spellCore.getNumberOfTicks();
 
-        final String instantCast = MessageFormat.format("{0}Instant: {1}Fires immediately when cast", color, passive);
-        final String damagingSpell = MessageFormat.format("{0}Damaging: {1}Will cause damage and/or debuff", color, passive);
-        final String healingSpell = MessageFormat.format("{0}Healing: {1}Will heal and/or buff", color, passive);
-        final String effectingSpell = MessageFormat.format("{0}Effecting: {1}Will apply potion effects", color, passive);
-        final String tickingSpell1 = MessageFormat.format("{0}Ticking: {1}Effects of this spell will", color, passive);
-        final String tickingSpell2 = MessageFormat.format("{0}fire ({1}{2}{3}) times", passive, notice, ticks, passive);
-        final String tickingSpell3 = MessageFormat.format("{0}Tick number {1} with stave tier", passive, spellCore.isDamageMultiplied() ? "increases" : "doesn't increase");
+        final String instantCast = MessageFormat.format("{0}立即: {1}施法時立即開火", color, passive);
+        final String damagingSpell = MessageFormat.format("{0}傷害: {1}會造成傷害 和/或 減益", color, passive);
+        final String healingSpell = MessageFormat.format("{0}治療: {1}會治癒 和/或 增益", color, passive);
+        final String effectingSpell = MessageFormat.format("{0}效果: {1}會施加藥水效果", color, passive);
+        final String tickingSpell1 = MessageFormat.format("{0}Ticking: {1}該法術效果將會", color, passive);
+        final String tickingSpell2 = MessageFormat.format("{0}火 ({1}{2}{3}) 次", passive, notice, ticks, passive);
+        final String tickingSpell3 = MessageFormat.format("{0}刻數字 {1} 與法杖等級", passive, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
 
-        final String projectileSpell1 = MessageFormat.format("{0}Projectile: {1}This spell fires a projectile", color, passive);
-        final String projectileSpell2 = MessageFormat.format("{0}which, when it hits, may induce", passive);
-        final String projectileSpell3 = MessageFormat.format("{0}further effects", passive);
+        final String projectileSpell1 = MessageFormat.format("{0}投射物: {1}這個法術發射投射物", color, passive);
+        final String projectileSpell2 = MessageFormat.format("{0}當被擊中時, 可能會引起", passive);
+        final String projectileSpell3 = MessageFormat.format("{0}進一步的影響", passive);
 
         if (spellCore.isInstantCast()) {
             lore.add(instantCast);
@@ -341,7 +341,7 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         }
         return new CustomItemStack(
             Material.NAME_TAG,
-            ThemeType.MAIN.getColor() + "Spell Cast Type(s)",
+            ThemeType.MAIN.getColor() + "施法類型",
             lore
         );
     }
@@ -351,9 +351,9 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor passive = ThemeType.PASSIVE.getColor();
         final List<String> lore = new ArrayList<>();
 
-        final String message = MessageFormat.format("{0}Range: {1}{2}", color, passive, spell.getSpellCore().getRange());
-        final String multiMessage = MessageFormat.format("{0}Range {1} with stave tier", passive, spell.getSpellCore().isRangeMultiplied() ? "increases" : "doesn't increase");
-        final String noRange = passive + "Not effected by range";
+        final String message = MessageFormat.format("{0}距離: {1}{2}", color, passive, spell.getSpellCore().getRange());
+        final String multiMessage = MessageFormat.format("{0}距離 {1} 與法杖等級", passive, spell.getSpellCore().isRangeMultiplied() ? "增加" : "沒有增加");
+        final String noRange = passive + "不受範圍影響";
 
         if (spell.getSpellCore().getKnockbackAmount() > 0) {
             lore.add(message);
@@ -364,7 +364,7 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
 
         return new CustomItemStack(
             Material.TARGET,
-            ThemeType.MAIN.getColor() + "Range",
+            ThemeType.MAIN.getColor() + "範圍",
             lore
         );
     }
@@ -374,9 +374,9 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor passive = ThemeType.PASSIVE.getColor();
         final List<String> lore = new ArrayList<>();
 
-        final String message = MessageFormat.format("{0}Knockback: {1}{2}", color, passive, spell.getSpellCore().getKnockbackAmount());
-        final String multiMessage = MessageFormat.format("{0}Amount {1} with stave tier", passive, spell.getSpellCore().isKnockbackMultiplied() ? "increases" : "doesn't increase");
-        final String noKnockback = passive + "No direct knockback";
+        final String message = MessageFormat.format("{0}擊退: {1}{2}", color, passive, spell.getSpellCore().getKnockbackAmount());
+        final String multiMessage = MessageFormat.format("{0}數量 {1} 與法杖等級", passive, spell.getSpellCore().isKnockbackMultiplied() ? "增加" : "沒有增加");
+        final String noKnockback = passive + "沒有直接擊退";
 
         if (spell.getSpellCore().getKnockbackAmount() > 0) {
             lore.add(message);
@@ -387,7 +387,7 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
 
         return new CustomItemStack(
             Material.SLIME_BLOCK,
-            ThemeType.MAIN.getColor() + "Knockback",
+            ThemeType.MAIN.getColor() + "擊退",
             lore
         );
     }
@@ -397,10 +397,10 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor color = ThemeType.CLICK_INFO.getColor();
         final ChatColor passive = ThemeType.PASSIVE.getColor();
 
-        final String aoeMessage = MessageFormat.format("{0}Projectile AoE: {1}{2}", color, passive, spellCore.getProjectileAoeRange());
-        final String aoeMultiMessage = MessageFormat.format("{0}AoE {1} with stave tier", passive, spellCore.isProjectileAoeMultiplied() ? "increases" : "doesn't increase");
-        final String knockbackMessage = MessageFormat.format("{0}Projectile Knockback: {1}{2}", color, passive, spellCore.getKnockbackAmount());
-        final String knockbackMultiMessage = MessageFormat.format("{0}Knockback {1} with stave tier", passive, spellCore.isKnockbackMultiplied() ? "increases" : "doesn't increase");
+        final String aoeMessage = MessageFormat.format("{0}範圍投射物: {1}{2}", color, passive, spellCore.getProjectileAoeRange());
+        final String aoeMultiMessage = MessageFormat.format("{0}範圍性 {1} 與法杖等級", passive, spellCore.isProjectileAoeMultiplied() ? "增加" : "沒有增加");
+        final String knockbackMessage = MessageFormat.format("{0}投射物擊退: {1}{2}", color, passive, spellCore.getKnockbackAmount());
+        final String knockbackMultiMessage = MessageFormat.format("{0}擊退 {1} 與法杖等級", passive, spellCore.isKnockbackMultiplied() ? "增加" : "沒有增加");
 
         final List<String> lore = new ArrayList<>();
 
@@ -411,12 +411,12 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
             lore.add(knockbackMessage);
             lore.add(knockbackMultiMessage);
         } else {
-            lore.add(passive + "Not a projectile spell");
+            lore.add(passive + "不是投射物法術");
         }
 
         return new CustomItemStack(
             Material.FIRE_CHARGE,
-            ThemeType.MAIN.getColor() + "Projectile Information",
+            ThemeType.MAIN.getColor() + "投射物資訊",
             lore
         );
     }
@@ -429,22 +429,22 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
 
         if (spellCore.isEffectingSpell()) {
             final String effectAmplification = MessageFormat.format(
-                "{0}Effect power {1} with stave tier",
+                "{0}效果力量 {1} 與法杖等級",
                 passive,
-                spellCore.isAmplificationMultiplied() ? "increases" : "doesn't increase"
+                spellCore.isAmplificationMultiplied() ? "增加" : "沒有增加"
             );
             final String effectDuration = MessageFormat.format(
-                "{0}Effect duration {1} with stave tier",
+                "{0}效果力量 {1} 與法杖等級",
                 passive,
-                spellCore.isEffectDurationMultiplied() ? "increases" : "doesn't increase"
+                spellCore.isEffectDurationMultiplied() ? "增加" : "沒有增加"
             );
 
             if (spellCore.getNegativeEffectPairMap().size() > 0) {
-                lore.add(color + "Negative Effects:");
+                lore.add(color + "負面效果:");
                 spellCore.getNegativeEffectPairMap().forEach(
                     (type, pair) -> {
                         final String negativeEffectMessage = MessageFormat.format(
-                            "{0}{1}: {2}Power ({3}) - Duration ({4})",
+                            "{0}{1}: {2}力量 ({3}) - 持續時間 ({4})",
                             color,
                             ThemeType.toTitleCase(type.getName()),
                             passive,
@@ -457,11 +457,11 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
             }
 
             if (spellCore.getPositiveEffectPairMap().size() > 0) {
-                lore.add(color + "Positive Effects:");
+                lore.add(color + "正面效果:");
                 spellCore.getPositiveEffectPairMap().forEach(
                     (type, pair) -> {
                         final String positiveEffectMessage = MessageFormat.format(
-                            "{0}{1}: {2}Power ({3}) - Duration ({4})",
+                            "{0}{1}: {2}力量 ({3}) - 持續時間 ({4})",
                             color,
                             ThemeType.toTitleCase(type.getName()),
                             passive,
@@ -477,12 +477,12 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
             lore.add(effectAmplification);
             lore.add(effectDuration);
         } else {
-            lore.add(passive + "Spell has no effects");
+            lore.add(passive + "法術沒有任何效果");
         }
 
         return new CustomItemStack(
             Material.BREWING_STAND,
-            ThemeType.MAIN.getColor() + "Effects",
+            ThemeType.MAIN.getColor() + "效果",
             lore
         );
     }
@@ -493,12 +493,12 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final List<String> lore = new ArrayList<>();
         final SpellRank spellRank = PlayerStatistics.getSpellRank(player.getUniqueId());
 
-        lore.add(MessageFormat.format("{0}Spells Unlocked: {1}{2}", color, passive, PlayerStatistics.getSpellsUnlocked(player.getUniqueId())));
-        lore.add(MessageFormat.format("{0}Rank: {1}{2}", color, spellRank.getTheme().getColor(), spellRank.getTheme().getLoreLine()));
+        lore.add(MessageFormat.format("{0}法術解鎖: {1}{2}", color, passive, PlayerStatistics.getSpellsUnlocked(player.getUniqueId())));
+        lore.add(MessageFormat.format("{0}頭銜: {1}{2}", color, spellRank.getTheme().getColor(), spellRank.getTheme().getLoreLine()));
 
         return new CustomItemStack(
             Material.TARGET,
-            ThemeType.MAIN.getColor() + "Spell Statistics",
+            ThemeType.MAIN.getColor() + "法術統計",
             lore
         );
     }

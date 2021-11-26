@@ -57,9 +57,9 @@ public class Tools {
                 "CRY_SPELL_PLATE_1",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Basic Spell Plate",
-                "A blank plate that has the potential to",
-                "store magical energy"
+                "基礎法術板",
+                "儲存著魔法潛能的",
+                "空白板."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             inertPlateRecipe.getDisplayRecipe(),
@@ -74,9 +74,9 @@ public class Tools {
                 "CRY_CHARGED_PLATE_1",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Charged Basic Spell Plate",
-                "A magically charged plate storing magic",
-                "potential."
+                "充能的基礎法術板",
+                "儲存著魔法潛能的",
+                "充能魔法板."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             new ItemStack[]{null, null, null, null, new ItemStack(Material.AMETHYST_CLUSTER), null, null, null, null},
@@ -90,9 +90,9 @@ public class Tools {
                 "CRY_STAVE_1",
                 new ItemStack(Material.STICK),
                 ThemeType.STAVE,
-                "Basic Stave",
-                "A stave with the ability to hold",
-                "magically charged plates."
+                "基礎法杖",
+                "一根具有能力容納",
+                "魔法充能板的法杖."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -110,9 +110,9 @@ public class Tools {
                 "CRY_STAVE_2",
                 new ItemStack(Material.STICK),
                 ThemeType.STAVE,
-                "Advanced Stave",
-                "A stave with the ability to hold",
-                "magically charged plates."
+                "進階法杖",
+                "一根具有能力容納",
+                "魔法充能板的法杖."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -130,17 +130,17 @@ public class Tools {
                 "CRY_REFRACTING_LENS",
                 new ItemStack(Material.SPYGLASS),
                 ThemeType.TOOL,
-                "Refracting Lens",
-                "This magical lens has glass that can",
-                "split the light of Crysta into its",
-                "individual elements.",
+                "折射鏡片",
+                "這個魔法鏡片的特殊玻璃,",
+                "可以將水晶的光線分別出",
+                "各自的元素.",
                 "",
-                "Right click on a Crystamae Block for",
-                "details if available.",
+                "右鍵在可運作的水晶方塊上",
+                "來獲取詳細資訊.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Works with:",
-                ChatColor.DARK_BLUE + "Liquefaction Basin",
-                ChatColor.DARK_BLUE + "Exp Collector"
+                ThemeType.CLICK_INFO.getColor() + "運作於:",
+                ChatColor.DARK_BLUE + "液化池",
+                ChatColor.DARK_BLUE + "經驗收集器"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -157,13 +157,13 @@ public class Tools {
                 "CRY_THAUMATURGIC_SALT",
                 new ItemStack(Material.REDSTONE),
                 ThemeType.TOOL,
-                "Thaumaturgic Salts",
-                "A special formulation of salts",
-                "that can absorb unwanted crysta",
-                "from a Liquefaction Basin.",
+                "奇術鹽",
+                "一種特殊調合的鹽配方,",
+                "可以從液化池中吸收掉",
+                "不想要的水晶液體.",
                 "",
-                "Right click on a Liquefaction Basin",
-                "to empty it."
+                "右鍵點擊液化池",
+                "來將其清空."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
