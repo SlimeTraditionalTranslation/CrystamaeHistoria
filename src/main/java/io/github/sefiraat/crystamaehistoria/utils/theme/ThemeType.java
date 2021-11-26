@@ -89,7 +89,7 @@ public enum ThemeType {
     RANK_BLOCK_RESEARCHED(ChatColor.of("#29ff40"), "研究過"),
     RANK_BLOCK_EXPERT_OF(ChatColor.of("#0fff29"), "專家級"),
     RANK_BLOCK_MASTER_OF(ChatColor.of("#00db18"), "大師級"),
-    RANK_BLOCK_SME(ChatColor.of("#00820e"), "S.M.E.");
+    RANK_BLOCK_SME(ChatColor.of("#00820e"), "歷史見證者"); // 熟知故事之人 故事聆聽者 主題專家 Subject Matter Expert
 
     /**
      * List of names to be given to ArmourStands, invisible but mods and Minimaps can see them :)

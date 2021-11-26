@@ -645,7 +645,7 @@ public class Gadgets {
                 "以向世界炫耀.",
                 "",
                 "目前允許的獎盃包括:",
-                ThemeType.CLICK_INFO.getColor() + "一個你有 S.M.E 頭銜的方塊"
+                ThemeType.CLICK_INFO.getColor() + "一個你有 歷史見證者 頭銜的方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             trophyDisplayRecipe.getDisplayRecipe()
