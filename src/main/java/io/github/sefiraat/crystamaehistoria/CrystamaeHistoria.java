@@ -21,11 +21,11 @@ import io.github.sefiraat.crystamaehistoria.slimefun.Gadgets;
 import io.github.sefiraat.crystamaehistoria.slimefun.ItemGroups;
 import io.github.sefiraat.crystamaehistoria.slimefun.Materials;
 import io.github.sefiraat.crystamaehistoria.slimefun.Mechanisms;
+import io.github.sefiraat.crystamaehistoria.slimefun.PaintBrushes;
 import io.github.sefiraat.crystamaehistoria.slimefun.Tools;
 import io.github.sefiraat.crystamaehistoria.stories.BlockDefinition;
 import io.github.sefiraat.crystamaehistoria.stories.StoriesManager;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import org.apache.commons.lang.Validate;
 //import org.bstats.bukkit.Metrics;
 //import org.bstats.charts.AdvancedPie;
@@ -221,5 +221,6 @@ public class CrystamaeHistoria extends AbstractAddon {
         Mechanisms.setup();
         Gadgets.setup();
         Tools.setup();
+        PaintBrushes.setup();
     }
 }
