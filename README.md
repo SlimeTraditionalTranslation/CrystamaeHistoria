@@ -1,64 +1,71 @@
 ![](https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/logo/logo_large.png?raw=true)
 
-Crystamae Historia is a Slimefun4 addon (currently a work in progress with much work left to do!) that adds a suite of
-magical spells and a progression system for crafting and unlocking new spells.
+水晶編年史是 Slimefun4 的附加插件, 它添加了一套魔法法術和製作與解鎖法術的進度系統.
 
-Any major event or experience leaves its mark on the surrounding area. Historia allows you to harness this by drawing
-out the raw essence of these experiences from blocks.
+任何重大的事件或經歷都會在周邊留下屬於它的印記.
+記錄允許你通過繪製來提取方塊中的原始精華.
 
-## The Chronicler
+> 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
+> [原作連結](https://github.com/Sefiraat/CrystamaeHistoria) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
-The Chronicler Panel is a magical device that allows you to draw out the stories that any Minecraft block has
-experienced. These stories, once discovered, can be read from the block. Stories have a type, based on the type of
-experience that created it.
+| 非官方繁體中文版 | 官方英文版 |
+| -------- | -------- |
+| 點下方圖片下載 | 點下方圖片下載 |
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CrystamaeHistoria/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CrystamaeHistoria/master) | [![Build Status](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master/badge.svg)](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master) |
+
+## 記錄者
+
+記錄者面板是一個神奇的裝置, 可以讓你繪製出任何 Minecraft 方塊(物品)所具有的故事.
+這些故事當被記錄下來之後, 將可以從書中得知方塊的故事.
+故事都有自己的類型, 基於類型來創造出它的經驗.
 
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_chronicler_panel.gif?raw=true"></p>
 
-## The Realisation Altar
+## 真實祭壇
 
-The Realisation Altar will take the stories that have been discovered on blocks and slowly draw out the magical energy
-from them. This energy slowly begins to crystalize around the altar and, when fully matured, can be broken giving you
-magic in its physical form. The type of crystal you get is dependent on the type of story that was used to form it.
+真實祭壇將會在祭壇上把方塊的已發現故事慢慢地從中提取魔法能量.
+這些能量在祭壇周圍開始慢慢結晶, 當完全成長時, 就可以打破並獲得它魔法在內的物理形態.
+你所獲得的水晶類型取決於用於形成它故事的類型.
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_realisation_altar.gif?raw=true"></p>
 
-## The Liquefaction Basin
+## 液化池
 
-One of the primary uses for magical crystals is the Liquefaction Basin. The Basin will take any crystals thrown into it
-and convert them into a liquid state (Crystamae). When a valid catalyst is thrown in, the contents of the basin are
-absorbed to create a magical artefact, the result being based on the types of Crystamae in the basin.
+魔法水晶的主要用途之一就是液化池. 池將會接受任何扔進它的水晶, 並將它們轉化成液態.
+當投入有效的催化劑時, 池中的物質將會被吸收並創造出魔法製品,
+結果取決於池中的水晶類型.
 
-Be careful when using the basin though, a wrong recipe will ruin all your materials and, sometimes, have devastating
-effects.
+但在使用液化池時必須小心, 錯誤的配方將會毀掉你所有的材料,
+有時候還會造成毀滅性的後果.
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_liquefaction_basin.gif?raw=true"></p>
 
-## Magical Plates
+## 魔法板
 
-Using a steel plate as a catalyst, you can create a magical imbued plate. The plate will absorb the magic given to it
-and, based on the top 3 magical values, will produce a plate that is able to channel a magical spell. 80 possible plate
-combinations are available meaning 80 possible magical spells. Plates are attached to Staves using the Stave
-Configurator.
+使用鋼板作為催化劑, 你可以製作出有魔法的灌注板. 板子會吸收給予它的魔法,
+並根據前 3 的魔法值, 產生一個能夠引導魔法法術的魔法板.
+有 80 種可能的魔法板(法術板)組合, 意味著 80 種可能的魔法法術.
+使用法杖配置器將魔法板(法術板)與法杖連接.
 
-Plates hold the potential for a magical spell but will need refilling with Crystamae as the magical energy is used.
-There is no limit to the stored Crystamae. You can recharge a plate by dropping it into a basin.
+法術板具有施展魔法的潛力, 但隨著魔法能量的使用, 需要在用水晶重新補充魔法能量.
+儲存的水晶量沒有限制. 你可以通過將法術板丟入池中重新充電.
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_plate_filling.gif?raw=true"></p>
 
-## Stave Configurator
+## 法杖配置器
 
-A Stave is, surprisingly, very easy to craft and source. The downside being is that the Stave does nothing by itself.
-Just like some sorcerers use runes to imbue a staff with magic, the Stave requires a filled Magical Plate to channel
-magic. The configurator allows you to add/remove 4 plates to the Stave at any given time. Each plate binds it's spell to
-a specific player action (Left, Right, Shift-Left and Shift-Right click). Plates can be added and removed freely to
-customise your load-out whenever.
+令人驚訝的是, 法杖是最容易製作與獲取來源. 缺點是, 法杖本身沒有任何作用.
+就像是一些術士使用法術給法杖注入魔法一樣, 法杖需要填充填充法術板來引導魔法. 
+配置器允許你在任何時候向法杖 添加/移除 4塊法術板. 
+每個欄位可以綁定一種法術板對應玩家的動作 (左, 右, 蹲下-左和蹲下-右 鍵).
+法術板可以自由添加與移除, 以便在任何時候都可以自定義你的法術配置.
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_stave_configurator.gif?raw=true"></p>
 
-## Spells
+## 法術
 
-The end result of all your hard work? Spells!
+你所有努力的最終成果是甚麼? 法術!
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_spell_chaos.gif?raw=true"></p>
 
