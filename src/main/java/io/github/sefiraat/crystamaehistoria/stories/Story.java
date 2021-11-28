@@ -80,7 +80,7 @@ public class Story {
     }
 
     public String getDisplayRarity() {
-        return "[" + rarity.toString() + "] ";
+        return "[" + ThemeType.getByRarity(rarity).getLoreLine() + "] ";
     }
 
     public String getDisplayName() {
