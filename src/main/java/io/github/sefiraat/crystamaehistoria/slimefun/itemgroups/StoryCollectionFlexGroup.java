@@ -225,8 +225,7 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
         }).map(s -> ThemeType.PASSIVE.getColor() + s).collect(Collectors.toList());
 
         for (StoryType storyType : storyTypes) {
-            ThemeType story_item_name = ThemeType.getByType(storyType);
-            lore.add(ThemeType.CLICK_INFO.getColor() + story_item_name.getLoreLine());
+            lore.add(ThemeType.CLICK_INFO.getColor() + ThemeType.getByType(storyType).getLoreLine());
         }
         return new CustomItemStack(
             Material.DEEPSLATE_BRICK_SLAB,

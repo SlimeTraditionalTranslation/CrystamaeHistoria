@@ -69,14 +69,13 @@ public class Materials {
         // Dummy Crystals (for recipe & compendium displays)
         for (StoryType type : StoryType.getCachedValues()) {
             ThemeType theme = ThemeType.getByType(type);
-            ThemeType story_item_name = ThemeType.getByType(type);
             SlimefunItem sfItem = new Crystal(
                 ItemGroups.DUMMY_ITEM_GROUP,
                 ThemeType.themedSlimefunItemStack(
                     "CRY_CRYSTAL_DUMMY_" + type.toString() + "_" + type.toString(),
                     Skulls.getByType(type).getPlayerHead(),
                     ThemeType.CRYSTAL,
-                    theme.getColor() + TextUtils.toTitleCase(story_item_name.getLoreLine() + "水晶"),
+                    theme.getColor() + TextUtils.toTitleCase(ThemeType.getByType(type).getLoreLine() + "水晶"),
                     "物理形態的魔法水晶"
                 ),
                 DummyRealisationAltar.TYPE,
@@ -93,14 +92,13 @@ public class Materials {
             Map<StoryType, SlimefunItem> storyTypeSlimefunItemMap = new EnumMap<>(StoryType.class);
             for (StoryType type : StoryType.values()) {
                 ThemeType theme = ThemeType.getByRarity(rarity);
-                ThemeType story_item_name = ThemeType.getByType(type);
                 SlimefunItem slimefunItem = new Crystal(
                     ItemGroups.CRYSTALS,
                     ThemeType.themedSlimefunItemStack(
                         "CRY_CRYSTAL_" + rarity.toString() + "_" + type.toString(),
                         Skulls.getByType(type).getPlayerHead(),
                         ThemeType.CRYSTAL,
-                        theme.getColor() + TextUtils.toTitleCase(theme.getLoreLine() + "" + story_item_name.getLoreLine()) + "水晶",
+                        theme.getColor() + TextUtils.toTitleCase(theme.getLoreLine() + "" + ThemeType.getByType(type).getLoreLine()) + "水晶",
                         "物理形態的魔法水晶",
                         "更高等級的方塊較容易",
                         "給予更稀有的水晶類型.",
