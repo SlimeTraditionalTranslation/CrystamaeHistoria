@@ -62,7 +62,7 @@ public abstract class Spell {
             finalLore.add(passiveColor + s);
         }
         finalLore.add("");
-        finalLore.add(ThemeType.applyThemeToString(ThemeType.CLICK_INFO, "Spell"));
+        finalLore.add(ThemeType.applyThemeToString(ThemeType.CLICK_INFO, "法術"));
         SlimefunItemStack stack = new SlimefunItemStack(
             getId(),
             getMaterial(),
