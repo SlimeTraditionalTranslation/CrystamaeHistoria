@@ -8561,7 +8561,7 @@ NETHER_SPROUTS:
     lore:
       - Despite the conditions, life will always
       - find a way to grow and thrive.
-    shards: [1,0,0,0,0,0,0,1,0]
+    shards: [ 1,0,0,0,0,0,0,1,0 ]
 
 NETHER_STAR:
   tier: 5
@@ -8588,7 +8588,7 @@ NETHER_WART:
       - Magic as we know it needs Crystals to act
       - as a conduit. For potions, the magical
       - conduit it Nether Wart.
-    shards: [0,0,2,0,0,0,0,0,0]
+    shards: [ 0,0,2,0,0,0,0,0,0 ]
 
 NETHER_WART_BLOCK:
   tier: 2
@@ -8601,7 +8601,7 @@ NETHER_WART_BLOCK:
       - Magic as we know it needs Crystals to act
       - as a conduit. For potions, the magical
       - conduit it Nether Wart.
-    shards: [0,0,3,0,0,0,0,0,0]
+    shards: [ 0,0,3,0,0,0,0,0,0 ]
 
 NOTE_BLOCK:
   tier: 2
@@ -8828,7 +8828,7 @@ OBSERVER:
       - The Observer is always watching, waiting
       - to let you know the moment it sees something
       - happen. Shame it can only see 1 block ahead...
-    shards: [0,2,0,0,1,0,1,0,0]
+    shards: [ 0,2,0,0,1,0,1,0,0 ]
 
 OBSIDIAN:
   tier: 2
@@ -9120,7 +9120,7 @@ PAINTING:
       - While it 'aint no Picasso, each painting
       - is enshrined in magic from the creativity
       - of their artists.
-    shards: [0,0,0,1,2,0,0,0,1]
+    shards: [ 0,0,0,1,2,0,0,0,1 ]
 
 PAPER:
   tier: 1
@@ -9134,7 +9134,7 @@ PAPER:
       - Every piece is a fresh start, a clean
       - slate, and the sheer potential in each
       - piece is vast.
-    shards: [0,1,0,1,1,0,1,0,0]
+    shards: [ 0,1,0,1,1,0,1,0,0 ]
 
 PEONY:
   tier: 1
@@ -9160,7 +9160,7 @@ PHANTOM_MEMBRANE:
       - When harnessed correctly, the Phantom
       - Membrane is actually lighter than air
       - and can pass this trait onto other items.
-    shards: [0,0,1,0,0,1,0,2,0]
+    shards: [ 0,0,1,0,0,1,0,2,0 ]
 
 PIGLIN_BANNER_PATTERN:
   tier: 2
@@ -9369,7 +9369,7 @@ PISTON:
       - The Piston tries to be calm but its
       - easily triggered and flies off of the
       - handle with ease.
-    shards: [0,2,0,0,1,0,0,0,0]
+    shards: [ 0,2,0,0,1,0,0,0,0 ]
 
 PLAYER_HEAD:
   tier: 2
@@ -9396,7 +9396,7 @@ PODZOL:
       - Podzol is magically saturated from the iron
       - it has absorbed. This magic is converted
       - slowly over time.
-    shards: [2,0,0,0,0,0,0,0,0]
+    shards: [ 2,0,0,0,0,0,0,0,0 ]
 
 POINTED_DRIPSTONE:
   tier: 2
@@ -9426,7 +9426,7 @@ POISONOUS_POTATO:
       - the mechanics change completely. The
       - Poisonous Potato is an outcome of this
       - process.
-    shards: [0,0,1,0,0,1,1,0,0]
+    shards: [ 0,0,1,0,0,1,1,0,0 ]
 
 POLISHED_ANDESITE:
   tier: 1
@@ -9816,7 +9816,7 @@ POTION:
       - Before the discovery of Crysta and other
       - esoteric magics, potions were the only way
       - to tap into the Exoverse for power.
-    shards: [1,0,2,0,0,0,0,0,0]
+    shards: [ 1,0,2,0,0,0,0,0,0 ]
 
 POWDER_SNOW_BUCKET:
   tier: 2
@@ -10944,7 +10944,7 @@ ROOTED_DIRT:
       - The Rooted Dirt is most comfortable within
       - the confines of the parent tree. It absorbs
       - Celestial Crysta from the tree above it.
-    shards: [1,0,0,0,0,1,0,0,0 ]
+    shards: [ 1,0,0,0,0,1,0,0,0 ]
 
 ROSE_BUSH:
   tier: 1
@@ -11241,7 +11241,7 @@ SLIME_BALL:
     lore:
       - This rare material is prized for
       - its value as a toy
-    shards: [ 0,0,0,0,0,1,0,1,1]
+    shards: [ 0,0,0,0,0,1,0,1,1 ]
     author: Seggan
 
 SLIME_BLOCK:
@@ -11327,7 +11327,7 @@ SMOOTH_BASALT:
     lore:
       - It should be criminal to be this
       - smooth!
-    shards: [1,0,0,0,1,0,1,0,0]
+    shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 SMOOTH_QUARTZ:
   tier: 3
@@ -11340,7 +11340,7 @@ SMOOTH_QUARTZ:
     lore:
       - It should be criminal to be this
       - smooth!
-    shards: [1,0,0,0,1,0,1,0,0]
+    shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 SMOOTH_QUARTZ_SLAB:
   tier: 2
@@ -11382,7 +11382,7 @@ SMOOTH_RED_SANDSTONE:
     lore:
       - It should be criminal to be this
       - smooth!
-    shards: [1,0,0,0,1,0,1,0,0]
+    shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 SMOOTH_RED_SANDSTONE_SLAB:
   tier: 1
@@ -11423,7 +11423,7 @@ SMOOTH_SANDSTONE:
     lore:
       - It should be criminal to be this
       - smooth!
-    shards: [1,0,0,0,1,0,1,0,0]
+    shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 SMOOTH_SANDSTONE_SLAB:
   tier: 1
@@ -11464,7 +11464,7 @@ SMOOTH_STONE:
     lore:
       - It should be criminal to be this
       - smooth!
-    shards: [1,0,0,0,1,0,1,0,0]
+    shards: [ 1,0,0,0,1,0,1,0,0 ]
 
 SMOOTH_STONE_SLAB:
   tier: 1
@@ -11647,7 +11647,7 @@ SPLASH_POTION:
       - Before the discovery of Crysta and other
       - esoteric magics, potions were the only way
       - to tap into the Exoverse for power.
-    shards: [1,0,2,0,0,0,0,0,0]
+    shards: [ 1,0,2,0,0,0,0,0,0 ]
 
 SPONGE:
   tier: 2
@@ -12463,7 +12463,7 @@ TIPPED_ARROW:
       - Before the discovery of Crysta and other
       - esoteric magics, potions were the only way
       - to tap into the Exoverse for power.
-    shards: [1,0,2,0,0,0,0,0,0]
+    shards: [ 1,0,2,0,0,0,0,0,0 ]
 
 TNT:
   tier: 2
@@ -12932,7 +12932,7 @@ WARPED_WART_BLOCK:
       - Magic as we know it needs Crystals to act
       - as a conduit. For potions, the magical
       - conduit it Nether Wart.
-    shards: [0,0,3,0,0,0,0,0,0]
+    shards: [ 0,0,3,0,0,0,0,0,0 ]
 
 WATER_BUCKET:
   tier: 2
