@@ -380,11 +380,11 @@ public class Gadgets {
                 "CRY_MOB_PLATE_TRAP",
                 new ItemStack(Material.DARK_OAK_PRESSURE_PLATE),
                 ThemeType.GADGET,
-                "Trap Plate",
-                "This plate no longer deals",
-                "damage but now applies potion",
-                "effects. Right click with",
-                "a potion to assign."
+                "陷阱壓力板",
+                "這個壓力板不在",
+                "造成傷害,但現在會",
+                "添加藥水效果. 手持藥水",
+                "右鍵點擊來指定."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             trapPlateRecipe.getDisplayRecipe()
@@ -642,9 +642,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_GLASS",
                 new ItemStack(Material.ORANGE_STAINED_GLASS),
                 ThemeType.GADGET,
-                "Mysterious Glass",
-                "Like rainbow glass but far",
-                "more random."
+                "神秘玻璃",
+                "就像是彩虹玻璃,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousGlassRecipe.getDisplayRecipe(),
@@ -665,9 +665,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_WOOL",
                 new ItemStack(Material.ORANGE_WOOL),
                 ThemeType.GADGET,
-                "Mysterious Wool",
-                "Like rainbow wool but far",
-                "more random."
+                "神秘羊毛",
+                "就像是彩虹羊毛,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousWoolRecipe.getDisplayRecipe(),
@@ -688,9 +688,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_TERRACOTTA",
                 new ItemStack(Material.ORANGE_TERRACOTTA),
                 ThemeType.GADGET,
-                "Mysterious Terracotta",
-                "Like rainbow terracotta but far",
-                "more random."
+                "神秘陶土",
+                "就像是彩虹陶土,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousTerracottaRecipe.getDisplayRecipe(),
@@ -711,9 +711,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_GLAZED_TERRACOTTA",
                 new ItemStack(Material.ORANGE_GLAZED_TERRACOTTA),
                 ThemeType.GADGET,
-                "Mysterious Glazed Terracotta",
-                "Like rainbow terracotta but far",
-                "more random."
+                "神秘釉陶",
+                "就像是彩虹釉陶,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousGlazedTerracottaRecipe.getDisplayRecipe(),
@@ -734,9 +734,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_CONCRETE",
                 new ItemStack(Material.ORANGE_CONCRETE),
                 ThemeType.GADGET,
-                "Mysterious Concrete",
-                "Like rainbow concrete but far",
-                "more random."
+                "神秘混凝土",
+                "就像是彩虹混凝土,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousConcreteRecipe.getDisplayRecipe(),
@@ -855,9 +855,9 @@ public class Gadgets {
             "CRY_ANGEL_BLOCK",
             new ItemStack(Material.GLASS),
             ThemeType.GADGET,
-            "Angel Block",
-            "Can be placed anywhere, even in",
-            "the air."
+            "天使方塊",
+            "可以放置在任何地方, 甚至",
+            "在空氣中."
         );
         angelBlock = new AngelBlock(
             ItemGroups.GADGETS,

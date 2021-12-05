@@ -237,10 +237,10 @@ public class Tools {
                 "CRY_EPHEMERAL_CRAFT_TABLE",
                 new ItemStack(Material.CRAFTING_TABLE),
                 ThemeType.TOOL,
-                "Ephemeral Crafting Table",
-                "Right click to be able to craft",
-                "from anywhere.",
-                "Vanilla Only"
+                "臨時工作台",
+                "右鍵點擊可以",
+                "在任何地方製作.",
+                "僅限原版"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             ephemeralCraftingTableRecipe.getDisplayRecipe()
@@ -259,10 +259,10 @@ public class Tools {
                 "CRY_EPHEMERAL_WORKBENCH",
                 new ItemStack(Material.CRAFTING_TABLE),
                 ThemeType.TOOL,
-                "Ephemeral Work Bench",
-                "Right click to be able to craft",
-                "from anywhere.",
-                "Vanilla + Enhanced Crafting Table."
+                "臨時製作台",
+                "右鍵點擊可以",
+                "在任何地方製作.",
+                "原版 + 進階合成台."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             ephemeralWorkBenchRecipe.getDisplayRecipe()
@@ -281,12 +281,12 @@ public class Tools {
                 "CRY_LUMINESCENCE_SCOOP",
                 new ItemStack(Material.LANTERN),
                 ThemeType.TOOL,
-                "Luminescence Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "冷光勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "25 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "25 次剩餘" + ChatColor.GRAY + "次數"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             luminescenceScoopRecipe.getDisplayRecipe(),
@@ -306,12 +306,12 @@ public class Tools {
                 "CRY_BRILLIANCE_SCOOP",
                 new ItemStack(Material.LANTERN),
                 ThemeType.TOOL,
-                "Brilliance Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "光輝勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "75 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "75 次剩餘" + ChatColor.GRAY + "次數"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             brillianceScoopRecipe.getDisplayRecipe(),
@@ -331,12 +331,12 @@ public class Tools {
                 "CRY_LUSTRE_SCOOP",
                 new ItemStack(Material.SOUL_LANTERN),
                 ThemeType.TOOL,
-                "Lustre Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "光彩勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "250 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "250 次剩餘" + ChatColor.GRAY + "次數"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             lustreScoopRecipe.getDisplayRecipe(),
@@ -379,12 +379,12 @@ public class Tools {
                 "CRY_CARGO_COVER",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Block Veil - Cargo",
-                "Right click to place a magical",
-                "block veil over a cargo node.",
-                "The cover will mimic the block",
-                "in your offhand.",
-                "One time use per item."
+                "方塊面紗 - 物流",
+                "右鍵點擊在物流節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
             );
             RecipeItem cargoCoverRecipe = new RecipeItem(
                 SlimefunItems.CARGO_INPUT_NODE,
@@ -409,12 +409,12 @@ public class Tools {
                 "CRY_ENERGY_NET_COVER",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Block Veil - Energy Net",
-                "Right click to place a magical",
-                "block veil over a cargo node.",
-                "The cover will mimic the block",
-                "in your offhand.",
-                "One time use per item."
+                "方塊面紗 - 能源網路",
+                "右鍵點擊在能源節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
             );
             RecipeItem energyNetCoverRecipe = new RecipeItem(
                 SlimefunItems.ENERGY_CONNECTOR,
