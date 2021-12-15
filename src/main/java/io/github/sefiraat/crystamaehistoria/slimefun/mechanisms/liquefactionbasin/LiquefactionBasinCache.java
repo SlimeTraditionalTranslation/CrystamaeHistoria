@@ -300,7 +300,7 @@ public class LiquefactionBasinCache extends DisplayStandHolder {
             if (slimefunItem != null
                 && !slimefunItem.isDisabled()
             ) {
-                item.getWorld().dropItem(item.getLocation(), slimefunItem.getItem().clone());
+                item.getWorld().dropItem(item.getLocation(), slimefunItem.getRecipeOutput().clone());
                 if (itemStack.getAmount() > 1) {
                     itemStack.setAmount(itemStack.getAmount() - 1);
                 } else {
@@ -332,7 +332,7 @@ public class LiquefactionBasinCache extends DisplayStandHolder {
     public SlimefunItem getMatchingRecipe(List<StoryType> types, List<Integer> amounts, ItemStack itemStack) {
         SlimefunItem slimefunItem = null;
         for (Map.Entry<SlimefunItem, RecipeItem> recipeEntry : RECIPES_ITEMS.entrySet()) {
-            if (recipeEntry.getValue().recipeMatches(types, amounts, itemStack)) {
+            if (recipeEntry.getValue().recipeMatches(types, amounts, itemStack, this.activePlayer)) {
                 slimefunItem = recipeEntry.getKey();
                 break;
             }
