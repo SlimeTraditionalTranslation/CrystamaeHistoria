@@ -5,9 +5,11 @@
 任何重大的事件或經歷都會在周邊留下屬於它的印記.
 記錄允許你通過繪製來提取方塊中的原始精華.
 
-Boomer_1 製作了超棒的影片, 在他的系列影片中的第一部分到第三部分, 帶你了解 Crystamae 基礎 到第一個機制 到施展你第一個法術. 我鼓勵大家觀看並享受其中!
+Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae  的基礎知識, 從第一部分 "施展我的第一個法術", 到第二部分 "各式各樣的小工具與工具". 我鼓勵大家觀看這兩部影片, 並享受於其中.
 
 [![觀看這個影片](https://img.youtube.com/vi/fggkwmf6V6k/0.jpg)](https://www.youtube.com/embed/fggkwmf6V6k)
+
+[![觀看這個影片](https://img.youtube.com/vi/OiI6MaoiO_I/0.jpg)](https://www.youtube.com/watch?v=OiI6MaoiO_I)
 
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/Sefiraat/CrystamaeHistoria) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
