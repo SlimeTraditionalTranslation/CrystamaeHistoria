@@ -65,8 +65,8 @@ public class CurificationRitual extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Cures nearby zombie villagers while",
-            "damaging other zombies in the process."
+            "治癒附近的殭屍村民,",
+            "同時在此過程中傷害其他殭屍."
         };
     }
 
@@ -74,6 +74,12 @@ public class CurificationRitual extends Spell {
     @Override
     public String getId() {
         return "CURIFICATION_RITUAL";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "治癒儀式";
     }
 
     @Nonnull

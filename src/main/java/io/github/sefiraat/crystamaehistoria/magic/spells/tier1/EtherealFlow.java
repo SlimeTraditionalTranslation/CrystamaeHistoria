@@ -43,7 +43,7 @@ public class EtherealFlow extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Fast-forwards time"
+            "快轉時間"
         };
     }
 
@@ -51,6 +51,12 @@ public class EtherealFlow extends Spell {
     @Override
     public String getId() {
         return "ETHEREAL_FLOW";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "縹緲的流動";
     }
 
     @Nonnull

@@ -61,8 +61,8 @@ public class Deity extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a deity to your side. It",
-            "does... Nothing!"
+            "招喚一位神祉到你身邊.",
+            "它可以... 什麼都不做!"
         };
     }
 
@@ -70,6 +70,12 @@ public class Deity extends Spell {
     @Override
     public String getId() {
         return "DEITY";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "神祇";
     }
 
     @Nonnull

@@ -72,8 +72,8 @@ public class TimeDilation extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Makes all things around the caster",
-            "shift into a different time-space."
+            "使施法者周圍的所有事物",
+            "轉移到不同的時間時空."
         };
     }
 
@@ -81,6 +81,12 @@ public class TimeDilation extends Spell {
     @Override
     public String getId() {
         return "TIME_DILATION";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "時間膨脹";
     }
 
     @Nonnull

@@ -76,9 +76,9 @@ public class SummonGolem extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a golem that will follow you",
-            "and protect you.",
-            "Golems will follow you nearly anywhere."
+            "招喚會跟隨你並",
+            "保護你的魔像.",
+            "魔像幾乎會跟隨你到任何地方."
         };
     }
 
@@ -86,6 +86,12 @@ public class SummonGolem extends Spell {
     @Override
     public String getId() {
         return "SUMMON_GOLEM";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "招喚魔像";
     }
 
     @Nonnull

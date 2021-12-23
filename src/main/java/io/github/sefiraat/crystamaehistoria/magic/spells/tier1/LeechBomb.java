@@ -89,8 +89,8 @@ public class LeechBomb extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Throws an egg filled with viscous",
-            "leeches that will attack your enemies."
+            "扔出一個充滿黏性水蛭的蛋",
+            "來攻擊你的敵人."
         };
     }
 
@@ -98,6 +98,12 @@ public class LeechBomb extends Spell {
     @Override
     public String getId() {
         return "LEECH_BOMB";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "水蛭炸彈";
     }
 
     @Nonnull

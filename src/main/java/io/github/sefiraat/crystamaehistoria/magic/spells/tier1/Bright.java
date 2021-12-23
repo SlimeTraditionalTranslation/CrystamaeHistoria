@@ -49,7 +49,7 @@ public class Bright extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Turns any day into a pleasant sunny one!"
+            "把任何一天變成愉快的晴天!"
         };
     }
 
@@ -57,6 +57,12 @@ public class Bright extends Spell {
     @Override
     public String getId() {
         return "BRIGHT";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "光明";
     }
 
     @Nonnull

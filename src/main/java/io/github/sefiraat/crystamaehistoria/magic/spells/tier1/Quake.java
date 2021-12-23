@@ -73,8 +73,8 @@ public class Quake extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Creates a localized quake around the caster",
-            "damaging and slowing."
+            "在施法者周圍產生局部地震,",
+            "並造成傷害與緩速."
         };
     }
 
@@ -82,6 +82,12 @@ public class Quake extends Spell {
     @Override
     public String getId() {
         return "QUAKE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "震盪";
     }
 
     @Nonnull

@@ -57,7 +57,7 @@ public abstract class Spell {
         SlimefunItemStack stack = new SlimefunItemStack(
             getId(),
             getMaterial(),
-            ThemeType.applyThemeToString(ThemeType.SPELL, ThemeType.toTitleCase(getId())),
+            ThemeType.applyThemeToString(ThemeType.SPELL, ThemeType.toTitleCase(getSpName())),
             finalLore.toArray(new String[finalLore.size() - 1])
         );
         ItemMeta itemMeta = stack.getItemMeta();
@@ -75,6 +75,9 @@ public abstract class Spell {
 
     @Nonnull
     public abstract Material getMaterial();
+
+    @Nonnull
+    public abstract String getSpName();
 
     @ParametersAreNonnullByDefault
     public void castSpell(CastInformation castInformation) {

@@ -75,8 +75,8 @@ public class EarthNova extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a massive nova of earth",
-            "around you to root foes."
+            "在你周圍招喚巨型的",
+            "地球新星來定住敵人."
         };
     }
 
@@ -84,6 +84,12 @@ public class EarthNova extends Spell {
     @Override
     public String getId() {
         return "EARTH_NOVA";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "地球新星";
     }
 
     @Nonnull

@@ -66,8 +66,8 @@ public class KnowledgeShare extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Removes EXP from the caster and makes",
-            "it rain down from the sky around them."
+            "移除施法者的經驗值,",
+            "並使其周圍天空下經驗雨."
         };
     }
 
@@ -75,6 +75,12 @@ public class KnowledgeShare extends Spell {
     @Override
     public String getId() {
         return "KNOWLEDGE_SHARE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "知識分享";
     }
 
     @Nonnull

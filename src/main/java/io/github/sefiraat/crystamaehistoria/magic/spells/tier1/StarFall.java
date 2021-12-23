@@ -93,8 +93,8 @@ public class StarFall extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Rains celestial beings from the skies",
-            "to decimate your opponents."
+            "從天而降的星星",
+            "來消滅你的對手."
         };
     }
 
@@ -102,6 +102,12 @@ public class StarFall extends Spell {
     @Override
     public String getId() {
         return "STAR_FALL";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "星隕";
     }
 
     @Nonnull

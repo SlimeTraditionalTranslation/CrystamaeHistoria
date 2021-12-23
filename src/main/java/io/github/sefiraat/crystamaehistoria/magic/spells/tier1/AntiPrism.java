@@ -90,8 +90,8 @@ public class AntiPrism extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Applies a myriad of negative effects to",
-            "enemies hit."
+            "對被擊中的地人施加",
+            "無數的負面效果."
         };
     }
 
@@ -99,6 +99,12 @@ public class AntiPrism extends Spell {
     @Override
     public String getId() {
         return "ANTI_PRISM";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "反棱鏡";
     }
 
     @Nonnull

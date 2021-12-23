@@ -70,7 +70,7 @@ public class Gyroscopic extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "You spin me right round baby..."
+            "你讓我團團轉，寶貝..."
         };
     }
 
@@ -78,6 +78,12 @@ public class Gyroscopic extends Spell {
     @Override
     public String getId() {
         return "GYROSCOPIC";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "陀螺儀";
     }
 
     @Nonnull

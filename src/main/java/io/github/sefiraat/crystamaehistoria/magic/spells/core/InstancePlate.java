@@ -32,7 +32,7 @@ public class InstancePlate {
     }
 
     public static void setPlateLore(ItemStack itemStack, InstancePlate instancePlate) {
-        final String magic = instancePlate != null ? ThemeType.toTitleCase(instancePlate.storedSpell.getId()) : "None";
+        final String magic = instancePlate != null ? ThemeType.toTitleCase(instancePlate.storedSpell.getSpName()) : "None";
         final String crysta = instancePlate != null ? String.valueOf(instancePlate.crysta) : "0";
         final String[] lore = new String[]{
             "充能的法術板儲存著",

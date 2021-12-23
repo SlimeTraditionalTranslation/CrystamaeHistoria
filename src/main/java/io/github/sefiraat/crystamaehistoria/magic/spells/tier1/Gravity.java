@@ -56,8 +56,8 @@ public class Gravity extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Allows you to use a temporary gravity",
-            "pocket to fly."
+            "允許你使用臨時重力袋",
+            "來飛行."
         };
     }
 
@@ -65,6 +65,12 @@ public class Gravity extends Spell {
     @Override
     public String getId() {
         return "GRAVITY";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "重力";
     }
 
     @Nonnull

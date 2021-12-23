@@ -104,8 +104,8 @@ public class Tracer extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Shows you all nearby living things",
-            "color coded by type."
+            "向你顯示所有附近的生物,",
+            "並按照類型進行顏色分類."
         };
     }
 
@@ -113,6 +113,12 @@ public class Tracer extends Spell {
     @Override
     public String getId() {
         return "TRACER";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "追蹤劑";
     }
 
     @Nonnull

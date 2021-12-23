@@ -83,9 +83,9 @@ public class Compass extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Tap into the ether to find blocks.",
-            "Will locate blocks matching the one",
-            "in the caster's off-hand."
+            "點擊乙太來找到方塊.",
+            "它將指引你將找到與",
+            "施法者副手符合的方塊."
         };
     }
 
@@ -93,6 +93,12 @@ public class Compass extends Spell {
     @Override
     public String getId() {
         return "COMPASS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "羅盤";
     }
 
     @Nonnull

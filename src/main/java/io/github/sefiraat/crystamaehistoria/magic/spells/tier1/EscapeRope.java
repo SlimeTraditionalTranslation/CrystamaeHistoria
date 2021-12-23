@@ -47,8 +47,8 @@ public class EscapeRope extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Teleports you to the highest possible",
-            "point if possible."
+            "如果可以, 將你傳送",
+            "到可能最高的點."
         };
     }
 
@@ -56,6 +56,12 @@ public class EscapeRope extends Spell {
     @Override
     public String getId() {
         return "ESCAPE_ROPE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "逃生繩";
     }
 
     @Nonnull

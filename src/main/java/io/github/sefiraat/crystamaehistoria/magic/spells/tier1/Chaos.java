@@ -94,9 +94,9 @@ public class Chaos extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Spawns a forward-firing rain of",
-            "chaos breaking blocks and hurting",
-            "all living things."
+            "使前方的空間降下混沌之雨,",
+            "混沌將會無差別的給予所有方塊和",
+            "生物平等的破壞與傷害。"
         };
     }
 
@@ -104,6 +104,12 @@ public class Chaos extends Spell {
     @Override
     public String getId() {
         return "CHAOS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "混沌";
     }
 
     @Nonnull

@@ -81,7 +81,7 @@ public class Teleport extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Teleports the caster x blocks forward."
+            "將施法者向前傳送 x 格."
         };
     }
 
@@ -89,6 +89,12 @@ public class Teleport extends Spell {
     @Override
     public String getId() {
         return "TELEPORT";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "傳送";
     }
 
     @Nonnull

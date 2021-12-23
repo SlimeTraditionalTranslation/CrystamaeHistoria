@@ -63,8 +63,8 @@ public class Push extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "In a jam? This spell gives you some room",
-            "to breathe."
+            "在果醬中? 這個法術可以",
+            "給你一些喘息空間."
         };
     }
 
@@ -72,6 +72,12 @@ public class Push extends Spell {
     @Override
     public String getId() {
         return "PUSH";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "推";
     }
 
     @Nonnull

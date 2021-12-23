@@ -86,8 +86,8 @@ public class EndermansVeil extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Teleports the caster to a random nearby",
-            "location."
+            "將施法者傳送到",
+            "附近隨機的位置."
         };
     }
 
@@ -95,6 +95,12 @@ public class EndermansVeil extends Spell {
     @Override
     public String getId() {
         return "ENDERMANS_VEIL";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "終界使者面紗";
     }
 
     @Nonnull

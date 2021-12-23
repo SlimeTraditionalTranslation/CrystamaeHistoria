@@ -101,7 +101,7 @@ public class Animaniacs extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Disjoints the reality of nearby creatures."
+            "與附近生物的現實脫節."
         };
     }
 
@@ -109,6 +109,12 @@ public class Animaniacs extends Spell {
     @Override
     public String getId() {
         return "ANIMANIACS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "卡通集錦";
     }
 
     @Nonnull

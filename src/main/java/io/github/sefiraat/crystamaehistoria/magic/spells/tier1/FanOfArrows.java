@@ -66,8 +66,8 @@ public class FanOfArrows extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a fan of arrows around you to slice",
-            "through your opponents"
+            "在你周圍招喚出箭扇",
+            "來切開你的對手"
         };
     }
 
@@ -75,6 +75,12 @@ public class FanOfArrows extends Spell {
     @Override
     public String getId() {
         return "FAN_OF_ARROWS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "箭扇";
     }
 
     @Nonnull

@@ -66,8 +66,8 @@ public class Vacuum extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Feeling lonely? This spell lets you get up",
-            "close and personal will all nearby things."
+            "覺得孤獨? 這個法術可以讓你",
+            "近距離接觸附近的所有事物."
         };
     }
 
@@ -75,6 +75,12 @@ public class Vacuum extends Spell {
     @Override
     public String getId() {
         return "VACUUM";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "真空";
     }
 
     @Nonnull

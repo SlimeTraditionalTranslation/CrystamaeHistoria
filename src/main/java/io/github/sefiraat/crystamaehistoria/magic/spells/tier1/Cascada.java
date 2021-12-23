@@ -89,7 +89,7 @@ public class Cascada extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Turns the ground inside out to damage foes."
+            "將地面翻開來對敵人造成傷害."
         };
     }
 
@@ -97,6 +97,12 @@ public class Cascada extends Spell {
     @Override
     public String getId() {
         return "CASCADA";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "卡斯卡達";
     }
 
     @Nonnull

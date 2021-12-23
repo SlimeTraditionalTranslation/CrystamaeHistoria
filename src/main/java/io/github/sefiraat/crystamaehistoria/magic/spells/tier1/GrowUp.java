@@ -61,7 +61,7 @@ public class GrowUp extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Makes things grow up, and not just babies!"
+            "讓事物長大, 而不僅僅是嬰兒!"
         };
     }
 
@@ -69,6 +69,12 @@ public class GrowUp extends Spell {
     @Override
     public String getId() {
         return "GROW_UP";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "成長";
     }
 
     @Nonnull

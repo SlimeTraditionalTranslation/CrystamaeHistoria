@@ -71,10 +71,10 @@ public class Ravage extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a tame ravager to your side.",
-            "This spells effects and multipliers",
-            "are applied to the ravager, not the",
-            "caster."
+            "招換一個馴服的劫毀獸到你身旁.",
+            "這個法術效果和倍率",
+            "適用於劫毀獸上,",
+            "而不是施法者."
         };
     }
 
@@ -82,6 +82,12 @@ public class Ravage extends Spell {
     @Override
     public String getId() {
         return "RAVAGE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "蹂躪";
     }
 
     @Nonnull

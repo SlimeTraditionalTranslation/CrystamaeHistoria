@@ -42,8 +42,8 @@ public class Launch extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Launches the caster in the facing direction.",
-            "Offers no protection!"
+            "朝著施展方向發射施法者.",
+            "不提供任何保護措施!"
         };
     }
 
@@ -51,6 +51,12 @@ public class Launch extends Spell {
     @Override
     public String getId() {
         return "LAUNCH";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "發射";
     }
 
     @Nonnull

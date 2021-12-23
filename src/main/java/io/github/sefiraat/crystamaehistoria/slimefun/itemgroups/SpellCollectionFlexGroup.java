@@ -129,7 +129,7 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
                         return false;
                     });
                 } else {
-                    menu.replaceExistingItem(slot, GuiElements.getSpellNotUnlockedIcon(spellType.getId()));
+                    menu.replaceExistingItem(slot, GuiElements.getSpellNotUnlockedIcon(spellType.getSpName()));
                     menu.addMenuClickHandler(slot, (player1, i1, itemStack1, clickAction) -> false);
                 }
             } else {

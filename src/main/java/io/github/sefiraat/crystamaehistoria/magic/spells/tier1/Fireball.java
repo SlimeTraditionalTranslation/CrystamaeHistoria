@@ -69,8 +69,8 @@ public class Fireball extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Shoots a fireball in the direction you are",
-            "looking at."
+            "朝你所看的方向",
+            "發射一個火球."
         };
     }
 
@@ -78,6 +78,12 @@ public class Fireball extends Spell {
     @Override
     public String getId() {
         return "FIREBALL";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "火球";
     }
 
     @Nonnull

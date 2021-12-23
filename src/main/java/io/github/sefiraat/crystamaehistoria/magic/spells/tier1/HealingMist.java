@@ -53,9 +53,9 @@ public class HealingMist extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Calls fourth a mist of healing energy",
-            "around the caster. Gives regen to all",
-            "players affected."
+            "在施法者周圍招喚第四層",
+            "治療能量之霧. 為所有在範圍內",
+            "的玩家提供恢復."
         };
     }
 
@@ -63,6 +63,12 @@ public class HealingMist extends Spell {
     @Override
     public String getId() {
         return "HEALING_MIST";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "治愈之霧";
     }
 
     @Nonnull

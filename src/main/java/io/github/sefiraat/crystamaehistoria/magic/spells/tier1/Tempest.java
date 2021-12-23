@@ -79,8 +79,8 @@ public class Tempest extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a tempest of lightning around the",
-            "caster causing damage and knockback."
+            "在施法者周圍招喚閃電風暴,",
+            "並造成傷害與擊退."
         };
     }
 
@@ -88,6 +88,12 @@ public class Tempest extends Spell {
     @Override
     public String getId() {
         return "TEMPEST";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "暴風雨";
     }
 
     @Nonnull

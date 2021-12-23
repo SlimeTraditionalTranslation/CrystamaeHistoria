@@ -63,8 +63,8 @@ public class BatteringRam extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a battering ram to decimate",
-            "all in your way."
+            "招喚一個攻城羊來摧毀",
+            "所有阻擋你的東西."
         };
     }
 
@@ -72,6 +72,12 @@ public class BatteringRam extends Spell {
     @Override
     public String getId() {
         return "BATTERING_RAM";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "攻城羊";
     }
 
     @Nonnull
