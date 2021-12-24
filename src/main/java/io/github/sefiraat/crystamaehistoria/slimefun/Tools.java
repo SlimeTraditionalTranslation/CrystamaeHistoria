@@ -18,6 +18,8 @@ import io.github.sefiraat.crystamaehistoria.slimefun.tools.stave.Stave;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryRarity;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
+import io.github.sefiraat.networks.slimefun.NetworksSlimefunItemStacks;
+import io.github.sefiraat.networks.slimefun.network.NetworkObject;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
@@ -64,6 +66,8 @@ public class Tools {
     private static BlockVeil cargoCover;
     @Getter
     private static BlockVeil energyNetCover;
+    @Getter
+    private static BlockVeil networkNodeCover;
 
     public static void setup() {
         final CrystamaeHistoria plugin = CrystamaeHistoria.getInstance();
@@ -428,11 +432,46 @@ public class Tools {
                 EnergyConnector.class
             );
 
+
             cargoCover.register(plugin);
             energyNetCover.register(plugin);
 
             LiquefactionBasinCache.addCraftingRecipe(cargoCover, cargoCoverRecipe);
             LiquefactionBasinCache.addCraftingRecipe(energyNetCover, energyNetCoverRecipe);
+        }
+
+        if (SupportedPluginManager.isNetworks()) {
+
+            // Networks Cover
+            SlimefunItemStack networksCoverStack = ThemeType.themedSlimefunItemStack(
+                "CRY_NETWORK_COVER",
+                new ItemStack(Material.PAPER),
+                ThemeType.TOOL,
+                "方塊面紗 - 網路",
+                "右鍵點擊在網路節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
+            );
+            RecipeItem networksCoverRecipe = new RecipeItem(
+                NetworksSlimefunItemStacks.NETWORK_BRIDGE,
+                StoryType.MECHANICAL, 10,
+                StoryType.HUMAN, 10,
+                StoryType.VOID, 10
+            );
+            networkNodeCover = new BlockVeil(
+                ItemGroups.TOOLS,
+                networksCoverStack,
+                DummyLiquefactionBasinCrafting.TYPE,
+                networksCoverRecipe.getDisplayRecipe(),
+                networksCoverStack.asQuantity(8),
+                NetworkObject.class
+            );
+
+            networkNodeCover.register(plugin);
+
+            LiquefactionBasinCache.addCraftingRecipe(networkNodeCover, networksCoverRecipe);
         }
     }
 }
