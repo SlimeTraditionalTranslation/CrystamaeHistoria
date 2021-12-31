@@ -111,7 +111,7 @@ public class GuiElements {
     public static CustomItemStack getSpellSlotPane(SpellSlot spellSlot) {
         return new CustomItemStack(
             Material.RED_STAINED_GLASS_PANE,
-            ChatColor.GRAY + "法術欄位 : " + ThemeType.toTitleCase(spellSlot.name())
+            ChatColor.GRAY + "法術欄位 : " + ThemeType.toTitleCase((SpellSlot.getByActionName(spellSlot.name())))
         );
     }
 
