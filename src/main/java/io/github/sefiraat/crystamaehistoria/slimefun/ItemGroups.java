@@ -6,7 +6,7 @@ import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.DummyItemGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.MainFlexGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.SpellCollectionFlexGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.StoryCollectionFlexGroup;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.magicpaintbrush.MagicPaintbrush;
+import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.MagicPaintbrush;
 import io.github.sefiraat.crystamaehistoria.utils.Keys;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
@@ -54,11 +54,11 @@ public final class ItemGroups {
             ThemeType.MAIN.getColor() + "編年史 - 法杖和工具"
         )
     );
-    public static final DummyItemGroup PAINTBRUSHES = new DummyItemGroup(
-        Keys.newKey("paintbrushes"),
+    public static final DummyItemGroup ARTISTIC = new DummyItemGroup(
+        Keys.newKey("art"),
         new CustomItemStack(
             MagicPaintbrush.getTippedBrush(DyeColor.WHITE, true),
-            ThemeType.MAIN.getColor() + "編年史 - 魔法畫筆"
+            ThemeType.MAIN.getColor() + "編年史 - 藝術性魔法"
         )
     );
     public static final DummyItemGroup GADGETS = new DummyItemGroup(
