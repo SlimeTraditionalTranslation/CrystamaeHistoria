@@ -5,10 +5,12 @@ import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasi
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.LiquefactionBasinCache;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.RecipeItem;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.BasicPaintbrush;
+import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.ImbuedStand;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.InfinitePaintbrush;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.MagicPaintbrush;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PaintProfile;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseChanger;
+import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseCloner;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.sefiraat.networks.utils.Theme;
@@ -106,7 +108,11 @@ public class ArtisticItems {
     @Getter
     private static SlimefunItem mysticalAttitudinizer;
     @Getter
+    private static ImbuedStand imbuedStand;
+    @Getter
     private static PoseChanger poseChanger;
+    @Getter
+    private static PoseCloner poseCloner;
 
     public static void setup() {
 
@@ -1001,6 +1007,28 @@ public class ArtisticItems {
             }
         );
 
+        // Imbued Stand
+        RecipeItem imbuedStandRecipe = new RecipeItem(
+            new ItemStack(Material.ARMOR_STAND),
+            StoryType.MECHANICAL, 5,
+            StoryType.HUMAN, 5,
+            StoryType.VOID, 5
+        );
+        imbuedStand = new ImbuedStand(
+            ItemGroups.ARTISTIC,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_IMBUED_STAND",
+                new ItemStack(Material.ARMOR_STAND),
+                ThemeType.TOOL,
+                "注魔的盔甲座",
+                "這個盔甲座可以通過",
+                "姿勢變換器隱形或變",
+                "小盔甲座."
+            ),
+            DummyLiquefactionBasinCrafting.TYPE,
+            imbuedStandRecipe.getDisplayRecipe()
+        );
+
         // Pose Changer
         poseChanger = new PoseChanger(
             ItemGroups.ARTISTIC,
@@ -1011,6 +1039,9 @@ public class ArtisticItems {
                 "姿勢變換器",
                 "這個物品它可以",
                 "操縱盔甲座的姿勢.",
+                "可以與原版盔甲座使用,",
+                "並能對注魔的盔甲座",
+                "做額外的事情.",
                 "",
                 MessageFormat.format("{0}左鍵點擊: {1}更改選定的身體部位", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
                 MessageFormat.format("{0}Shift + 左鍵點擊: {1}改變選定更改的方式", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
@@ -1025,6 +1056,29 @@ public class ArtisticItems {
                 Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotEpic().getItem(), Materials.getBasicFibres().getItem(),
                 Materials.getAmalgamateIngotEpic().getItem(), mysticalAttitudinizer.getItem(), Materials.getAmalgamateIngotEpic().getItem(),
                 Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotEpic().getItem(), Materials.getBasicFibres().getItem(),
+            }
+        );
+
+        // Pose Cloner
+        poseCloner = new PoseCloner(
+            ItemGroups.ARTISTIC,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_POSE_CLONER",
+                new ItemStack(Material.SEA_PICKLE),
+                ThemeType.TOOL,
+                "姿勢複製器",
+                "這個物品可以複製",
+                "注魔的盔甲座的狀態,",
+                "並與另一個匹配.",
+                "",
+                MessageFormat.format("{0}右鍵點擊: {1}複製姿勢", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用複製內容", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor())
+            ),
+            RecipeType.ENHANCED_CRAFTING_TABLE,
+            new ItemStack[]{
+                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotUnique().getItem(), Materials.getBasicFibres().getItem(),
+                Materials.getAmalgamateIngotRare().getItem(), bodyStand.getItem(), Materials.getAmalgamateIngotRare().getItem(),
+                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotUnique().getItem(), Materials.getBasicFibres().getItem(),
             }
         );
 
@@ -1069,7 +1123,9 @@ public class ArtisticItems {
         mindStand.register(plugin);
         soulStand.register(plugin);
         mysticalAttitudinizer.register(plugin);
+        imbuedStand.register(plugin);
         poseChanger.register(plugin);
+        poseCloner.register(plugin);
 
         // Liquefaction Recipes
         LiquefactionBasinCache.addCraftingRecipe(blackPaintBrush1000, blackPaintbrush1000Recipe);
@@ -1092,5 +1148,6 @@ public class ArtisticItems {
         LiquefactionBasinCache.addCraftingRecipe(bodyStand, bodyStandRecipe);
         LiquefactionBasinCache.addCraftingRecipe(mindStand, mindStandRecipe);
         LiquefactionBasinCache.addCraftingRecipe(soulStand, soulStandRecipe);
+        LiquefactionBasinCache.addCraftingRecipe(imbuedStand, imbuedStandRecipe);
     }
 }
