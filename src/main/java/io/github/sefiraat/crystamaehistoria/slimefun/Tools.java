@@ -5,6 +5,8 @@ import io.github.sefiraat.crystamaehistoria.SupportedPluginManager;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.DummyLiquefactionBasinCrafting;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.LiquefactionBasinCache;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.RecipeItem;
+import io.github.sefiraat.crystamaehistoria.slimefun.tools.ConnectingCompass;
+import io.github.sefiraat.crystamaehistoria.slimefun.tools.Displacer;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.LuminescenceScoop;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.RecallingCrystaLattice;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.RefactingLens;
@@ -32,6 +34,8 @@ import lombok.experimental.UtilityClass;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+
+import java.text.MessageFormat;
 
 @UtilityClass
 public class Tools {
@@ -61,13 +65,20 @@ public class Tools {
     @Getter
     private static LuminescenceScoop lustreScoop;
     @Getter
+    private static ConnectingCompass connectingCompass;
+    @Getter
     private static SpiritualSilken spiritualSilken;
+    @Getter
+    private static Displacer simpleDisplacer;
+    @Getter
+    private static Displacer arcaneDisplacer;
     @Getter
     private static BlockVeil cargoCover;
     @Getter
     private static BlockVeil energyNetCover;
     @Getter
     private static BlockVeil networkNodeCover;
+
 
     public static void setup() {
         final CrystamaeHistoria plugin = CrystamaeHistoria.getInstance();
@@ -347,6 +358,31 @@ public class Tools {
             250
         );
 
+        // Connecting Compass
+        RecipeItem connectingCompassRecipe = new RecipeItem(
+            new ItemStack(Material.COMPASS),
+            StoryType.MECHANICAL, 5,
+            StoryType.HISTORICAL, 10,
+            StoryType.HUMAN, 5
+        );
+        connectingCompass = new ConnectingCompass(
+            ItemGroups.TOOLS,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_CONNECTING_COMPASS",
+                new ItemStack(Material.COMPASS),
+                ThemeType.TOOL,
+                "Connecting Compass",
+                "Allows you to save a location",
+                "to find your way back to it at",
+                "a later time.",
+                "",
+                MessageFormat.format("{0}Right Click: {1}Display Stored Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift Right Click: {1}Store Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+            ),
+            DummyLiquefactionBasinCrafting.TYPE,
+            connectingCompassRecipe.getDisplayRecipe()
+        );
+
         // Spiritual Silken
         RecipeItem spiritualSilkenRecipe = new RecipeItem(
             new ItemStack(Material.BONE),
@@ -375,6 +411,56 @@ public class Tools {
             50
         );
 
+        // Simple Displacer
+        RecipeItem simpleDisplacerRecipe = new RecipeItem(
+            Materials.getPowderedEssence().getItem(),
+            StoryType.ALCHEMICAL, 120,
+            StoryType.ANIMAL, 70,
+            StoryType.HUMAN, 60
+        );
+        simpleDisplacer = new Displacer(
+            ItemGroups.TOOLS,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_SIMPLE_DISPLACER",
+                new ItemStack(Material.TORCH),
+                ThemeType.TOOL,
+                "Simple Displacer",
+                "The displacer can shift some",
+                "things out of this world and",
+                "replace it with something from",
+                "another dimension.",
+                ChatColor.YELLOW + "50 Uses " + ChatColor.GRAY + "left"
+            ),
+            DummyLiquefactionBasinCrafting.TYPE,
+            simpleDisplacerRecipe.getDisplayRecipe(),
+            50
+        );
+
+        // Arcane Displacer
+        RecipeItem arcaneDisplacerRecipe = new RecipeItem(
+            simpleDisplacer.getItem(),
+            StoryType.ALCHEMICAL, 240,
+            StoryType.ANIMAL, 140,
+            StoryType.HUMAN, 120
+        );
+        arcaneDisplacer = new Displacer(
+            ItemGroups.TOOLS,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_ARCANE_DISPLACER",
+                new ItemStack(Material.REDSTONE_TORCH),
+                ThemeType.TOOL,
+                "Arcane Displacer",
+                "The displacer can shift some",
+                "things out of this world and",
+                "replace it with something from",
+                "another dimension.",
+                ChatColor.YELLOW + "500 Uses " + ChatColor.GRAY + "left"
+            ),
+            DummyLiquefactionBasinCrafting.TYPE,
+            arcaneDisplacerRecipe.getDisplayRecipe(),
+            500
+        );
+
         // Slimefun Registry
         chargedPlate.register(CrystamaeHistoria.getInstance());
         inertPlate.register(CrystamaeHistoria.getInstance());
@@ -388,7 +474,10 @@ public class Tools {
         luminescenceScoop.register(plugin);
         brillianceScoop.register(plugin);
         lustreScoop.register(plugin);
+        connectingCompass.register(plugin);
         spiritualSilken.register(plugin);
+        simpleDisplacer.register(plugin);
+        arcaneDisplacer.register(plugin);
 
         // Liquefaction Recipes
         LiquefactionBasinCache.addCraftingRecipe(inertPlate, inertPlateRecipe);
@@ -399,8 +488,13 @@ public class Tools {
         LiquefactionBasinCache.addCraftingRecipe(luminescenceScoop, luminescenceScoopRecipe);
         LiquefactionBasinCache.addCraftingRecipe(brillianceScoop, brillianceScoopRecipe);
         LiquefactionBasinCache.addCraftingRecipe(lustreScoop, lustreScoopRecipe);
+          
+        LiquefactionBasinCache.addCraftingRecipe(connectingCompass, connectingCompassRecipe);
 
         LiquefactionBasinCache.addCraftingRecipe(spiritualSilken, spiritualSilkenRecipe);
+
+        LiquefactionBasinCache.addCraftingRecipe(simpleDisplacer, simpleDisplacerRecipe);
+        LiquefactionBasinCache.addCraftingRecipe(arcaneDisplacer, arcaneDisplacerRecipe);
 
         /*
         Covers 'hide' items from HL - until the tile entity check
