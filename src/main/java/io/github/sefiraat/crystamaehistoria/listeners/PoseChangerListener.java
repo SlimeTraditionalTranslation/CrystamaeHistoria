@@ -7,7 +7,7 @@ import io.github.sefiraat.crystamaehistoria.utils.GeneralUtils;
 import io.github.sefiraat.crystamaehistoria.utils.Keys;
 import io.github.sefiraat.crystamaehistoria.utils.datatypes.DataTypeMethods;
 import io.github.sefiraat.crystamaehistoria.utils.datatypes.PersistentPoseType;
-import io.github.sefiraat.networks.utils.Theme;
+import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
@@ -33,7 +33,7 @@ import java.util.List;
 
 public class PoseChangerListener implements Listener {
 
-    private static final String IMBUED_ONLY_MESSAGE = Theme.WARNING.getColor() + "這只能用於注魔的盔甲座";
+    private static final String IMBUED_ONLY_MESSAGE = ThemeType.WARNING.getColor() + "這只能用於注魔的盔甲座";
 
     private final double stepAmount = 0.01;
     private final NamespacedKey poseKey = Keys.newKey("pose_type");
@@ -98,7 +98,7 @@ public class PoseChangerListener implements Listener {
                 ) {
                     final boolean isImbued = PersistentDataAPI.getBoolean(armorStand, ImbuedStand.KEY);
                     if (!isImbued) {
-                        player.sendMessage(Theme.WARNING.getColor() + "這只能用於注魔的盔甲座");
+                        player.sendMessage(ThemeType.WARNING.getColor() + "這只能用於注魔的盔甲座");
                         return;
                     }
 
@@ -108,17 +108,17 @@ public class PoseChangerListener implements Listener {
                         final PoseCloner.StoredPose pose = DataTypeMethods.getCustom(itemMeta, clonedPoseKey, PersistentPoseType.TYPE);
 
                         if (pose == null) {
-                            player.sendMessage(Theme.WARNING.getColor() + "沒有複製的姿勢.");
+                            player.sendMessage(ThemeType.WARNING.getColor() + "沒有複製的姿勢.");
                             return;
                         }
                         pose.applyPose(armorStand);
-                        player.sendActionBar(Component.text(Theme.WARNING.getColor() + "姿勢已應用"));
+                        player.sendActionBar(Component.text(ThemeType.WARNING.getColor() + "姿勢已應用"));
                     } else {
                         final PoseCloner.StoredPose pose = new PoseCloner.StoredPose(armorStand);
 
                         DataTypeMethods.setCustom(itemMeta, clonedPoseKey, PersistentPoseType.TYPE, pose);
                         heldItem.setItemMeta(itemMeta);
-                        player.sendActionBar(Component.text(Theme.WARNING.getColor() + "姿勢已複製"));
+                        player.sendActionBar(Component.text(ThemeType.WARNING.getColor() + "姿勢已複製"));
                     }
                 }
             }
@@ -132,8 +132,8 @@ public class PoseChangerListener implements Listener {
             final PoseType nextType = poseType.getNext();
             final String message = MessageFormat.format(
                 "{0}姿勢類型: {1}{2}",
-                Theme.ERROR.getColor(),
-                Theme.CLICK_INFO.getColor(),
+                ThemeType.ERROR.getColor(),
+                ThemeType.CLICK_INFO.getColor(),
                 nextType
             );
             final List<String> lore = itemMeta.getLore();
@@ -147,8 +147,8 @@ public class PoseChangerListener implements Listener {
             final ChangeType nextType = changeType.getNext();
             final String message = MessageFormat.format(
                 "{0}變更類型: {1}{2}",
-                Theme.ERROR.getColor(),
-                Theme.CLICK_INFO.getColor(),
+                ThemeType.ERROR.getColor(),
+                ThemeType.CLICK_INFO.getColor(),
                 nextType
             );
             final List<String> lore = itemMeta.getLore();
@@ -198,14 +198,14 @@ public class PoseChangerListener implements Listener {
                 if (isImbued) {
                     armorStand.setVisible(!armorStand.isVisible());
                 } else {
-                    player.sendMessage(Theme.WARNING.getColor() + "這只能用於注魔的盔甲座");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "這只能用於注魔的盔甲座");
                 }
                 return null;
             case STAND_SIZE:
                 if (isImbued) {
                     armorStand.setSmall(!armorStand.isSmall());
                 } else {
-                    player.sendMessage(Theme.WARNING.getColor() + "這只能用於注魔的盔甲座");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "這只能用於注魔的盔甲座");
                 }
                 return null;
             case STAND_GRAVITY:
@@ -213,7 +213,7 @@ public class PoseChangerListener implements Listener {
                     armorStand.setGravity(!armorStand.hasGravity());
                     player.sendActionBar(Component.text("重力: " + armorStand.hasGravity()));
                 } else {
-                    player.sendMessage(Theme.WARNING.getColor() + "這只能用於注魔的盔甲座");
+                    player.sendMessage(ThemeType.WARNING.getColor() + "這只能用於注魔的盔甲座");
                 }
                 return null;
             default:

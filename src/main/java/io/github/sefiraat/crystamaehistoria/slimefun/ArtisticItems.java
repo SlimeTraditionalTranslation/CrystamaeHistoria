@@ -13,7 +13,6 @@ import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseChanger;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseCloner;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
-import io.github.sefiraat.networks.utils.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
@@ -1043,13 +1042,13 @@ public class ArtisticItems {
                 "並能對注魔的盔甲座",
                 "做額外的事情.",
                 "",
-                MessageFormat.format("{0}左鍵點擊: {1}更改選定的身體部位", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 左鍵點擊: {1}改變選定更改的方式", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
-                MessageFormat.format("{0}右鍵點擊: {1}應用更改 (正向)", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用更改 (反向)", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
+                MessageFormat.format("{0}左鍵點擊: {1}更改選定的身體部位", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift + 左鍵點擊: {1}改變選定更改的方式", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}右鍵點擊: {1}應用更改 (正向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用更改 (反向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
                 "",
-                MessageFormat.format("{0}姿勢設置為: {1}HEAD", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
-                MessageFormat.format("{0}更改設置為: {1}RESET", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor())
+                MessageFormat.format("{0}姿勢設置為: {1}HEAD", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}更改設置為: {1}RESET", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -1071,8 +1070,8 @@ public class ArtisticItems {
                 "注魔的盔甲座的狀態,",
                 "並與另一個匹配.",
                 "",
-                MessageFormat.format("{0}右鍵點擊: {1}複製姿勢", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用複製內容", Theme.CLICK_INFO.getColor(), Theme.PASSIVE.getColor())
+                MessageFormat.format("{0}右鍵點擊: {1}複製姿勢", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用複製內容", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
