@@ -184,7 +184,7 @@ public final class ItemGroups {
                 "物品時, 它將會嘗試",
                 "用它製作物品.",
                 "",
-                "如果弄錯, 你將會失去你的水晶."
+                "如果弄錯, 你將會失去你的水晶能量."
             ),
             DummyGuideOnly.TYPE,
             new ItemStack[]{}
@@ -241,7 +241,7 @@ public final class ItemGroups {
                 "取下. 然後在液化池中,",
                 "製作法術配方並將它",
                 "丟進去充能. 它將會在重新裝滿",
-                "水晶在裡面."
+                "水晶能量在裡面."
             ),
             DummyGuideOnly.TYPE,
             new ItemStack[]{}

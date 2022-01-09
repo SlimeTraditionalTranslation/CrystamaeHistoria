@@ -39,7 +39,7 @@ public class InstancePlate {
             "魔法潛能.",
             "",
             ThemeType.CLICK_INFO.getColor() + "魔法框架 : " + ThemeType.NOTICE.getColor() + magic,
-            ThemeType.CLICK_INFO.getColor() + "儲存水晶 : " + ThemeType.NOTICE.getColor() + crysta
+            ThemeType.CLICK_INFO.getColor() + "儲存水晶能量 : " + ThemeType.NOTICE.getColor() + crysta
         };
         final ChatColor passiveColor = ThemeType.PASSIVE.getColor();
         final List<String> finalLore = new ArrayList<>();

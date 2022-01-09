@@ -247,8 +247,8 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
         final ChatColor color = ThemeType.CLICK_INFO.getColor();
         final ChatColor passive = ThemeType.PASSIVE.getColor();
 
-        final String crysta = MessageFormat.format("{0}每次施法所消耗的水晶: {1}{2}", color, passive, spellCore.getCrystaCost());
-        final String crystaMulti = MessageFormat.format("{0}水晶成本 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
+        final String crysta = MessageFormat.format("{0}每次施法所消耗的水晶能量: {1}{2}", color, passive, spellCore.getCrystaCost());
+        final String crystaMulti = MessageFormat.format("{0}水晶能量成本 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "增加" : "沒有增加");
         final String cooldown = MessageFormat.format("{0}冷卻 (秒) 在使用時: {1}{2}", color, passive, spell.getSpellCore().getCooldownSeconds());
         final String cooldownDivided = MessageFormat.format("{0}冷卻 {1} 與法杖等級", color, spellCore.isDamageMultiplied() ? "沒有降低" : "降低");
 

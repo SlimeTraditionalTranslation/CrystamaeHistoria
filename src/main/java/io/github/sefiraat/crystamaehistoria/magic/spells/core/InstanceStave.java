@@ -58,7 +58,7 @@ public class InstanceStave {
                 final String crysta = String.valueOf(instancePlate.getCrysta());
                 finalLore.add(ThemeType.RARITY_MYTHICAL.getColor() + ThemeType.toTitleCase(SpellSlot.getByActionName(slot.name())));
                 finalLore.add(ThemeType.PASSIVE.getColor() + "法術: " + ThemeType.NOTICE.getColor() + magic);
-                finalLore.add(ThemeType.PASSIVE.getColor() + "水晶: " + ThemeType.NOTICE.getColor() + crysta);
+                finalLore.add(ThemeType.PASSIVE.getColor() + "水晶能量: " + ThemeType.NOTICE.getColor() + crysta);
             }
         }
         finalLore.add("");

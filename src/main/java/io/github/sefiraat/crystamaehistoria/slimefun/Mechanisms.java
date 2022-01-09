@@ -265,7 +265,7 @@ public class Mechanisms {
                 "形式. 用於製作魔法.",
                 "危險: 不要在填充時破壞這個!",
                 "",
-                "可以容納 500 個液態水晶."
+                "可以容納 500 個液態水晶能量."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -290,7 +290,7 @@ public class Mechanisms {
                 "形式. 用於製作魔法.",
                 "危險: 不要在填充時破壞這個!",
                 "",
-                "可以容納 1000 個液態水晶."
+                "可以容納 1000 個液態水晶能量."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -321,7 +321,7 @@ public class Mechanisms {
                 "形式. 用於製作魔法.",
                 "危險: 不要在填充時破壞這個!",
                 "",
-                "可以容納 2500 個液態水晶."
+                "可以容納 2500 個液態水晶能量."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             liquefactionT3Recipe.getDisplayRecipe(),
@@ -348,7 +348,7 @@ public class Mechanisms {
                 "形式. 用於製作魔法.",
                 "危險: 不要在填充時破壞這個!",
                 "",
-                "可以容納 5000 個液態水晶."
+                "可以容納 5000 個液態水晶能量."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             liquefactionT4Recipe.getDisplayRecipe(),

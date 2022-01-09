@@ -108,7 +108,7 @@ public class Materials {
                         "更高等級的方塊較容易",
                         "給予更稀有的水晶類型.",
                         "",
-                        "提供" + Crystal.getRarityValueMap().get(rarity) + "水晶."
+                        "提供" + Crystal.getRarityValueMap().get(rarity) + "水晶能量."
                     ),
                     DummyRealisationAltar.TYPE,
                     new ItemStack[]{null, null, null, null, new ItemStack(Material.AMETHYST_CLUSTER), null, null, null, null},
@@ -375,7 +375,7 @@ public class Materials {
                 new ItemStack(Material.GLASS_PANE),
                 ThemeType.CRAFTING,
                 "浸透玻璃",
-                "浸透著水晶的玻璃,",
+                "浸透著水晶能量的玻璃,",
                 "具有一些奇怪的特性."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
@@ -396,8 +396,8 @@ public class Materials {
                 new ItemStack(Material.ENDER_PEARL),
                 ThemeType.CRAFTING,
                 "不可思議的珍珠",
-                "這顆珍珠的內部",
-                "共振已被水晶平息."
+                "這顆珍珠的內部共振",
+                "已被水晶能量平息."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             uncannyPearlRecipe.getDisplayRecipe()
