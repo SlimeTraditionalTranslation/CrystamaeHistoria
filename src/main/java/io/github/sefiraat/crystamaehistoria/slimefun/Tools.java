@@ -302,7 +302,7 @@ public class Tools {
                 "魔法光源.",
                 "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "25 次剩餘" + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 25次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             luminescenceScoopRecipe.getDisplayRecipe(),
@@ -327,7 +327,7 @@ public class Tools {
                 "魔法光源.",
                 "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "75 次剩餘" + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 75次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             brillianceScoopRecipe.getDisplayRecipe(),
@@ -352,7 +352,7 @@ public class Tools {
                 "魔法光源.",
                 "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "250 次剩餘" + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 250次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             lustreScoopRecipe.getDisplayRecipe(),
@@ -405,7 +405,7 @@ public class Tools {
                 ChatColor.RED + "自己的方塊起作用,",
                 ChatColor.RED + "無論是否需要絲綢.",
                 "",
-                ChatColor.YELLOW + "50 次剩餘" + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             spiritualSilkenRecipe.getDisplayRecipe(),
@@ -430,7 +430,7 @@ public class Tools {
                 "從這個世界移出, 並用來自",
                 "另一個維度的",
                 "東西取代它.",
-                ChatColor.YELLOW + "50 次剩餘 " + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             simpleDisplacerRecipe.getDisplayRecipe(),
@@ -455,7 +455,7 @@ public class Tools {
                 "從這個世界移出, 並用來自",
                 "另一個維度的",
                 "東西取代它.",
-                ChatColor.YELLOW + "500 次剩餘 " + ChatColor.GRAY + "次數"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 500次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             arcaneDisplacerRecipe.getDisplayRecipe(),
