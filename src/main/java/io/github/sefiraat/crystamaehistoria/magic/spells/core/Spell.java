@@ -250,7 +250,6 @@ public abstract class Spell {
      * Does NOT include the main target hit
      *
      * @param castInformation The {@link CastInformation} containing the DamageLocation
-     * @return
      */
     @ParametersAreNonnullByDefault
     protected Set<LivingEntity> getTargets(CastInformation castInformation, double range) {
@@ -263,7 +262,6 @@ public abstract class Spell {
      *
      * @param castInformation The {@link CastInformation} containing the DamageLocation
      * @param includeMain     If the main target should be included in the return set
-     * @return
      */
     @ParametersAreNonnullByDefault
     protected Set<LivingEntity> getTargets(CastInformation castInformation, double range, boolean includeMain) {

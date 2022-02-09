@@ -13,6 +13,8 @@ import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MobLamp;
 import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MobMat;
 import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MobTrap;
 import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MysteriousTicker;
+import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MysteriousTickerNoInteraction;
+import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.PhilosophersSpray;
 import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.TrophyDisplay;
 import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.Waystone;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.DummyLiquefactionBasinCrafting;
@@ -79,7 +81,7 @@ public class Gadgets {
     @Getter
     private static MobCandle scintillatingMobCandle;
     @Getter
-    private static MysteriousTicker mysteriousPottedPlant;
+    private static MysteriousTickerNoInteraction mysteriousPottedPlant;
     @Getter
     private static MysteriousTicker mysteriousPlant;
     @Getter
@@ -104,6 +106,8 @@ public class Gadgets {
     private static Waystone waystone;
     @Getter
     private static AngelBlock angelBlock;
+    @Getter
+    private static PhilosophersSpray philosophersSpray;
 
     public static void setup() {
 
@@ -578,7 +582,7 @@ public class Gadgets {
         );
 
         // Mysterious Potted Plant
-        mysteriousPottedPlant = new MysteriousTicker(
+        mysteriousPottedPlant = new MysteriousTickerNoInteraction(
             ItemGroups.GADGETS,
             ThemeType.themedSlimefunItemStack(
                 "CRY_MYSTERIOUS_POTTED_PLANT",
@@ -896,6 +900,26 @@ public class Gadgets {
             angelBlockStack.asQuantity(8)
         );
 
+        // Philosophers Spray
+        SlimefunItemStack philosophersSprayStack = ThemeType.themedSlimefunItemStack(
+            "CRY_PHILOSOPHERS_SPRAY",
+            new ItemStack(Material.DISPENSER),
+            ThemeType.GADGET,
+            "賢者的噴霧",
+            "當紅石觸發時,",
+            "將會 '替換' 這個方塊上方的方塊."
+        );
+        philosophersSpray = new PhilosophersSpray(
+            ItemGroups.GADGETS,
+            philosophersSprayStack,
+            RecipeType.ENHANCED_CRAFTING_TABLE,
+            new ItemStack[]{
+                amalgamateIngotRare, amalgamateIngotRare, amalgamateIngotRare,
+                amalgamateIngotRare, new ItemStack(Material.DISPENSER), amalgamateIngotRare,
+                amalgamateIngotRare, Tools.getArcaneDisplacer().getItem(), amalgamateIngotRare
+            }
+        );
+
         // Slimefun Registry
         abstractionLamp.register(plugin);
         dispersionLamp.register(plugin);
@@ -927,6 +951,7 @@ public class Gadgets {
         exaltationStand.register(plugin);
         waystone.register(plugin);
         angelBlock.register(plugin);
+        philosophersSpray.register(plugin);
 
         // Liquefaction Recipes
         LiquefactionBasinCache.addCraftingRecipe(abstractionLamp, abstractionLampRecipe);

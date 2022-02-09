@@ -10,7 +10,7 @@ public enum CastResult {
     SPELL_DISABLED("這個法術已被停用");
 
     @Getter
-    protected static final CastResult[] cachedValues = values();
+    private static final CastResult[] cachedValues = values();
     private final String message;
 
     CastResult(String message) {

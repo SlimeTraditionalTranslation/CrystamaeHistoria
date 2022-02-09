@@ -3,7 +3,6 @@ package io.github.sefiraat.crystamaehistoria.slimefun;
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
 import io.github.sefiraat.crystamaehistoria.slimefun.materials.Crystal;
 import io.github.sefiraat.crystamaehistoria.slimefun.materials.PowderedEssence;
-import io.github.sefiraat.crystamaehistoria.slimefun.materials.Trophy;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.DummyLiquefactionBasinCrafting;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.LiquefactionBasinCache;
 import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.RecipeItem;
@@ -29,8 +28,8 @@ import java.util.Map;
 @UtilityClass
 public class Materials {
 
-    protected static final Map<StoryType, SlimefunItem> DUMMY_CRYSTAL_MAP = new EnumMap<>(StoryType.class);
-    protected static final Map<StoryRarity, Map<StoryType, SlimefunItem>> CRYSTAL_MAP = new EnumMap<>(StoryRarity.class);
+    private static final Map<StoryType, SlimefunItem> DUMMY_CRYSTAL_MAP = new EnumMap<>(StoryType.class);
+    static final Map<StoryRarity, Map<StoryType, SlimefunItem>> CRYSTAL_MAP = new EnumMap<>(StoryRarity.class);
 
     @Getter
     private static SlimefunItem amalgamateDustCommon;
@@ -77,7 +76,7 @@ public class Materials {
             SlimefunItem sfItem = new Crystal(
                 ItemGroups.DUMMY_ITEM_GROUP,
                 ThemeType.themedSlimefunItemStack(
-                    "CRY_CRYSTAL_DUMMY_" + type.toString() + "_" + type.toString(),
+                    "CRY_CRYSTAL_DUMMY_" + type + "_" + type,
                     Skulls.getByType(type).getPlayerHead(),
                     ThemeType.CRYSTAL,
                     theme.getColor() + TextUtils.toTitleCase(ThemeType.getByType(type).getLoreLine() + "水晶"),
@@ -100,10 +99,10 @@ public class Materials {
                 SlimefunItem slimefunItem = new Crystal(
                     ItemGroups.CRYSTALS,
                     ThemeType.themedSlimefunItemStack(
-                        "CRY_CRYSTAL_" + rarity.toString() + "_" + type.toString(),
+                        "CRY_CRYSTAL_" + rarity + "_" + type.toString(),
                         Skulls.getByType(type).getPlayerHead(),
                         ThemeType.CRYSTAL,
-                        theme.getColor() + TextUtils.toTitleCase(theme.getLoreLine() + "" + ThemeType.getByType(type).getLoreLine()) + "水晶",
+                        theme.getColor() + TextUtils.toTitleCase(ThemeType.getByRarity(rarity).getLoreLine() + "" + ThemeType.getByType(type).getLoreLine()) + "水晶",
                         "物理形態的魔法水晶",
                         "更高等級的方塊較容易",
                         "給予更稀有的水晶類型.",
