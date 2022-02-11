@@ -3,18 +3,23 @@ package io.github.sefiraat.crystamaehistoria;
 import com.gmail.nossr50.util.skills.CombatUtils;
 import io.github.thebusybiscuit.exoticgarden.items.BonemealableItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import lombok.Getter;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Bukkit;
+import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nullable;
+import javax.annotation.ParametersAreNonnullByDefault;
 
 @Getter
 public class SupportedPluginManager {
 
+    private static final NamespacedKey IGNORE_DAMAGE_KEY = new NamespacedKey(Slimefun.instance(), "ignore_damage");
     private static SupportedPluginManager instance;
 
     private final boolean mcMMO;
@@ -42,20 +47,30 @@ public class SupportedPluginManager {
      * @param player       The {@link Player} to attribute the damage/drops to
      * @param damage       The damage to apply
      */
-    public void playerDamageWithoutMcMMO(LivingEntity livingEntity, Player player, double damage) {
-        markEntityMcMMOIgnoreDamage(livingEntity);
+    @ParametersAreNonnullByDefault
+    public void playerDamageWithoutAttribution(LivingEntity livingEntity, Player player, double damage) {
+        markIgnoreDamage(livingEntity);
         livingEntity.damage(damage, player);
-        clearEntityMcMMOIgnoreDamage(livingEntity);
+        clearIgnoreDamageMarker(livingEntity);
     }
 
-    public void markEntityMcMMOIgnoreDamage(LivingEntity livingEntity) {
+    @ParametersAreNonnullByDefault
+    public void markIgnoreDamage(LivingEntity livingEntity) {
         if (mcMMO) CombatUtils.applyIgnoreDamageMetadata(livingEntity);
+        if (slimeTinker) {
+            PersistentDataAPI.setBoolean(livingEntity, IGNORE_DAMAGE_KEY, true);
+        }
     }
 
-    public void clearEntityMcMMOIgnoreDamage(LivingEntity livingEntity) {
+    @ParametersAreNonnullByDefault
+    public void clearIgnoreDamageMarker(LivingEntity livingEntity) {
         if (mcMMO) CombatUtils.removeIgnoreDamageMetadata(livingEntity);
+        if (slimeTinker) {
+            PersistentDataAPI.remove(livingEntity, IGNORE_DAMAGE_KEY);
+        }
     }
 
+    @ParametersAreNonnullByDefault
     public boolean isExoticGardenPlant(Block block) {
         return exoticGarden
             && BlockStorage.hasBlockInfo(block)
@@ -70,6 +85,7 @@ public class SupportedPluginManager {
      * the SlimefunItem if applicable.
      */
     @Nullable
+    @ParametersAreNonnullByDefault
     public SlimefunItem getExoticGardenPlant(Block block) {
         if (exoticGarden && BlockStorage.hasBlockInfo(block)) {
             SlimefunItem slimefunItem = BlockStorage.check(block);

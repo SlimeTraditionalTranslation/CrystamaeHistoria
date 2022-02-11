@@ -8,6 +8,12 @@ out the raw essence of these experiences from blocks.
 
 Boomer_1 has made two awesome videos that take you through the basics of Crystamae going from the first mechanisms to casting your first spell in Part 1 to the various Gadgets and Tools Crystamae has to offer in Part 2. I'd encourange everyone to watch these both and enjoy!
 
+## Download Crystamae Historia
+
+[![Build Status](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master/badge.svg)](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master)
+
+## Videos
+
 [![Watch the video](https://img.youtube.com/vi/fggkwmf6V6k/0.jpg)](https://www.youtube.com/embed/fggkwmf6V6k)
 
 [![Watch the video](https://img.youtube.com/vi/OiI6MaoiO_I/0.jpg)](https://www.youtube.com/watch?v=OiI6MaoiO_I)
@@ -64,7 +70,7 @@ customise your load-out whenever.
 
 ## Spells
 
-The end result of all your hard work? Spells!
+The end result of all your hard work? Spells! 
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_spell_chaos.gif?raw=true"></p>
 
@@ -73,3 +79,11 @@ The end result of all your hard work? Spells!
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_spell_ethereal.gif?raw=true"></p>
 
 <p align="center"><img width="900" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/wiki/wiki_spell_push.gif?raw=true"></p>
+
+## Thanks!
+
+As usual, a big thanks to those who tested Crystamae to get it to the nice state it is in.
+
+A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me direction and drive to make these things.
+
+Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!) sponsor. A few coffee's a month to make me feel better about making these addons <3

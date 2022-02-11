@@ -1,39 +1,42 @@
 package io.github.sefiraat.crystamaehistoria.listeners;
 
-import io.github.sefiraat.crystamaehistoria.slimefun.gadgets.MysteriousTicker;
 import io.github.sefiraat.crystamaehistoria.slimefun.tools.covers.BlockVeil;
 import io.github.sefiraat.crystamaehistoria.utils.GeneralUtils;
 import io.github.sefiraat.crystamaehistoria.utils.StoryUtils;
+import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Material;
-import org.bukkit.block.Block;
+import org.bukkit.entity.HumanEntity;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.event.inventory.CraftItemEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class MiscListener implements Listener {
 
     @EventHandler
-    public void onDontTouchMyCrap(PlayerInteractEvent e) {
-        Block block = e.getClickedBlock();
-        if (e.getAction() == Action.RIGHT_CLICK_BLOCK && block != null) {
-            SlimefunItem slimefunItem = BlockStorage.check(block);
-            if (slimefunItem instanceof MysteriousTicker) {
-                e.setCancelled(true);
-            }
-        }
-    }
-
-    @EventHandler
     public void onPlaceStoriedBlock(BlockPlaceEvent e) {
         ItemStack itemStack = e.getItemInHand();
         if (itemStack.getType() != Material.AIR && StoryUtils.isStoried(itemStack)) {
             e.setCancelled(true);
+        }
+    }
+    @EventHandler
+    public void onTryCraft(CraftItemEvent e) {
+        for (ItemStack item : e.getInventory().getMatrix()) {
+            if (item != null && item.getType() != Material.AIR) {
+                if (StoryUtils.isStoried(item)) {
+                    e.setCancelled(true);
+                    for (HumanEntity viewer : e.getInventory().getViewers()) {
+                        viewer.sendMessage(ThemeType.WARNING.getColor() + "You cannot craft using this!");
+                    }
+                    return;
+                }
+            }
         }
     }
 
