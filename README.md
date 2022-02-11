@@ -7,17 +7,21 @@
 
 Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae  的基礎知識, 從第一部分 "施展我的第一個法術", 到第二部分 "各式各樣的小工具與工具". 我鼓勵大家觀看這兩部影片, 並享受於其中.
 
-[![觀看這個影片](https://img.youtube.com/vi/fggkwmf6V6k/0.jpg)](https://www.youtube.com/embed/fggkwmf6V6k)
-
-[![觀看這個影片](https://img.youtube.com/vi/OiI6MaoiO_I/0.jpg)](https://www.youtube.com/watch?v=OiI6MaoiO_I)
-
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/Sefiraat/CrystamaeHistoria) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
+
+## 下載水晶編年史
 
 | 非官方繁體中文版 | 官方英文版 |
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
 | [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CrystamaeHistoria/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CrystamaeHistoria/master) | [![Build Status](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master/badge.svg)](https://thebusybiscuit.github.io/builds/Sefiraat/CrystamaeHistoria/master) |
+
+## 影片
+
+[![觀看這個影片](https://img.youtube.com/vi/fggkwmf6V6k/0.jpg)](https://www.youtube.com/embed/fggkwmf6V6k)
+
+[![觀看這個影片](https://img.youtube.com/vi/OiI6MaoiO_I/0.jpg)](https://www.youtube.com/watch?v=OiI6MaoiO_I)
 
 ## 記錄者
 
