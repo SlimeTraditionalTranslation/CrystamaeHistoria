@@ -1,4 +1,6 @@
-![](https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/logo/logo_large.png?raw=true)
+<p align="center">
+<img width="800" src="https://github.com/Sefiraat/CrystamaeHistoria/blob/master/images/logo/logo.svg"><br><br>
+</p>
 
 水晶編年史是 Slimefun4 的附加插件, 它添加了一套魔法法術和製作與解鎖法術的進度系統.
 
