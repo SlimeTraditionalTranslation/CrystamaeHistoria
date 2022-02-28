@@ -35,7 +35,7 @@ public class SleepingBag extends UnplaceableBlock {
             final Block block = location.getBlock();
 
             if (location.getWorld().isDayTime()) {
-                player.sendMessage(ThemeType.WARNING.getColor() + "You can only use a sleeping bag at night.");
+                player.sendMessage(ThemeType.WARNING.getColor() + "你只能在晚上時使用睡袋.");
                 return;
             }
             if (location.getBlock().isEmpty() && GeneralUtils.hasPermission(player, location, Interaction.PLACE_BLOCK)) {
@@ -44,7 +44,7 @@ public class SleepingBag extends UnplaceableBlock {
                 block.setType(Material.WHITE_BED);
                 player.sleep(location, true);
                 CrystamaeHistoria.getSpellMemory().getSleepingBags().put(player.getUniqueId(), location);
-                player.sendMessage(ThemeType.SUCCESS.getColor() + "Respawn location reset to previous.");
+                player.sendMessage(ThemeType.SUCCESS.getColor() + "重生位置已重置為上一個重生點.");
                 player.setBedSpawnLocation(respawnLocation, true);
             }
 

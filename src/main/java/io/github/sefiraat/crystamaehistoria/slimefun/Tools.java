@@ -486,12 +486,12 @@ public class Tools {
                 "CRY_SPONGE_BALMY",
                 new ItemStack(Material.DEAD_FIRE_CORAL_BLOCK),
                 ThemeType.TOOL,
-                "Balmy Sponge",
-                "This imbued sponge is capable",
-                "of absorbing lava instead of water.",
-                "Place near water to clean after use.",
+                "溫和的海綿",
+                "這種被灌注的海綿能",
+                "夠吸取岩漿而不是水.",
+                "使用後在水邊清洗.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "4 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             balmySpongeRecipe.getDisplayRecipe(),
@@ -511,12 +511,12 @@ public class Tools {
                 "CRY_SPONGE_SEARING",
                 GeneralUtils.getPreEnchantedItemStack(Material.DEAD_FIRE_CORAL_BLOCK, true, new Pair<>(Enchantment.LURE, 1)),
                 ThemeType.TOOL,
-                "Searing Sponge",
-                "This imbued sponge is capable",
-                "of absorbing lava instead of water.",
-                "Place near water to clean after use.",
+                "灼熱的海綿",
+                "這種被灌注的海綿能",
+                "夠吸取岩漿而不是水.",
+                "使用後在水邊清洗.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "7 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             searingSpongeRecipe.getDisplayRecipe(),
@@ -536,11 +536,11 @@ public class Tools {
                 "CRY_SLEEPING_BAG",
                 new ItemStack(Material.LIGHT_BLUE_BANNER),
                 ThemeType.TOOL,
-                "Rune-marked Sleeping Bag",
-                "This sleeping bag emits a weak",
-                "protection magic that will defend",
-                "you in the wilds.",
-                "Does not set your respawn point."
+                "符文睡袋",
+                "這個睡袋散發出微弱的",
+                "保護魔法, 可以在野外",
+                "中保護你.",
+                "不要用於設定你的重生點."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             sleepingBagRecipe.getDisplayRecipe()

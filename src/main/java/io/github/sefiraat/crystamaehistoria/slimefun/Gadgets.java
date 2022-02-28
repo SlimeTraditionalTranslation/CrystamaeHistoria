@@ -935,11 +935,11 @@ public class Gadgets {
             "CRY_GLASS_OF_MILK",
             Skulls.ITEM_MILK.getPlayerHead(),
             ThemeType.GADGET,
-            "Glass of Milk",
-            "Right click, when placed, to remove",
-            "all active effects.",
+            "一杯牛奶",
+            "當放置時, 右鍵點擊",
+            "以移除所有身上效果.",
             "",
-            ThemeType.WARNING.getColor() + "Can't be recovered when broken."
+            ThemeType.WARNING.getColor() + "損壞時無法被修復"
         );
         glassOfMilk = new GlassOfMilk(
             ItemGroups.GADGETS,
@@ -965,11 +965,11 @@ public class Gadgets {
                 "CRY_FRAGMENTED_VOID",
                 new ItemStack(Material.BLACK_CONCRETE),
                 ThemeType.GADGET,
-                "Fragmented Void",
-                "A portable hole in the universe.",
-                "Will pull any nearby items into it.",
+                "碎片的虛空",
+                "宇宙中的一個可攜帶的洞.",
+                "會將附近的任何物品拉入其中.",
                 "",
-                ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "5"
+                ThemeType.WARNING.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "5"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             fragmentedVoidRecipe.getDisplayRecipe(),
@@ -989,11 +989,11 @@ public class Gadgets {
                 "CRY_SHATTERED_VOID",
                 new ItemStack(Material.BLACK_CONCRETE),
                 ThemeType.GADGET,
-                "Shattered Void",
-                "A portable hole in the universe.",
-                "Will pull any nearby items into it.",
+                "殘缺的虛空",
+                "宇宙中的一個可攜帶的洞.",
+                "會將附近的任何物品拉入其中.",
                 "",
-                ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7"
+                ThemeType.WARNING.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "7"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             shatteredVoidRecipe.getDisplayRecipe(),
