@@ -285,7 +285,7 @@ public class Mechanisms {
                 "形式. 用於製作魔法.",
                 "危險: 不要在填充時破壞這個!",
                 "",
-                "可以容納 1000 個液態水晶能量."
+                "可以容納 1250 個液態水晶能量."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -293,7 +293,7 @@ public class Mechanisms {
                 amalgamateDustRare, liquefactionBasin1.getItem(), amalgamateDustRare,
                 amalgamateDustRare, SlimefunItems.ENCHANTMENT_RUNE, amalgamateDustRare
             },
-            1000,
+            1250,
             Color.fromRGB(195, 195, 150)
         );
 
