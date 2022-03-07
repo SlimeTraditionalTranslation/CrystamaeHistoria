@@ -12,6 +12,12 @@ Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae  的基礎
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/Sefiraat/CrystamaeHistoria) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
 
+## 翻譯者貢獻表
+
+方塊故事: 
+
+Miku, 默默無名邊緣人, winkoko, Fertilizer0417, MAGd_
+
 ## 下載水晶編年史
 
 | 非官方繁體中文版 | 官方英文版 |

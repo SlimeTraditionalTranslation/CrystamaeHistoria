@@ -241,12 +241,12 @@ public class Exalted {
                 "CRY_SEA_BREEZE",
                 new ItemStack(Material.TUBE_CORAL_BLOCK),
                 ThemeType.EXALTED,
-                "Exalted Sea Breeze",
-                "A magical construct that brings",
-                "the sea air to nearby blocks, weathering",
-                "and oxidizing them.",
+                "崇高的海風",
+                "一種神奇的構造, 可以將",
+                "海風帶到附近的方塊,",
+                "使其風化和氧化.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Requires: Crafted on a beach"
+                ThemeType.CLICK_INFO.getColor() + "需求: 在海灘上製作"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             exaltedSeeBreezeRecipe.getDisplayRecipe()
