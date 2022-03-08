@@ -16,7 +16,7 @@ Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae  的基礎
 
 方塊故事: 
 
-Miku, 默默無名邊緣人, winkoko, Fertilizer0417, MAGd_
+Miku, 默默無名邊緣人, winkoko, Ferzbow, MAGd_
 
 ## 下載水晶編年史
 

@@ -401,7 +401,7 @@ public class Tools {
                 "該儲存位置.",
                 "",
                 MessageFormat.format("{0}右鍵點擊: {1}顯示儲存的位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift 右鍵點擊: {1}儲存位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+                MessageFormat.format("{0}Shift + 右鍵點擊: {1}儲存位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             connectingCompassRecipe.getDisplayRecipe()
