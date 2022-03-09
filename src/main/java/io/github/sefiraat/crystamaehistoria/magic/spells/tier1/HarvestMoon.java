@@ -68,10 +68,10 @@ public class HarvestMoon extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Speaks to the spirit of nature",
-            "to speed up the growth of nearby",
-            "crops. Crops must have direct access",
-            "to the sun."
+            "與自然之靈對話,",
+            "加速附近農作物",
+            "生長. 作物必須直接",
+            "接觸陽光."
         };
     }
 
@@ -79,6 +79,12 @@ public class HarvestMoon extends Spell {
     @Override
     public String getId() {
         return "HARVEST_MOON";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "牧場物語";
     }
 
     @Nonnull

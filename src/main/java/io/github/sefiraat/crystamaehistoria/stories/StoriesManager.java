@@ -218,7 +218,7 @@ public class StoriesManager {
             storyMapUnique.put(story.getId(), story);
         }
         CrystamaeHistoria.getInstance().getLogger().info(
-            MessageFormat.format("Loaded: {0} unique (block) stories.", blockDefinitionMap.size())
+            MessageFormat.format("載入: {0} 獨特的 (方塊) 故事.", blockDefinitionMap.size())
         );
     }
 
@@ -249,7 +249,7 @@ public class StoriesManager {
 
     @ParametersAreNonnullByDefault
     private static void setName(ItemStack itemStack, ItemMeta im) {
-        TextComponent name = new TextComponent("Storied " + ThemeType.toTitleCase(itemStack.getType().toString()));
+        TextComponent name = new TextComponent("有故事的 " + ThemeType.toTitleCase(itemStack.getType().toString()));
         name.setColor(ThemeType.MAIN.getColor());
         name.setBold(true);
         im.setDisplayName(name.toLegacyText());

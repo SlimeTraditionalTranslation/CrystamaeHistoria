@@ -11,7 +11,7 @@ import java.util.List;
 public class GetRanks extends SubCommand {
 
     public GetRanks() {
-        super("rank", "Displays your Crystamae ranks", false);
+        super("rank", "顯示你的編年史等級", false);
     }
 
     @Override

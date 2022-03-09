@@ -65,8 +65,8 @@ public class StripMine extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Magically strips a mineshaft starting from",
-            "the targeted block."
+            "從目標方塊開始魔法般的",
+            "剝離一個原礦."
         };
     }
 
@@ -74,6 +74,12 @@ public class StripMine extends Spell {
     @Override
     public String getId() {
         return "STRIP_MINE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "剝離礦";
     }
 
     @Nonnull

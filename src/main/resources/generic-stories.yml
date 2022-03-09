@@ -1,364 +1,364 @@
 COMMON:
   Quiet Days:
-    name: Quiet Days
+    name: 寧靜的一天
     type: ELEMENTAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Present during the beginning of the world.
-      - Everything was quiet and peaceful and serene.
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
 
   Grinding Gears:
-    name: Grinding Gears
+    name: 磨動的齒輪
     type: MECHANICAL
     shards: [ 0,1,0,0,1,0,0,0,0 ]
     lore:
-      - Constantly used without thanks or gratitude
-      - will wear down the spirit with ease.
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
 
   Lead into Gold:
-    name: Lead into Gold
+    name: 鉛成金
     type: ALCHEMICAL
     shards: [ 0,0,1,0,1,0,1,0,0 ]
     lore:
-      - An unconsious drive towards wealth that has
-      - driven many-a-person mad.
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
 
   Everlasting:
-    name: Everlasting
+    name: 永恆
     type: HISTORICAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Having seen the rise and fall over empires
-      - this block is proven everlasting and resolute.
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
 
   Toil:
-    name: Toil
+    name: 辛勞
     type: HUMAN
     shards: [ 0,0,0,0,1,0,1,0,1 ]
     lore:
-      - Witness to the toil of people through the
-      - ages, aiding where possible; a fruitless task.
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
 
   Free Range:
-    name: Free Range
+    name: 自由放養
     type: ANIMAL
     shards: [ 0,0,0,0,0,1,1,0,1 ]
     lore:
-      - Only the free can run wild and nothing stirs
-      - the magics more than animals roaming free.
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
 
   Moonlit:
-    name: Moonlit
+    name: 月照之下
     type: CELESTIAL
     shards: [ 1,0,0,0,0,1,1,0,0 ]
     lore:
-      - A spirit that enjoys nothing more than to bathe in
-      - the light of a waning moon.
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
 
   Despair:
-    name: Despair
+    name: 絕望
     type: VOID
     shards: [ 0,0,0,0,1,0,0,1,1 ]
     lore:
-      - A longing for more that clutches to the deepest
-      - recesses of a mind causing depair and grief.
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
 
   Good Life:
-    name: Good Life
+    name: 美好生活
     type: PHILOSOPHICAL
     shards: [ 0,0,0,0,1,0,0,0,2 ]
     lore:
-      - Unknowing of the meaning of a good life, this
-      - block has questions in questions remaining unanswered.
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
 
 UNCOMMON:
   Quiet Days:
-    name: Quiet Days
+    name: 寧靜的一天
     type: ELEMENTAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Present during the beginning of the world.
-      - Everything was quiet and peaceful and serene.
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
 
   Grinding Gears:
-    name: Grinding Gears
+    name: 磨動的齒輪
     type: MECHANICAL
     shards: [ 0,1,0,0,1,0,0,0,0 ]
     lore:
-      - Constantly used without thanks or gratitude
-      - will wear down the spirit with ease.
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
 
   Lead into Gold:
-    name: Lead into Gold
+    name: 鉛成金
     type: ALCHEMICAL
     shards: [ 0,0,1,0,1,0,1,0,0 ]
     lore:
-      - An unconsious drive towards wealth that has
-      - driven many-a-person mad.
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
 
   Everlasting:
-    name: Everlasting
+    name: 永恆
     type: HISTORICAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Having seen the rise and fall over empires
-      - this block is proven everlasting and resolute.
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
 
   Toil:
-    name: Toil
+    name: 辛勞
     type: HUMAN
     shards: [ 0,0,0,0,1,0,1,0,1 ]
     lore:
-      - Witness to the toil of people through the
-      - ages, aiding where possible; a fruitless task.
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
 
   Free Range:
-    name: Free Range
+    name: 自由放養
     type: ANIMAL
     shards: [ 0,0,0,0,0,1,1,0,1 ]
     lore:
-      - Only the free can run wild and nothing stirs
-      - the magics more than animals roaming free.
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
 
   Moonlit:
-    name: Moonlit
+    name: 月照之下
     type: CELESTIAL
     shards: [ 1,0,0,0,0,1,1,0,0 ]
     lore:
-      - A spirit that enjoys nothing more than to bathe in
-      - the light of a waning moon.
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
 
   Despair:
-    name: Despair
+    name: 絕望
     type: VOID
     shards: [ 0,0,0,0,1,0,0,1,1 ]
     lore:
-      - A longing for more that clutches to the deepest
-      - recesses of a mind causing depair and grief.
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
 
   Good Life:
-    name: Good Life
+    name: 美好生活
     type: PHILOSOPHICAL
     shards: [ 0,0,0,0,1,0,0,0,2 ]
     lore:
-      - Unknowing of the meaning of a good life, this
-      - block has questions in questions remaining unanswered.
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
 
 RARE:
   Quiet Days:
-    name: Quiet Days
+    name: 寧靜的一天
     type: ELEMENTAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Present during the beginning of the world.
-      - Everything was quiet and peaceful and serene.
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
 
   Grinding Gears:
-    name: Grinding Gears
+    name: 磨動的齒輪
     type: MECHANICAL
     shards: [ 0,1,0,0,1,0,0,0,0 ]
     lore:
-      - Constantly used without thanks or gratitude
-      - will wear down the spirit with ease.
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
 
   Lead into Gold:
-    name: Lead into Gold
+    name: 鉛成金
     type: ALCHEMICAL
     shards: [ 0,0,1,0,1,0,1,0,0 ]
     lore:
-      - An unconsious drive towards wealth that has
-      - driven many-a-person mad.
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
 
   Everlasting:
-    name: Everlasting
+    name: 永恆
     type: HISTORICAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Having seen the rise and fall over empires
-      - this block is proven everlasting and resolute.
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
 
   Toil:
-    name: Toil
+    name: 辛勞
     type: HUMAN
     shards: [ 0,0,0,0,1,0,1,0,1 ]
     lore:
-      - Witness to the toil of people through the
-      - ages, aiding where possible; a fruitless task.
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
 
   Free Range:
-    name: Free Range
+    name: 自由放養
     type: ANIMAL
     shards: [ 0,0,0,0,0,1,1,0,1 ]
     lore:
-      - Only the free can run wild and nothing stirs
-      - the magics more than animals roaming free.
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
 
   Moonlit:
-    name: Moonlit
+    name: 月照之下
     type: CELESTIAL
     shards: [ 1,0,0,0,0,1,1,0,0 ]
     lore:
-      - A spirit that enjoys nothing more than to bathe in
-      - the light of a waning moon.
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
 
   Despair:
-    name: Despair
+    name: 絕望
     type: VOID
     shards: [ 0,0,0,0,1,0,0,1,1 ]
     lore:
-      - A longing for more that clutches to the deepest
-      - recesses of a mind causing depair and grief.
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
 
   Good Life:
-    name: Good Life
+    name: 美好生活
     type: PHILOSOPHICAL
     shards: [ 0,0,0,0,1,0,0,0,2 ]
     lore:
-      - Unknowing of the meaning of a good life, this
-      - block has questions in questions remaining unanswered.
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
 
 EPIC:
   Quiet Days:
-    name: Quiet Days
+    name: 寧靜的一天
     type: ELEMENTAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Present during the beginning of the world.
-      - Everything was quiet and peaceful and serene.
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
 
   Grinding Gears:
-    name: Grinding Gears
+    name: 磨動的齒輪
     type: MECHANICAL
     shards: [ 0,1,0,0,1,0,0,0,0 ]
     lore:
-      - Constantly used without thanks or gratitude
-      - will wear down the spirit with ease.
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
 
   Lead into Gold:
-    name: Lead into Gold
+    name: 鉛成金
     type: ALCHEMICAL
     shards: [ 0,0,1,0,1,0,1,0,0 ]
     lore:
-      - An unconsious drive towards wealth that has
-      - driven many-a-person mad.
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
 
   Everlasting:
-    name: Everlasting
+    name: 永恆
     type: HISTORICAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Having seen the rise and fall over empires
-      - this block is proven everlasting and resolute.
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
 
   Toil:
-    name: Toil
+    name: 辛勞
     type: HUMAN
     shards: [ 0,0,0,0,1,0,1,0,1 ]
     lore:
-      - Witness to the toil of people through the
-      - ages, aiding where possible; a fruitless task.
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
 
   Free Range:
-    name: Free Range
+    name: 自由放養
     type: ANIMAL
     shards: [ 0,0,0,0,0,1,1,0,1 ]
     lore:
-      - Only the free can run wild and nothing stirs
-      - the magics more than animals roaming free.
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
 
   Moonlit:
-    name: Moonlit
+    name: 月照之下
     type: CELESTIAL
     shards: [ 1,0,0,0,0,1,1,0,0 ]
     lore:
-      - A spirit that enjoys nothing more than to bathe in
-      - the light of a waning moon.
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
 
   Despair:
-    name: Despair
+    name: 絕望
     type: VOID
     shards: [ 0,0,0,0,1,0,0,1,1 ]
     lore:
-      - A longing for more that clutches to the deepest
-      - recesses of a mind causing depair and grief.
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
 
   Good Life:
-    name: Good Life
+    name: 美好生活
     type: PHILOSOPHICAL
     shards: [ 0,0,0,0,1,0,0,0,2 ]
     lore:
-      - Unknowing of the meaning of a good life, this
-      - block has questions in questions remaining unanswered.
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.
 
 MYTHICAL:
   Quiet Days:
-    name: Quiet Days
+    name: 寧靜的一天
     type: ELEMENTAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Present during the beginning of the world.
-      - Everything was quiet and peaceful and serene.
+      - 出現在世界之初.
+      - 一切都是 寂靜, 平靜, 安詳.
 
   Grinding Gears:
-    name: Grinding Gears
+    name: 磨動的齒輪
     type: MECHANICAL
     shards: [ 0,1,0,0,1,0,0,0,0 ]
     lore:
-      - Constantly used without thanks or gratitude
-      - will wear down the spirit with ease.
+      - 不斷的使用而不感謝感激,
+      - 會輕易地消磨精神.
 
   Lead into Gold:
-    name: Lead into Gold
+    name: 鉛成金
     type: ALCHEMICAL
     shards: [ 0,0,1,0,1,0,1,0,0 ]
     lore:
-      - An unconsious drive towards wealth that has
-      - driven many-a-person mad.
+      - 一種無意識的追求財富
+      - 衝動使許多人發瘋.
 
   Everlasting:
-    name: Everlasting
+    name: 永恆
     type: HISTORICAL
     shards: [ 1,0,1,1,0,0,0,0,0 ]
     lore:
-      - Having seen the rise and fall over empires
-      - this block is proven everlasting and resolute.
+      - 見證了帝國的興衰,
+      - 這個方塊被證明是永恆堅定的.
 
   Toil:
-    name: Toil
+    name: 辛勞
     type: HUMAN
     shards: [ 0,0,0,0,1,0,1,0,1 ]
     lore:
-      - Witness to the toil of people through the
-      - ages, aiding where possible; a fruitless task.
+      - 見證了歷代人的辛勞, 在可能的情況下
+      - 提供幫助, 這是一個沒有結果的任務
 
   Free Range:
-    name: Free Range
+    name: 自由放養
     type: ANIMAL
     shards: [ 0,0,0,0,0,1,1,0,1 ]
     lore:
-      - Only the free can run wild and nothing stirs
-      - the magics more than animals roaming free.
+      - 只有自由才能自由馳騁, 沒有甚麼比
+      - 動物的自由漫遊更能激發魔力.
 
   Moonlit:
-    name: Moonlit
+    name: 月照之下
     type: CELESTIAL
     shards: [ 1,0,0,0,0,1,1,0,0 ]
     lore:
-      - A spirit that enjoys nothing more than to bathe in
-      - the light of a waning moon.
+      - 一種心靈享受沐浴
+      - 在殘月光芒之下.
 
   Despair:
-    name: Despair
+    name: 絕望
     type: VOID
     shards: [ 0,0,0,0,1,0,0,1,1 ]
     lore:
-      - A longing for more that clutches to the deepest
-      - recesses of a mind causing depair and grief.
+      - 對渴望更多緊緊抓住心靈的最深處,
+      - 導致絕望與悲傷.
 
   Good Life:
-    name: Good Life
+    name: 美好生活
     type: PHILOSOPHICAL
     shards: [ 0,0,0,0,1,0,0,0,2 ]
     lore:
-      - Unknowing of the meaning of a good life, this
-      - block has questions in questions remaining unanswered.
+      - 由於不知道美好生活的定義,
+      - 這個方塊的問題仍未得到解答.

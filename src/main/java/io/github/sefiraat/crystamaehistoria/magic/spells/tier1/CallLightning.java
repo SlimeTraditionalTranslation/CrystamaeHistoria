@@ -70,7 +70,7 @@ public class CallLightning extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Calls a lightning bolt down where you are looking"
+            "在你所看的地方招喚閃電"
         };
     }
 
@@ -78,6 +78,12 @@ public class CallLightning extends Spell {
     @Override
     public String getId() {
         return "CALL_LIGHTNING";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "招喚閃電";
     }
 
     @Nonnull

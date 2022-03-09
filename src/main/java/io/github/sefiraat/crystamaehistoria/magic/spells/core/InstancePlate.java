@@ -36,14 +36,14 @@ public class InstancePlate {
 
     @ParametersAreNonnullByDefault
     public static void setPlateLore(ItemStack itemStack, @Nullable InstancePlate instancePlate) {
-        final String magic = instancePlate != null ? ThemeType.toTitleCase(instancePlate.storedSpell.getId()) : "None";
+        final String magic = instancePlate != null ? ThemeType.toTitleCase(instancePlate.storedSpell.getSpName()) : "None";
         final String crysta = instancePlate != null ? String.valueOf(instancePlate.crysta) : "0";
         final String[] lore = new String[]{
-            "A magically charged plate storing magic",
-            "potential.",
+            "充能的法術板儲存著",
+            "魔法潛能.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Magic Framework : " + ThemeType.NOTICE.getColor() + magic,
-            ThemeType.CLICK_INFO.getColor() + "Stored Crysta : " + ThemeType.NOTICE.getColor() + crysta
+            ThemeType.CLICK_INFO.getColor() + "魔法框架 : " + ThemeType.NOTICE.getColor() + magic,
+            ThemeType.CLICK_INFO.getColor() + "儲存水晶能量 : " + ThemeType.NOTICE.getColor() + crysta
         };
         final ChatColor passiveColor = ThemeType.PASSIVE.getColor();
         final List<String> finalLore = new ArrayList<>();

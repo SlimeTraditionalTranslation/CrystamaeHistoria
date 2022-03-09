@@ -53,11 +53,11 @@ public abstract class Spell {
             finalLore.add(passiveColor + s);
         }
         finalLore.add("");
-        finalLore.add(ThemeType.applyThemeToString(ThemeType.CLICK_INFO, "Spell"));
+        finalLore.add(ThemeType.applyThemeToString(ThemeType.CLICK_INFO, "法術"));
         SlimefunItemStack stack = new SlimefunItemStack(
             getId(),
             getMaterial(),
-            ThemeType.applyThemeToString(ThemeType.SPELL, ThemeType.toTitleCase(getId())),
+            ThemeType.applyThemeToString(ThemeType.SPELL, ThemeType.toTitleCase(getSpName())),
             finalLore.toArray(new String[finalLore.size() - 1])
         );
         ItemMeta itemMeta = stack.getItemMeta();
@@ -75,6 +75,9 @@ public abstract class Spell {
 
     @Nonnull
     public abstract Material getMaterial();
+
+    @Nonnull
+    public abstract String getSpName();
 
     @ParametersAreNonnullByDefault
     public void castSpell(CastInformation castInformation) {

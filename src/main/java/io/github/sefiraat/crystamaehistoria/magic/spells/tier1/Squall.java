@@ -49,8 +49,8 @@ public class Squall extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Causes the heavens to open up and pour",
-            "down."
+            "使天堂打開,",
+            "並傾瀉而下."
         };
     }
 
@@ -58,6 +58,12 @@ public class Squall extends Spell {
     @Override
     public String getId() {
         return "SQUALL";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "狂風";
     }
 
     @Nonnull

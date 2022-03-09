@@ -125,9 +125,9 @@ public class Tools {
                 "CRY_SPELL_PLATE_1",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Basic Spell Plate",
-                "A blank plate that has the potential to",
-                "store magical energy"
+                "基礎法術板",
+                "儲存著魔法潛能的",
+                "空白板."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             inertPlateRecipe.getDisplayRecipe(),
@@ -142,9 +142,9 @@ public class Tools {
                 "CRY_CHARGED_PLATE_1",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Charged Basic Spell Plate",
-                "A magically charged plate storing magic",
-                "potential."
+                "充能的基礎法術板",
+                "儲存著魔法潛能的",
+                "充能魔法板."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             new ItemStack[]{null, null, null, null, new ItemStack(Material.AMETHYST_CLUSTER), null, null, null, null},
@@ -158,9 +158,9 @@ public class Tools {
                 "CRY_STAVE_1",
                 new ItemStack(Material.STICK),
                 ThemeType.STAVE,
-                "Basic Stave",
-                "A stave with the ability to hold",
-                "magically charged plates."
+                "基礎法杖",
+                "一根具有能力容納",
+                "魔法充能板的法杖."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -178,9 +178,9 @@ public class Tools {
                 "CRY_STAVE_2",
                 new ItemStack(Material.STICK),
                 ThemeType.STAVE,
-                "Advanced Stave",
-                "A stave with the ability to hold",
-                "magically charged plates."
+                "進階法杖",
+                "一根具有能力容納",
+                "魔法充能板的法杖."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -198,17 +198,17 @@ public class Tools {
                 "CRY_REFRACTING_LENS",
                 new ItemStack(Material.SPYGLASS),
                 ThemeType.TOOL,
-                "Refracting Lens",
-                "This magical lens has glass that can",
-                "split the light of Crysta into its",
-                "individual elements.",
+                "折射鏡片",
+                "這個魔法鏡片的特殊玻璃,",
+                "可以將水晶的光線分別出",
+                "各自的元素.",
                 "",
-                "Right click on a Crystamae Block for",
-                "details if available.",
+                "右鍵在可運作的水晶方塊上",
+                "來獲取詳細資訊.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Works with:",
-                ChatColor.DARK_BLUE + "Liquefaction Basin",
-                ChatColor.DARK_BLUE + "Exp Collector"
+                ThemeType.CLICK_INFO.getColor() + "運作於:",
+                ChatColor.DARK_BLUE + "液化池",
+                ChatColor.DARK_BLUE + "經驗收集器"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -225,13 +225,13 @@ public class Tools {
                 "CRY_THAUMATURGIC_SALT",
                 new ItemStack(Material.REDSTONE),
                 ThemeType.TOOL,
-                "Thaumaturgic Salts",
-                "A special formulation of salts",
-                "that can absorb unwanted crysta",
-                "from a Liquefaction Basin.",
+                "奇術鹽",
+                "一種特殊調合的鹽配方,",
+                "可以從液化池中吸收掉",
+                "不想要的水晶液體.",
                 "",
-                "Right click on a Liquefaction Basin",
-                "to empty it."
+                "右鍵點擊液化池",
+                "來將其清空."
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -248,12 +248,12 @@ public class Tools {
                 "CRY_RECALL_LATTICE",
                 new ItemStack(Material.NETHER_STAR),
                 ThemeType.TOOL,
-                "Crystamae Recall Lattice",
-                "Right click to recall to a linked",
-                "Waystone.",
+                "水晶回傳晶體",
+                "右鍵點擊來回傳到綁定的",
+                "岔出的路石.",
                 "",
-                "Shift Right Click on a Waystone",
-                "to link"
+                "蹲下右鍵在岔出的路石",
+                "來綁定"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -276,10 +276,10 @@ public class Tools {
                 "CRY_EPHEMERAL_CRAFT_TABLE",
                 new ItemStack(Material.CRAFTING_TABLE),
                 ThemeType.TOOL,
-                "Ephemeral Crafting Table",
-                "Right click to be able to craft",
-                "from anywhere.",
-                "Vanilla Only"
+                "臨時工作台",
+                "右鍵點擊可以",
+                "在任何地方製作.",
+                "僅限原版"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             ephemeralCraftingTableRecipe.getDisplayRecipe()
@@ -298,10 +298,10 @@ public class Tools {
                 "CRY_EPHEMERAL_WORKBENCH",
                 new ItemStack(Material.CRAFTING_TABLE),
                 ThemeType.TOOL,
-                "Ephemeral Work Bench",
-                "Right click to be able to craft",
-                "from anywhere.",
-                "Vanilla + Enhanced Crafting Table."
+                "臨時製作台",
+                "右鍵點擊可以",
+                "在任何地方製作.",
+                "原版 + 進階合成台."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             ephemeralWorkBenchRecipe.getDisplayRecipe()
@@ -320,12 +320,12 @@ public class Tools {
                 "CRY_LUMINESCENCE_SCOOP",
                 new ItemStack(Material.LANTERN),
                 ThemeType.TOOL,
-                "Luminescence Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "冷光勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "25 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 25次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             luminescenceScoopRecipe.getDisplayRecipe(),
@@ -345,12 +345,12 @@ public class Tools {
                 "CRY_BRILLIANCE_SCOOP",
                 new ItemStack(Material.LANTERN),
                 ThemeType.TOOL,
-                "Brilliance Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "光輝勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "75 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 75次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             brillianceScoopRecipe.getDisplayRecipe(),
@@ -370,12 +370,12 @@ public class Tools {
                 "CRY_LUSTRE_SCOOP",
                 new ItemStack(Material.SOUL_LANTERN),
                 ThemeType.TOOL,
-                "Lustre Scoop",
-                "Right click to place a magical",
-                "light source.",
-                "Shift Right click to scoop back.",
+                "光彩勺",
+                "右鍵點擊放置",
+                "魔法光源.",
+                "Shift右鍵點擊來舀回.",
                 "",
-                ChatColor.YELLOW + "250 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 250次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             lustreScoopRecipe.getDisplayRecipe(),
@@ -395,13 +395,13 @@ public class Tools {
                 "CRY_CONNECTING_COMPASS",
                 new ItemStack(Material.COMPASS),
                 ThemeType.TOOL,
-                "Connecting Compass",
-                "Allows you to save a location",
-                "to find your way back to it at",
-                "a later time.",
+                "空間指向指南針",
+                "允許你保存一個位置,",
+                "以便在以後也可以找到",
+                "該儲存位置.",
                 "",
-                MessageFormat.format("{0}Right Click: {1}Display Stored Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift Right Click: {1}Store Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+                MessageFormat.format("{0}右鍵點擊: {1}顯示儲存的位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+                MessageFormat.format("{0}Shift + 右鍵點擊: {1}儲存位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             connectingCompassRecipe.getDisplayRecipe()
@@ -420,15 +420,15 @@ public class Tools {
                 "CRY_SPIRITUAL_SILKEN",
                 new ItemStack(Material.BONE),
                 ThemeType.TOOL,
-                "Spiritual Silken",
-                "This pick has been imbued with",
-                "spiritual energies that allow it",
-                "to keep certain items whole.",
-                ChatColor.RED + "Only works on blocks that do",
-                ChatColor.RED + "not normally drop themselves",
-                ChatColor.RED + "both with and without silk.",
+                "精神絲綢",
+                "這個鎬充滿著精神能量,",
+                "使它能夠保持某些",
+                "物品的完整性.",
+                ChatColor.RED + "只對通常不會掉落",
+                ChatColor.RED + "自己的方塊起作用,",
+                ChatColor.RED + "無論是否需要絲綢.",
                 "",
-                ChatColor.YELLOW + "50 Uses " + ChatColor.GRAY + "left"
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             spiritualSilkenRecipe.getDisplayRecipe(),
@@ -448,12 +448,12 @@ public class Tools {
                 "CRY_SIMPLE_DISPLACER",
                 new ItemStack(Material.TORCH),
                 ThemeType.TOOL,
-                "Simple Displacer",
-                "The displacer can shift some",
-                "things out of this world and",
-                "replace it with something from",
-                "another dimension.",
-                ChatColor.YELLOW + "50 Uses " + ChatColor.GRAY + "left"
+                "簡單置換器",
+                "置換者可以將一些東西",
+                "從這個世界移出, 並用來自",
+                "另一個維度的",
+                "東西取代它.",
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             simpleDisplacerRecipe.getDisplayRecipe(),
@@ -473,12 +473,12 @@ public class Tools {
                 "CRY_ARCANE_DISPLACER",
                 new ItemStack(Material.REDSTONE_TORCH),
                 ThemeType.TOOL,
-                "Arcane Displacer",
-                "The displacer can shift some",
-                "things out of this world and",
-                "replace it with something from",
-                "another dimension.",
-                ChatColor.YELLOW + "500 Uses " + ChatColor.GRAY + "left"
+                "奧術置換者",
+                "置換者可以將一些東西",
+                "從這個世界移出, 並用來自",
+                "另一個維度的",
+                "東西取代它.",
+                ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 500次"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             arcaneDisplacerRecipe.getDisplayRecipe(),
@@ -498,12 +498,12 @@ public class Tools {
                 "CRY_SPONGE_BALMY",
                 new ItemStack(Material.DEAD_FIRE_CORAL_BLOCK),
                 ThemeType.TOOL,
-                "Balmy Sponge",
-                "This imbued sponge is capable",
-                "of absorbing lava instead of water.",
-                "Place near water to clean after use.",
+                "溫和的海綿",
+                "這種被灌注的海綿能",
+                "夠吸取岩漿而不是水.",
+                "使用後在水邊清洗.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "4 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             balmySpongeRecipe.getDisplayRecipe(),
@@ -523,12 +523,12 @@ public class Tools {
                 "CRY_SPONGE_SEARING",
                 GeneralUtils.getPreEnchantedItemStack(Material.DEAD_FIRE_CORAL_BLOCK, true, new Pair<>(Enchantment.LURE, 1)),
                 ThemeType.TOOL,
-                "Searing Sponge",
-                "This imbued sponge is capable",
-                "of absorbing lava instead of water.",
-                "Place near water to clean after use.",
+                "灼熱的海綿",
+                "這種被灌注的海綿能",
+                "夠吸取岩漿而不是水.",
+                "使用後在水邊清洗.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "7 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             searingSpongeRecipe.getDisplayRecipe(),
@@ -548,11 +548,11 @@ public class Tools {
                 "CRY_SLEEPING_BAG",
                 new ItemStack(Material.LIGHT_BLUE_BANNER),
                 ThemeType.TOOL,
-                "Rune-marked Sleeping Bag",
-                "This sleeping bag emits a weak",
-                "protection magic that will defend",
-                "you in the wilds.",
-                "Does not set your respawn point."
+                "符文睡袋",
+                "這個睡袋散發出微弱的",
+                "保護魔法, 可以在野外",
+                "中保護你.",
+                "不要用於設定你的重生點."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             sleepingBagRecipe.getDisplayRecipe()
@@ -571,11 +571,11 @@ public class Tools {
                 "CRY_SATCHEL_1",
                 new ItemStack(Material.WHITE_CONCRETE),
                 ThemeType.TOOL,
-                "Apprentice's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "學徒背包",
+                "這個簡易背包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique only"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "僅限獨特"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             apprenticesSatchelRecipe.getDisplayRecipe(),
@@ -595,11 +595,11 @@ public class Tools {
                 "CRY_SATCHEL_2",
                 new ItemStack(Material.GRAY_CONCRETE),
                 ThemeType.TOOL,
-                "Crystamage's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "水晶魔法師的挎包",
+                "這個簡易的挎包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Common"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 常見"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             crystamagesSatchelRecipe.getDisplayRecipe(),
@@ -619,11 +619,11 @@ public class Tools {
                 "CRY_SATCHEL_3",
                 new ItemStack(Material.LIME_CONCRETE),
                 ThemeType.TOOL,
-                "Wizard's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "巫師的挎包",
+                "這個簡易的挎包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Uncommon"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 不常見"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             wizardsSatchelRecipe.getDisplayRecipe(),
@@ -643,11 +643,11 @@ public class Tools {
                 "CRY_SATCHEL_4",
                 new ItemStack(Material.YELLOW_CONCRETE),
                 ThemeType.TOOL,
-                "Conjurer's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "咒術士的挎包",
+                "這個簡易的挎包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Rare"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 稀有"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             conjurersSatchelRecipe.getDisplayRecipe(),
@@ -667,11 +667,11 @@ public class Tools {
                 "CRY_SATCHEL_5",
                 new ItemStack(Material.PURPLE_CONCRETE),
                 ThemeType.TOOL,
-                "Sorcerer's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "術士的挎包",
+                "這個簡易的挎包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Epic"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 史詩"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             sorcerersSatchelRecipe.getDisplayRecipe(),
@@ -691,11 +691,11 @@ public class Tools {
                 "CRY_SATCHEL_6",
                 new ItemStack(Material.RED_CONCRETE),
                 ThemeType.TOOL,
-                "Grandmaster's Satchel",
-                "This simple satchel will pick up",
-                "and hold crystals for you.",
+                "宗師級奇術師的挎包",
+                "這個簡易的挎包可以",
+                "為你撿取與儲存水晶.",
                 "",
-                ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Mythical"
+                ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 神話"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             grandmastersSatchelRecipe.getDisplayRecipe(),
@@ -769,12 +769,12 @@ public class Tools {
                 "CRY_CARGO_COVER",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Block Veil - Cargo",
-                "Right click to place a magical",
-                "block veil over a cargo node.",
-                "The cover will mimic the block",
-                "in your offhand.",
-                "One time use per item."
+                "方塊面紗 - 物流",
+                "右鍵點擊在物流節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
             );
             RecipeItem cargoCoverRecipe = new RecipeItem(
                 SlimefunItems.CARGO_INPUT_NODE,
@@ -796,12 +796,12 @@ public class Tools {
                 "CRY_ENERGY_NET_COVER",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Block Veil - Energy Net",
-                "Right click to place a magical",
-                "block veil over a cargo node.",
-                "The cover will mimic the block",
-                "in your offhand.",
-                "One time use per item."
+                "方塊面紗 - 能源網路",
+                "右鍵點擊在能源節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
             );
             RecipeItem energyNetCoverRecipe = new RecipeItem(
                 SlimefunItems.ENERGY_CONNECTOR,
@@ -833,12 +833,12 @@ public class Tools {
                 "CRY_NETWORK_COVER",
                 new ItemStack(Material.PAPER),
                 ThemeType.TOOL,
-                "Block Veil - Networks",
-                "Right click to place a magical",
-                "block veil over a Networks node.",
-                "The cover will mimic the block",
-                "in your offhand.",
-                "One time use per item."
+                "方塊面紗 - 網路",
+                "右鍵點擊在網路節點上",
+                "放置一個魔法面紗.",
+                "面紗將會模仿你",
+                "副手所放的方塊.",
+                "一次性使用."
             );
             RecipeItem networksCoverRecipe = new RecipeItem(
                 NetworksSlimefunItemStacks.NETWORK_BRIDGE,

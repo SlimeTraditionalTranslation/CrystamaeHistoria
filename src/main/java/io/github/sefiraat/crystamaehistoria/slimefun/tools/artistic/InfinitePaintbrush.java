@@ -45,7 +45,7 @@ public class InfinitePaintbrush extends SlimefunItem implements MagicPaintbrush 
                     PersistentDataAPI.setInt(potionMeta, Keys.PDC_PAINT_TYPE, currentSelection);
                     PaintProfile profile = PaintProfile.getCachedValues()[currentSelection];
                     e.getPlayer().sendActionBar(
-                        Component.text("Now painting in " + ThemeType.toTitleCase(profile.name()))
+                        Component.text("現在正在畫 " + ThemeType.toTitleCase(profile.name()))
                             .color(profile.getTextColor())
                     );
                     potionMeta.setColor(profile.getDyeColor().getColor());

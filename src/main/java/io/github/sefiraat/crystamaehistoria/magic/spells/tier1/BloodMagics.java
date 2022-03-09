@@ -75,8 +75,8 @@ public class BloodMagics extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Damages nearby entities. Dying entities will",
-            "cause further damage."
+            "傷害附近的實體. 瀕臨死亡的實體",
+            "將會受到更多傷害."
         };
     }
 
@@ -84,6 +84,12 @@ public class BloodMagics extends Spell {
     @Override
     public String getId() {
         return "BLOOD_MAGICS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "血魔法";
     }
 
     @Nonnull

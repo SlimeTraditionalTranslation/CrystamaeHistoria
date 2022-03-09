@@ -71,9 +71,9 @@ public class PhantomsFlight extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a dragon to ride.",
-            "Getting off the dragon will make",
-            "it fly away."
+            "招喚龍來騎乘.",
+            "離開龍會",
+            "讓它飛走."
         };
     }
 
@@ -81,6 +81,12 @@ public class PhantomsFlight extends Spell {
     @Override
     public String getId() {
         return "PHANTOMS_FLIGHT";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "夜魅飛行";
     }
 
     @Nonnull

@@ -141,12 +141,12 @@ public class Gadgets {
                 "CRY_MOB_LAMP_1",
                 new ItemStack(Material.LANTERN),
                 ThemeType.GADGET,
-                "Abstraction Lamp",
-                "The abstraction lamp will push all",
-                "nearby mobs away from it.",
+                "抽象之燈",
+                "抽象之燈會將附近",
+                "所有怪物推走.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "5 Blocks",
-                ThemeType.CLICK_INFO.getColor() + "Force: " + ThemeType.PASSIVE.getColor() + "3 CrystaPow™"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "5 格方塊",
+                ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "3 水晶之力™"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             abstractionLampRecipe.getDisplayRecipe(),
@@ -167,12 +167,12 @@ public class Gadgets {
                 "CRY_MOB_LAMP_2",
                 new ItemStack(Material.SOUL_LANTERN),
                 ThemeType.GADGET,
-                "Dispersion Lamp",
-                "The dispersion lamp will push all",
-                "nearby mobs away from it.",
+                "色散之燈",
+                "色散之燈會將附近",
+                "所有怪物推走.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7 Blocks",
-                ThemeType.CLICK_INFO.getColor() + "Force: " + ThemeType.PASSIVE.getColor() + "5 CrystaPow™"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "7 格方塊",
+                ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "5 水晶之力™"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             dispersionLampRecipe.getDisplayRecipe(),
@@ -193,12 +193,12 @@ public class Gadgets {
                 "CRY_MOB_FAN_1",
                 new ItemStack(Material.REDSTONE_LAMP),
                 ThemeType.GADGET,
-                "Inversion Vacuum",
-                "Creates a magically induced vacuum",
-                "that pulls entities away from the",
-                "mechanism.",
+                "倒轉空間",
+                "創造一個魔法感應空間,",
+                "並將實體從該機制中",
+                "推開.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Push Distance: " + ThemeType.PASSIVE.getColor() + "5 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "5 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             inversionVacuumRecipe.getDisplayRecipe(),
@@ -218,12 +218,12 @@ public class Gadgets {
                 "CRY_MOB_FAN_2",
                 new ItemStack(Material.NOTE_BLOCK),
                 ThemeType.GADGET,
-                "Antipodal Vacuum",
-                "Creates a magically induced vacuum",
-                "that pulls entities away from the",
-                "mechanism.",
+                "相對空間",
+                "創造一個魔法感應空間,",
+                "並將實體從該機制中",
+                "推開.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Push Distance: " + ThemeType.PASSIVE.getColor() + "10 Blocks"
+                ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "10 格方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             antipodalVacuumRecipe.getDisplayRecipe(),
@@ -246,13 +246,13 @@ public class Gadgets {
                 "CRY_MOB_DIRT_1",
                 new ItemStack(Material.BROWN_WOOL),
                 ThemeType.GADGET,
-                "Cursed Earth",
-                "Dark magics seep from this dirt giving",
-                "a very ominous vibe!",
+                "詛咒之土",
+                "黑暗魔法從這塊泥土中滲出,",
+                "給人一種非常不祥的感覺!",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Tick Rate: " + ThemeType.PASSIVE.getColor() + "20",
-                ThemeType.CLICK_INFO.getColor() + "Light Level: " + ThemeType.PASSIVE.getColor() + "7",
-                ThemeType.CLICK_INFO.getColor() + "Spawns: " + ThemeType.PASSIVE.getColor() + "Basic"
+                ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "20",
+                ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "7",
+                ThemeType.CLICK_INFO.getColor() + "生成等級: " + ThemeType.PASSIVE.getColor() + "基礎"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -287,13 +287,13 @@ public class Gadgets {
                 "CRY_MOB_DIRT_2",
                 new ItemStack(Material.BLACK_WOOL),
                 ThemeType.GADGET,
-                "Dreadful Dirt",
-                "Dark magics seep from this dirt giving",
-                "a very ominous vibe!",
+                "恐懼之土",
+                "黑暗魔法從這塊泥土中滲出,",
+                "給人一種非常不祥的感覺!",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Tick Rate: " + ThemeType.PASSIVE.getColor() + "10",
-                ThemeType.CLICK_INFO.getColor() + "Light Level: " + ThemeType.PASSIVE.getColor() + "15",
-                ThemeType.CLICK_INFO.getColor() + "Spawns: " + ThemeType.PASSIVE.getColor() + "Advanced"
+                ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "10",
+                ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "15",
+                ThemeType.CLICK_INFO.getColor() + "生成等級: " + ThemeType.PASSIVE.getColor() + "進階"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             dreadfulDirtRecipe.getDisplayRecipe(),
@@ -316,13 +316,13 @@ public class Gadgets {
                 "CRY_MOB_PLATE_1",
                 new ItemStack(Material.CRIMSON_PRESSURE_PLATE),
                 ThemeType.GADGET,
-                "Searing Plate",
-                "A plate that is magically super-heated.",
-                "Anything standing on this plate gets",
-                "damaged.",
+                "灼熱之板",
+                "一塊異常灼熱的魔法板.",
+                "任何站在這個板子上的生物將會被",
+                "灼傷.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
+                ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "1",
+                ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "否"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             searingPlateRecipe.getDisplayRecipe(),
@@ -343,13 +343,13 @@ public class Gadgets {
                 "CRY_MOB_PLATE_2",
                 new ItemStack(Material.WARPED_PRESSURE_PLATE),
                 ThemeType.GADGET,
-                "Doomed Plate",
-                "A plate that is magically super-heated.",
-                "Anything standing on this plate gets",
-                "damaged.",
+                "毀滅之板",
+                "一塊異常灼熱的魔法板.",
+                "任何站在這個板子上的生物將會被",
+                "灼傷.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+                ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "1",
+                ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             doomedPlateRecipe.getDisplayRecipe(),
@@ -370,13 +370,13 @@ public class Gadgets {
                 "CRY_MOB_PLATE_3",
                 new ItemStack(Material.POLISHED_BLACKSTONE_PRESSURE_PLATE),
                 ThemeType.GADGET,
-                "Eviscerating Plate",
-                "A plate that is magically super-heated.",
-                "Anything standing on this plate gets",
-                "damaged.",
+                "殘虐之板",
+                "一塊異常灼熱的魔法板.",
+                "任何站在這個板子上的生物將會被",
+                "灼傷.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "2",
-                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+                ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "2",
+                ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             evisceratingPlateRecipe.getDisplayRecipe(),
@@ -397,11 +397,11 @@ public class Gadgets {
                 "CRY_MOB_PLATE_TRAP",
                 new ItemStack(Material.DARK_OAK_PRESSURE_PLATE),
                 ThemeType.GADGET,
-                "Trap Plate",
-                "This plate no longer deals",
-                "damage but now applies potion",
-                "effects. Right click with",
-                "a potion to assign."
+                "陷阱壓力板",
+                "這個壓力板不在",
+                "造成傷害,但現在會",
+                "添加藥水效果. 手持藥水",
+                "右鍵點擊來指定."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             trapPlateRecipe.getDisplayRecipe()
@@ -420,13 +420,13 @@ public class Gadgets {
                 "CRY_EXP_COLLECTOR_1",
                 new ItemStack(Material.LIGHTNING_ROD),
                 ThemeType.GADGET,
-                "Basic Exp Collector",
-                "Infusing the Exp Collector with",
-                "magic now allows it to work",
-                "without electricity and flasks.",
+                "基礎經驗收集器",
+                "注入魔法的經驗收集器,",
+                "現在可以在沒有沒有學識之瓶",
+                "與電力提供下運作.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4",
-                ThemeType.CLICK_INFO.getColor() + "Capacity: " + ThemeType.PASSIVE.getColor() + "2500"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "4",
+                ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "2500"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             basicExpCollectorRecipe.getDisplayRecipe(),
@@ -447,12 +447,12 @@ public class Gadgets {
                 "CRY_EXP_COLLECTOR_2",
                 new ItemStack(Material.LIGHTNING_ROD),
                 ThemeType.GADGET,
-                "Infused Exp Collector",
-                "Further infusion has made the",
-                "collector even more powerful.",
+                "注入經驗收集器",
+                "進一步注入使",
+                "收集器更加強大.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "8",
-                ThemeType.CLICK_INFO.getColor() + "Capacity: " + ThemeType.PASSIVE.getColor() + "10000"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
+                ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "10000"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             infusedExpCollectorRecipe.getDisplayRecipe(),
@@ -467,14 +467,14 @@ public class Gadgets {
                 "CRY_ENDER_INHIBITOR_1",
                 new ItemStack(Material.REDSTONE_TORCH),
                 ThemeType.GADGET,
-                "Basic Ender Inhibitor",
-                "By using an Enderman's own resonance",
-                "against it, we can stop theme teleporting",
-                "for a brief time.",
-                "Duration is extended if still in range.",
+                "基礎終界抑制器",
+                "通過使用終界使者的諧振",
+                "來對抗它, 我們可以在短時間的",
+                "旋律中阻止它的傳送.",
+                "如果仍在範圍內, 將會延長持續時間.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4",
-                ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 seconds"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "4",
+                ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 秒"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -492,14 +492,14 @@ public class Gadgets {
                 "CRY_ENDER_INHIBITOR_2",
                 new ItemStack(Material.SOUL_TORCH),
                 ThemeType.GADGET,
-                "Advanced Ender Inhibitor",
-                "By using an Enderman's own resonance",
-                "against it, we can stop theme teleporting",
-                "for a brief time.",
-                "Duration is extended if still in range.",
+                "進階終界抑制器",
+                "通過使用終界使者的諧振",
+                "來對抗它, 我們可以在短時間的",
+                "旋律中阻止它的傳送.",
+                "如果仍在範圍內, 將會延長持續時間.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "8",
-                ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 seconds"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
+                ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 秒"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -523,13 +523,13 @@ public class Gadgets {
                 "CRY_MOB_CANDLE_1",
                 new ItemStack(Material.BLACK_CANDLE),
                 ThemeType.GADGET,
-                "Dim Verache Candle",
-                "This candle stops mobs spawning",
-                "in a radius around it.",
-                "Doesn't last forever.",
+                "黯淡的菲拉什蠟燭",
+                "這根蠟燭會阻止怪物",
+                "在它周圍半徑生成怪物.",
+                "不會永遠的持續下去.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "16",
-                ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 hour (real time)"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "16",
+                ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 小時 (現實時間)"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             dimMobCandleRecipe.getDisplayRecipe(),
@@ -550,13 +550,13 @@ public class Gadgets {
                 "CRY_MOB_CANDLE_2",
                 new ItemStack(Material.BROWN_CANDLE),
                 ThemeType.GADGET,
-                "Bright Verache Candle",
-                "This candle stops mobs spawning",
-                "in a radius around it.",
-                "Doesn't last forever.",
+                "明亮的菲拉什蠟燭",
+                "這根蠟燭會阻止怪物",
+                "在它周圍半徑生成怪物.",
+                "不會永遠的持續下去.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "32",
-                ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "24 hours (real time)"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "32",
+                ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "24 小時 (現實時間)"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             brightMobCandleRecipe.getDisplayRecipe(),
@@ -577,13 +577,13 @@ public class Gadgets {
                 "CRY_MOB_CANDLE_3",
                 new ItemStack(Material.WHITE_CANDLE),
                 ThemeType.GADGET,
-                "Scintillating Verache Candle",
-                "This candle stops mobs spawning",
-                "in a radius around it.",
-                "Doesn't last forever.",
+                "閃爍的菲拉什蠟燭",
+                "這根蠟燭會阻止怪物",
+                "在它周圍半徑生成怪物.",
+                "不會永遠的持續下去.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "64",
-                ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "48 Hours (real time)"
+                ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "64",
+                ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "48 小時 (現實時間)"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             scintillatingMobCandleRecipe.getDisplayRecipe(),
@@ -598,9 +598,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_POTTED_PLANT",
                 new ItemStack(Material.FLOWER_POT),
                 ThemeType.GADGET,
-                "Mysterious Potted Plant",
-                "Just a pinch of magic can make",
-                "wonderful things happen..."
+                "神秘盆栽",
+                "只需要一點點魔法",
+                "就能讓美妙的事情發生..."
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
@@ -631,8 +631,8 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_PLANT",
                 new ItemStack(Material.OXEYE_DAISY),
                 ThemeType.GADGET,
-                "Mysterious Plant",
-                "Removing it from that pot took work."
+                "神秘植物",
+                "把它從那個盆栽內移除來工作."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousPlantRecipe.getDisplayRecipe(),
@@ -659,9 +659,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_GLASS",
                 new ItemStack(Material.ORANGE_STAINED_GLASS),
                 ThemeType.GADGET,
-                "Mysterious Glass",
-                "Like rainbow glass but far",
-                "more random."
+                "神秘玻璃",
+                "就像是彩虹玻璃,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousGlassRecipe.getDisplayRecipe(),
@@ -682,9 +682,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_WOOL",
                 new ItemStack(Material.ORANGE_WOOL),
                 ThemeType.GADGET,
-                "Mysterious Wool",
-                "Like rainbow wool but far",
-                "more random."
+                "神秘羊毛",
+                "就像是彩虹羊毛,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousWoolRecipe.getDisplayRecipe(),
@@ -705,9 +705,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_TERRACOTTA",
                 new ItemStack(Material.ORANGE_TERRACOTTA),
                 ThemeType.GADGET,
-                "Mysterious Terracotta",
-                "Like rainbow terracotta but far",
-                "more random."
+                "神秘陶土",
+                "就像是彩虹陶土,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousTerracottaRecipe.getDisplayRecipe(),
@@ -728,9 +728,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_GLAZED_TERRACOTTA",
                 new ItemStack(Material.ORANGE_GLAZED_TERRACOTTA),
                 ThemeType.GADGET,
-                "Mysterious Glazed Terracotta",
-                "Like rainbow terracotta but far",
-                "more random."
+                "神秘釉陶",
+                "就像是彩虹釉陶,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousGlazedTerracottaRecipe.getDisplayRecipe(),
@@ -751,9 +751,9 @@ public class Gadgets {
                 "CRY_MYSTERIOUS_CONCRETE",
                 new ItemStack(Material.ORANGE_CONCRETE),
                 ThemeType.GADGET,
-                "Mysterious Concrete",
-                "Like rainbow concrete but far",
-                "more random."
+                "神秘混凝土",
+                "就像是彩虹混凝土,",
+                "但更加隨機."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             mysteriousConcreteRecipe.getDisplayRecipe(),
@@ -768,11 +768,11 @@ public class Gadgets {
                 "CRY_CROP_GLASS_1",
                 new ItemStack(Material.GLASS),
                 ThemeType.GADGET,
-                "Greenhouse Glass",
-                "Crops under this glass will grow faster.",
-                "Works during the day in light worlds only.",
+                "溫室玻璃",
+                "在這種玻璃下的農作物會生長得更快.",
+                "僅在白天與有光的世界運作.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Rate: " + ThemeType.PASSIVE.getColor() + "5"
+                ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "5"
             ),
             RecipeType.MAGIC_WORKBENCH,
             new ItemStack[]{
@@ -796,11 +796,11 @@ public class Gadgets {
                 "CRY_CROP_GLASS_2",
                 new ItemStack(Material.YELLOW_STAINED_GLASS),
                 ThemeType.GADGET,
-                "Focused Greenhouse Glass",
-                "Crops under this glass will grow faster.",
-                "Works during the day in light worlds only.",
+                "聚焦的溫室玻璃",
+                "在這種玻璃下的農作物會生長得更快.",
+                "僅在白天與有光的世界運作.",
                 "",
-                ThemeType.CLICK_INFO.getColor() + "Rate: " + ThemeType.PASSIVE.getColor() + "10"
+                ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "10"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             focusedGreenHouseGlassRecipe.getDisplayRecipe(),
@@ -820,12 +820,12 @@ public class Gadgets {
                 "CRY_TROPHY_DISPLAY_1",
                 new ItemStack(Material.POLISHED_BLACKSTONE_BRICK_WALL),
                 ThemeType.GADGET,
-                "Trophy Display",
-                "Used to place your trophies on to show",
-                "off to the world.",
+                "獎盃展示",
+                "用來放置你的獎盃",
+                "以向世界炫耀.",
                 "",
-                "Currently allowable trophies include:",
-                ThemeType.CLICK_INFO.getColor() + "A block in which you have a S.M.E. rank"
+                "目前允許的獎盃包括:",
+                ThemeType.CLICK_INFO.getColor() + "一個你有 歷史見證者 頭銜的方塊"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             trophyDisplayRecipe.getDisplayRecipe()
@@ -844,10 +844,10 @@ public class Gadgets {
                 "CRY_EXALTATION_STAND",
                 new ItemStack(Material.PRISMARINE_WALL),
                 ThemeType.GADGET,
-                "Exaltation Stand",
-                "Used to place 'Exalted' items on.",
-                "These items require special conditions",
-                "and impart powerful effects while nearby."
+                "昇華之台",
+                "用於放置 '尊貴' 物品.",
+                "這些物品需要特殊條件",
+                "並在附近賦予強大的效果."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             exaltationStandRecipe.getDisplayRecipe()
@@ -873,9 +873,9 @@ public class Gadgets {
                 "CRY_WAYSTONE",
                 new ItemStack(Material.END_STONE_BRICK_WALL),
                 ThemeType.GADGET,
-                "Diverging Waystone",
-                "Can be used as a marker to recall",
-                "back to."
+                "岔出的路石",
+                "可以做為標記",
+                "來回傳."
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             waystoneRecipe.getDisplayRecipe(),
@@ -894,9 +894,9 @@ public class Gadgets {
             "CRY_ANGEL_BLOCK",
             new ItemStack(Material.GLASS),
             ThemeType.GADGET,
-            "Angel Block",
-            "Can be placed anywhere, even in",
-            "the air."
+            "天使方塊",
+            "可以放置在任何地方, 甚至",
+            "在空氣中."
         );
         angelBlock = new AngelBlock(
             ItemGroups.GADGETS,
@@ -915,9 +915,9 @@ public class Gadgets {
             "CRY_PHILOSOPHERS_SPRAY",
             new ItemStack(Material.DISPENSER),
             ThemeType.GADGET,
-            "Philosophers Spray",
-            "Will 'displace' the block above",
-            "this one when triggered with Redstone."
+            "賢者的噴霧",
+            "當紅石觸發時,",
+            "將會 '替換' 這個方塊上方的方塊."
         );
         philosophersSpray = new PhilosophersSpray(
             ItemGroups.GADGETS,
@@ -935,11 +935,11 @@ public class Gadgets {
             "CRY_GLASS_OF_MILK",
             Skulls.ITEM_MILK.getPlayerHead(),
             ThemeType.GADGET,
-            "Glass of Milk",
-            "Right click, when placed, to remove",
-            "all active effects.",
+            "一杯牛奶",
+            "當放置時, 右鍵點擊",
+            "以移除所有身上效果.",
             "",
-            ThemeType.WARNING.getColor() + "Can't be recovered when broken."
+            ThemeType.WARNING.getColor() + "損壞時無法被修復"
         );
         glassOfMilk = new GlassOfMilk(
             ItemGroups.GADGETS,
@@ -965,11 +965,11 @@ public class Gadgets {
                 "CRY_FRAGMENTED_VOID",
                 new ItemStack(Material.BLACK_CONCRETE),
                 ThemeType.GADGET,
-                "Fragmented Void",
-                "A portable hole in the universe.",
-                "Will pull any nearby items into it.",
+                "碎片的虛空",
+                "宇宙中的一個可攜帶的洞.",
+                "會將附近的任何物品拉入其中.",
                 "",
-                ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "5"
+                ThemeType.WARNING.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "5"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             fragmentedVoidRecipe.getDisplayRecipe(),
@@ -989,11 +989,11 @@ public class Gadgets {
                 "CRY_SHATTERED_VOID",
                 new ItemStack(Material.BLACK_CONCRETE),
                 ThemeType.GADGET,
-                "Shattered Void",
-                "A portable hole in the universe.",
-                "Will pull any nearby items into it.",
+                "殘缺的虛空",
+                "宇宙中的一個可攜帶的洞.",
+                "會將附近的任何物品拉入其中.",
                 "",
-                ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7"
+                ThemeType.WARNING.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "7"
             ),
             RecipeType.ENHANCED_CRAFTING_TABLE,
             shatteredVoidRecipe.getDisplayRecipe(),

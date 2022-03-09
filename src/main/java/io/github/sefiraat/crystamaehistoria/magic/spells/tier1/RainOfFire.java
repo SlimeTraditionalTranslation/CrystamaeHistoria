@@ -88,8 +88,8 @@ public class RainOfFire extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons an epic hellscape of raining",
-            "fire."
+            "招喚一個史詩級的",
+            "地獄景觀火焰雨."
         };
     }
 
@@ -97,6 +97,12 @@ public class RainOfFire extends Spell {
     @Override
     public String getId() {
         return "RAIN_OF_FIRE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "火之雨";
     }
 
     @Nonnull

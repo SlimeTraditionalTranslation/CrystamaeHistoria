@@ -67,9 +67,9 @@ public class TunnelBore extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Uses powerful magics to bore a tunnel",
-            "in the direction you're facing.",
-            "Does not drop items."
+            "使用強大的魔法在你面對的",
+            "方向鑽出一條隧道.",
+            "不會掉落物品."
         };
     }
 
@@ -77,6 +77,12 @@ public class TunnelBore extends Spell {
     @Override
     public String getId() {
         return "TUNNEL_BORE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "隧道鑽孔";
     }
 
     @Nonnull

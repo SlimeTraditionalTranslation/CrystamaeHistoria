@@ -76,8 +76,8 @@ public class AirNova extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a massive nova of air",
-            "around you to knockback foes."
+            "在你周圍招喚一個巨大",
+            "的空氣新星來擊退敵人."
         };
     }
 
@@ -85,6 +85,12 @@ public class AirNova extends Spell {
     @Override
     public String getId() {
         return "AIR_NOVA";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "空氣新星";
     }
 
     @Nonnull

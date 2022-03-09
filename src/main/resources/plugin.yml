@@ -1,6 +1,6 @@
 name: CrystamaeHistoria
 author: Sefiraat
-description: A magical addon with a semi-technical slimefun feel allowing for the production of spells, gadgets and more.
+description: 黏液科技附加 水晶編年史 繁體翻譯版.
 main: io.github.sefiraat.crystamaehistoria.CrystamaeHistoria
 website: https://github.com/Sefiraat/CrystamaeHistoria
 version: ${project.version}

@@ -80,6 +80,12 @@ public class EasterEgg extends Spell {
 
     @Nonnull
     @Override
+    public String getSpName() {
+        return "彩蛋";
+    }
+
+    @Nonnull
+    @Override
     public Material getMaterial() {
         return Material.ZOGLIN_SPAWN_EGG;
     }

@@ -105,7 +105,7 @@ public class TrophyDisplay extends Stand {
                 final String materialName = TextUtils.toTitleCase(material.toString());
 
                 itemStack.setAmount(itemStack.getAmount() - 1);
-                itemMeta.setDisplayName(ThemeType.RANK_BLOCK_SME.getColor() + materialName + " Trophy");
+                itemMeta.setDisplayName(ThemeType.RANK_BLOCK_SME.getColor() + materialName + " 獎盃");
                 clone.setItemMeta(itemMeta);
                 addItem(blockClicked, clone, ThemeType.RANK_BLOCK_SME.getColor() + materialName);
                 this.locationConsumer = this::defaultConsumer;

@@ -77,7 +77,7 @@ public class Oviparous extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Give me dem eggs!"
+            "給我那雞蛋!"
         };
     }
 
@@ -85,6 +85,12 @@ public class Oviparous extends Spell {
     @Override
     public String getId() {
         return "OVIPAROUS";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "卵生的";
     }
 
     @Nonnull

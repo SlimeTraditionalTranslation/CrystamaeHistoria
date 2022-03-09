@@ -14,7 +14,7 @@ import java.util.List;
 public class TestSpell extends SubCommand {
 
     public TestSpell() {
-        super("test-spell", "Casts the selected spell", true);
+        super("test-spell", "施展選定法術", true);
     }
 
     @Override
@@ -31,7 +31,7 @@ public class TestSpell extends SubCommand {
                 if (spell != null) {
                     spell.castSpell(new CastInformation((Player) sender, power));
                 } else {
-                    player.sendMessage(ThemeType.ERROR.getColor() + "Spell does not exist or is very broken!");
+                    player.sendMessage(ThemeType.ERROR.getColor() + "法術並不存在或非常損壞!");
                 }
             }
         }

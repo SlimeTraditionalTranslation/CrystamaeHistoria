@@ -93,7 +93,7 @@ public class ConfigManager {
     }
 
     public void saveAll() {
-        CrystamaeHistoria.getInstance().getLogger().info("Crystamae saving data.");
+        CrystamaeHistoria.getInstance().getLogger().info("儲存水晶歷史資料.");
         CrystamaeHistoria.getInstance().getConfig().save();
         saveResearches();
     }

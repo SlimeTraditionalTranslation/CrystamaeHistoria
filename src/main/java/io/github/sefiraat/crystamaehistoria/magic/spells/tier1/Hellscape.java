@@ -87,7 +87,7 @@ public class Hellscape extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a fiery spiral to ravage foes."
+            "召喚一個熾熱的螺旋來蹂躪敵人."
         };
     }
 
@@ -95,6 +95,12 @@ public class Hellscape extends Spell {
     @Override
     public String getId() {
         return "HELLSCAPE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "地獄風景";
     }
 
     @Nonnull

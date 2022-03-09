@@ -86,7 +86,7 @@ public class HarmonysSonata extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Allows a rich garden to grow at your feet."
+            "讓富饒的花園在你腳下生長."
         };
     }
 
@@ -94,6 +94,12 @@ public class HarmonysSonata extends Spell {
     @Override
     public String getId() {
         return "HARMONYS_SONATA";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "和聲奏鳴曲";
     }
 
     @Nonnull

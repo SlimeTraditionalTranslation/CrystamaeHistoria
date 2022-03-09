@@ -66,9 +66,9 @@ public class Hearthstone extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Sends you back to your last bed if",
-            "possible. Takes time to cast, movement",
-            "stops the cast."
+            "在可能的情況下讓你回到最後一張",
+            "你躺過的床. 施法需要時間,",
+            "移動將會停止施法."
         };
     }
 
@@ -76,6 +76,12 @@ public class Hearthstone extends Spell {
     @Override
     public String getId() {
         return "HEARTHSTONE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "爐石";
     }
 
     @Nonnull

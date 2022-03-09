@@ -72,8 +72,8 @@ public class FrostNova extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a massive nova of snowballs",
-            "around you to freeze foes."
+            "在你周圍招喚巨型雪球新星",
+            "來凍結敵人."
         };
     }
 
@@ -81,6 +81,12 @@ public class FrostNova extends Spell {
     @Override
     public String getId() {
         return "FROST_NOVA";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "冰霜新星";
     }
 
     @Nonnull

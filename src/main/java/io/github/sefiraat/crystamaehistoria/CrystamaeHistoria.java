@@ -29,8 +29,8 @@ import io.github.sefiraat.crystamaehistoria.stories.BlockDefinition;
 import io.github.sefiraat.crystamaehistoria.stories.StoriesManager;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
 import org.apache.commons.lang.Validate;
-import org.bstats.bukkit.Metrics;
-import org.bstats.charts.AdvancedPie;
+//import org.bstats.bukkit.Metrics;
+//import org.bstats.charts.AdvancedPie;
 import org.bukkit.plugin.PluginManager;
 
 import javax.annotation.Nonnull;
@@ -157,7 +157,7 @@ public class CrystamaeHistoria extends AbstractAddon {
 
         setupSlimefun();
 
-        setupBstats();
+        //setupBstats();
 
         getAddonCommand().addSub(new TestSpell());
         getAddonCommand().addSub(new TestWand());
@@ -166,7 +166,7 @@ public class CrystamaeHistoria extends AbstractAddon {
         getAddonCommand().addSub(new GetRanks());
     }
 
-    private void setupBstats() {
+   /* private void setupBstats() {
         Metrics metrics = new Metrics(this, 12065);
 
         AdvancedPie disabledSpellsChart = new AdvancedPie("disabled_spells", () -> {
@@ -208,7 +208,7 @@ public class CrystamaeHistoria extends AbstractAddon {
         metrics.addCustomChart(disabledSpellsChart);
         metrics.addCustomChart(spellsCastChart);
         metrics.addCustomChart(storiesChronicled);
-    }
+    }*/
 
     @Override
     protected void disable() {

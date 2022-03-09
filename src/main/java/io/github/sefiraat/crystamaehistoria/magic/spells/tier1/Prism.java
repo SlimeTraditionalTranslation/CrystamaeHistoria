@@ -67,8 +67,8 @@ public class Prism extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Applies a myriad of positive effects to",
-            "the caster."
+            "給施法者帶來無數",
+            "正面效果."
         };
     }
 
@@ -76,6 +76,12 @@ public class Prism extends Spell {
     @Override
     public String getId() {
         return "PRISM";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "棱鏡";
     }
 
     @Nonnull

@@ -73,9 +73,9 @@ public class ChillWind extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Calls a chill wind around the caster that",
-            "will slowly chill and eventually freeze",
-            "nearby creatures."
+            "在施法者周圍招喚一股寒風,",
+            "緩慢冰凍並在最終",
+            "凍結附近生物."
         };
     }
 
@@ -83,6 +83,12 @@ public class ChillWind extends Spell {
     @Override
     public String getId() {
         return "CHILL_WIND";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "寒風";
     }
 
     @Nonnull

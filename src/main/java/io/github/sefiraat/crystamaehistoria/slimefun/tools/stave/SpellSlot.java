@@ -6,6 +6,7 @@ import org.bukkit.event.block.Action;
 
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.Objects;
 
 public enum SpellSlot {
     LEFT_CLICK(1),
@@ -44,4 +45,16 @@ public enum SpellSlot {
         return null;
     }
 
+    public static String getByActionName(String name) {
+        if (Objects.equals(name, "LEFT_CLICK")) {
+            return "左鍵點擊";
+        } else if (Objects.equals(name, "SHIFT_LEFT_CLICK")) {
+            return "蹲下左鍵點擊";
+        } else if (Objects.equals(name, "RIGHT_CLICK")) {
+            return "右鍵點擊";
+        } else if (Objects.equals(name, "SHIFT_RIGHT_CLICK")) {
+            return "蹲下右鍵點擊";
+        }
+        return name;
+    }
 }

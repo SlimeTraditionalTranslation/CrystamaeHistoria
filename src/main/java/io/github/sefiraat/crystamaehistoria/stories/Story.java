@@ -95,7 +95,7 @@ public class Story {
     }
 
     public String getDisplayRarity() {
-        return "[" + rarity + "] ";
+        return "[" + ThemeType.getByRarity(rarity).getLoreLine() + "] ";
     }
 
     public List<String> getStoryLore() {
@@ -111,11 +111,11 @@ public class Story {
         }
         if (author != null) {
             l.add("");
-            l.add(ThemeType.PASSIVE.getColor() + "Author: " + author);
+            l.add(ThemeType.PASSIVE.getColor() + "作者: " + author);
         }
         if (sponsor != null) {
             l.add("");
-            l.add(ThemeType.PASSIVE.getColor() + "Sponsor: " + sponsor);
+            l.add(ThemeType.PASSIVE.getColor() + "贊助者: " + sponsor);
         }
         return l;
     }

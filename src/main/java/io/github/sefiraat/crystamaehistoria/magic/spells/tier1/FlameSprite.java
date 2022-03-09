@@ -68,8 +68,8 @@ public class FlameSprite extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons 1-5 flame sprites to attack",
-            "your enemies."
+            "招喚 1-5 個火焰精靈",
+            "來攻擊你的地人."
         };
     }
 
@@ -77,6 +77,12 @@ public class FlameSprite extends Spell {
     @Override
     public String getId() {
         return "FLAME_SPRITE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "火焰精靈";
     }
 
     @Nonnull

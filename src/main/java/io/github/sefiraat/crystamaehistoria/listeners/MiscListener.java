@@ -52,7 +52,7 @@ public class MiscListener implements Listener {
                 if (StoryUtils.isStoried(item)) {
                     e.setCancelled(true);
                     for (HumanEntity viewer : e.getInventory().getViewers()) {
-                        viewer.sendMessage(ThemeType.WARNING.getColor() + "You cannot craft using this!");
+                        viewer.sendMessage(ThemeType.WARNING.getColor() + "你不能用這個製作!");
                     }
                     return;
                 }

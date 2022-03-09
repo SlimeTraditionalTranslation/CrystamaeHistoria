@@ -125,7 +125,7 @@ public class PlutosDecent extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons a meteor to strike down your foes."
+            "招喚隕石來擊倒你的敵人."
         };
     }
 
@@ -133,6 +133,12 @@ public class PlutosDecent extends Spell {
     @Override
     public String getId() {
         return "PLUTOS_DESCENT";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "普魯托斯血統";
     }
 
     @Nonnull

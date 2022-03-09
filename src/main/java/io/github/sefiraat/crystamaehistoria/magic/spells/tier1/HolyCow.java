@@ -68,8 +68,8 @@ public class HolyCow extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Summons 1-5 cows to who will protect you",
-            "with their lives."
+            "招喚 1-5 頭牛來,",
+            "它們會用生命保護你."
         };
     }
 
@@ -77,6 +77,12 @@ public class HolyCow extends Spell {
     @Override
     public String getId() {
         return "HOLY_COW";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "神聖之牛";
     }
 
     @Nonnull

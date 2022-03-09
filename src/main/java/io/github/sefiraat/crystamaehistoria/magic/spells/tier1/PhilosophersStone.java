@@ -95,8 +95,8 @@ public class PhilosophersStone extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Converts the targets block into...",
-            "something else..."
+            "將目標方塊轉換為...",
+            "其它東西..."
         };
     }
 
@@ -104,6 +104,12 @@ public class PhilosophersStone extends Spell {
     @Override
     public String getId() {
         return "PHILOSOPHERS_STONE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "賢者之石";
     }
 
     @Nonnull

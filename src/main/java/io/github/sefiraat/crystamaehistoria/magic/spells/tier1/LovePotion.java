@@ -52,7 +52,7 @@ public class LovePotion extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "All nearby breedable entities get... friendly"
+            "讓附近所有可繁殖的實體都變得... 友好"
         };
     }
 
@@ -60,6 +60,12 @@ public class LovePotion extends Spell {
     @Override
     public String getId() {
         return "LOVE_POTION";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "愛情藥水";
     }
 
     @Nonnull

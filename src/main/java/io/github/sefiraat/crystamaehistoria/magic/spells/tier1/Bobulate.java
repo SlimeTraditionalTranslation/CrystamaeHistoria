@@ -130,8 +130,8 @@ public class Bobulate extends Spell {
     @Override
     public String[] getLore() {
         return new String[]{
-            "Turns colorful things into other colorful",
-            "things."
+            "把色彩豐富的東西變",
+            "成另一種色彩豐富的東西."
         };
     }
 
@@ -139,6 +139,12 @@ public class Bobulate extends Spell {
     @Override
     public String getId() {
         return "BOBULATE";
+    }
+
+    @Nonnull
+    @Override
+    public String getSpName() {
+        return "有序的";
     }
 
     @Nonnull

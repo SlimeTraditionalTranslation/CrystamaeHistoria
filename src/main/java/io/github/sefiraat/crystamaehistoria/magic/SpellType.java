@@ -178,6 +178,11 @@ public enum SpellType {
         return spell.getId();
     }
 
+    @Nonnull
+    public String getSpName() {
+        return spell.getSpName();
+    }
+
     public static void setupEnabledSpells() {
         enabledSpells = Arrays.stream(values())
             .filter(spellType -> spellType.getSpell().isEnabled())

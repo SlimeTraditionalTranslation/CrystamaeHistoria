@@ -46,11 +46,11 @@ public class SpellCastListener implements Listener {
                 stack.setItemMeta(itemMeta);
                 staveInstance.buildLore();
                 player.sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(
-                    ThemeType.SUCCESS.getColor() + "Casting spell: " + castInformation.getSpellType().getId()
+                    ThemeType.SUCCESS.getColor() + "施展法術: " + castInformation.getSpellType().getSpName()
                 ));
             } else {
                 player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(
-                    ThemeType.WARNING.getColor() + "Cast failed: " + castResult.getMessage())
+                    ThemeType.WARNING.getColor() + "施展失敗: " + castResult.getMessage())
                 );
             }
         }

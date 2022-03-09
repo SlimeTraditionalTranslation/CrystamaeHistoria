@@ -58,7 +58,7 @@ public class CrystamageSatchel extends UnplaceableBlock {
             if (satchelInstance == null) {
                 event.getPlayer().sendMessage(
                     MessageFormat.format(
-                        "{0}Satchel is new, setting up",
+                        "{0}是新的挎包, 設定",
                         ThemeType.WARNING.getColor()
                     )
                 );
@@ -152,7 +152,7 @@ public class CrystamageSatchel extends UnplaceableBlock {
         private final CrystamageSatchel satchel;
 
         private SatchelGui(@Nonnull SatchelInstance instance, @Nonnull ItemStack itemStack) {
-            super("Crystamage Satchel - Tier " + instance.getTier());
+            super("水晶魔法師的挎包 - 等級 " + instance.getTier());
             this.instance = instance;
             this.itemStack = itemStack;
             this.satchel = (CrystamageSatchel) Objects.requireNonNull(SlimefunItem.getByItem(itemStack));
@@ -258,7 +258,7 @@ public class CrystamageSatchel extends UnplaceableBlock {
         private static ItemStack getStackWithAmount(@Nonnull ItemStack itemstack, int amount) {
             final List<String> lore = new ArrayList<>();
             lore.add("");
-            lore.add(ThemeType.CLICK_INFO.getColor() + "Amount: " + ThemeType.PASSIVE.getColor() + amount);
+            lore.add(ThemeType.CLICK_INFO.getColor() + "數量: " + ThemeType.PASSIVE.getColor() + amount);
             itemstack.setLore(lore);
             return itemstack;
         }

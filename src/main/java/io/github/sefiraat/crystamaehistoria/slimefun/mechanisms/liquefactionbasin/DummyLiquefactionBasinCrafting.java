@@ -15,10 +15,10 @@ public class DummyLiquefactionBasinCrafting {
         "CRY_LIQUEFACTION_BASIN_DUMMY_CRAFTING",
         new ItemStack(Material.CAULDRON),
         ThemeType.MECHANISM,
-        "Liquefaction Basin",
-        "Formed by dropping the relevant item",
-        "into a filled Liquefaction Basin containing",
-        "the correct Crystamae."
+        "液化池",
+        "通過將相應物品丟入",
+        "在液化池中填充來",
+        "形成正確的水晶."
     );
     public static final RecipeType TYPE = new RecipeType(Keys.LIQUEFACTION_DUMMY_CRAFTING, STACK);
 }
