@@ -1,29 +1,22 @@
 package io.github.sefiraat.crystamaehistoria.slimefun;
 
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.DummyLiquefactionBasinCrafting;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.LiquefactionBasinCache;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.RecipeItem;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.BasicPaintbrush;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.ImbuedStand;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.InfinitePaintbrush;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.MagicPaintbrush;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PaintProfile;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseChanger;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.PoseCloner;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.BasicPaintbrush;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.ImbuedStand;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.InfinitePaintbrush;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.PaintProfile;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.PoseChanger;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.PoseCloner;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.mechanisms.liquefactionbasin.LiquefactionBasinCache;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.mechanisms.liquefactionbasin.RecipeItem;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
-import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import lombok.Getter;
 import lombok.experimental.UtilityClass;
-import org.bukkit.ChatColor;
-import org.bukkit.DyeColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
-
-import java.text.MessageFormat;
 
 @UtilityClass
 public class ArtisticItems {
@@ -117,7 +110,7 @@ public class ArtisticItems {
 
         CrystamaeHistoria plugin = CrystamaeHistoria.getInstance();
 
-        final ItemStack brushCore = Materials.getBasicFibres().getItem();
+        final ItemStack brushCore = CrystaStacks.BASIC_FIBRES;
         final ItemStack dyeBlack = new ItemStack(Material.BLACK_DYE);
         final ItemStack dyeBlue = new ItemStack(Material.BLUE_DYE);
         final ItemStack dyeBrown = new ItemStack(Material.BROWN_DYE);
@@ -138,15 +131,7 @@ public class ArtisticItems {
         // Black Paintbrush 100
         blackPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BLACK_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.BLACK),
-                ThemeType.TOOL,
-                "魔法畫筆 (黑)",
-                "將可染色方塊塗成黑色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BLACK_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeBlack, dyeBlack, dyeBlack,
@@ -160,15 +145,7 @@ public class ArtisticItems {
         // Blue Paintbrush 100
         bluePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BLUE_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.BLUE),
-                ThemeType.TOOL,
-                "魔法畫筆 (藍)",
-                "將可染色方塊塗成藍色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BLUE_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeBlue, dyeBlue, dyeBlue,
@@ -182,15 +159,7 @@ public class ArtisticItems {
         // Brown Paintbrush 100
         brownPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BROWN_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.BROWN),
-                ThemeType.TOOL,
-                "魔法畫筆 (棕色)",
-                "將可染色方塊塗成棕色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BROWN_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeBrown, dyeBrown, dyeBrown,
@@ -204,15 +173,7 @@ public class ArtisticItems {
         // Cyan Paintbrush 100
         cyanPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_CYAN_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.CYAN),
-                ThemeType.TOOL,
-                "魔法畫筆 (青)",
-                "將可染色方塊塗成青色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_CYAN_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeCyan, dyeCyan, dyeCyan,
@@ -226,15 +187,7 @@ public class ArtisticItems {
         // Gray Paintbrush 100
         grayPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_GRAY_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.GRAY),
-                ThemeType.TOOL,
-                "魔法畫筆 (灰)",
-                "將可染色方塊塗成灰色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_GRAY_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeGray, dyeGray, dyeGray,
@@ -248,15 +201,7 @@ public class ArtisticItems {
         // Green Paintbrush 100
         greenPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_GREEN_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.GREEN),
-                ThemeType.TOOL,
-                "魔法畫筆 (綠)",
-                "將可染色方塊塗成綠色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_GREEN_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeGreen, dyeGreen, dyeGreen,
@@ -270,15 +215,7 @@ public class ArtisticItems {
         // Light Blue Paintbrush 100
         lightBluePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIGHT_BLUE_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_BLUE),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺藍)",
-                "將可染色方塊塗成淺藍色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIGHT_BLUE_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeLightBlue, dyeLightBlue, dyeLightBlue,
@@ -292,15 +229,7 @@ public class ArtisticItems {
         // Light Gray Paintbrush 100
         lightGrayPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIGHT_GRAY_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_GRAY),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺灰)",
-                "將可染色方塊塗成淺灰色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIGHT_GRAY_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeLightGray, dyeLightGray, dyeLightGray,
@@ -314,15 +243,7 @@ public class ArtisticItems {
         // Lime Paintbrush 100
         limePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIME_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIME),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺綠)",
-                "將可染色方塊塗成淺綠色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIME_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeLime, dyeLime, dyeLime,
@@ -336,15 +257,7 @@ public class ArtisticItems {
         // Magenta Paintbrush 100
         magentaPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_MAGENTA_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.MAGENTA),
-                ThemeType.TOOL,
-                "魔法畫筆 (洋紅)",
-                "將可染色方塊塗成洋紅色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_MAGENTA_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeMagenta, dyeMagenta, dyeMagenta,
@@ -358,15 +271,7 @@ public class ArtisticItems {
         // Orange Paintbrush 100
         orangePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_ORANGE_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.ORANGE),
-                ThemeType.TOOL,
-                "魔法畫筆 (橙)",
-                "將可染色方塊塗成橙色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_ORANGE_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeOrange, dyeOrange, dyeOrange,
@@ -380,15 +285,7 @@ public class ArtisticItems {
         // Pink Paintbrush 100
         pinkPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_PINK_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.PINK),
-                ThemeType.TOOL,
-                "魔法畫筆 (粉)",
-                "將可染色方塊塗成粉色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_PINK_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyePink, dyePink, dyePink,
@@ -402,15 +299,7 @@ public class ArtisticItems {
         // Purple Paintbrush 100
         purplePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_PURPLE_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.PURPLE),
-                ThemeType.TOOL,
-                "魔法畫筆 (紫)",
-                "將可染色方塊塗成紫色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_PURPLE_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyePurple, dyePurple, dyePurple,
@@ -424,15 +313,7 @@ public class ArtisticItems {
         // Red Paintbrush 100
         redPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_RED_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.RED),
-                ThemeType.TOOL,
-                "魔法畫筆 (紅)",
-                "將可染色方塊塗成紅色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_RED_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeRed, dyeRed, dyeRed,
@@ -446,15 +327,7 @@ public class ArtisticItems {
         // White Paintbrush 100
         whitePaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_WHITE_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.WHITE),
-                ThemeType.TOOL,
-                "魔法畫筆 (白)",
-                "將可染色方塊塗成白色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_WHITE_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeWhite, dyeWhite, dyeWhite,
@@ -468,15 +341,7 @@ public class ArtisticItems {
         // Yellow Paintbrush 100
         yellowPaintBrush100 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_YELLOW_100",
-                MagicPaintbrush.getTippedBrush(DyeColor.YELLOW),
-                ThemeType.TOOL,
-                "魔法畫筆 (黃)",
-                "將可染色方塊塗成黃色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "100" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_YELLOW_100,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 dyeYellow, dyeYellow, dyeYellow,
@@ -489,22 +354,14 @@ public class ArtisticItems {
 
         // Black Paintbrush 1000
         RecipeItem blackPaintbrush1000Recipe = new RecipeItem(
-            blackPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_BLACK_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         blackPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BLACK_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.BLACK),
-                ThemeType.TOOL,
-                "魔法畫筆 (黑)",
-                "將可染色方塊塗成黑色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BLACK_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             blackPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.BLACK,
@@ -513,22 +370,14 @@ public class ArtisticItems {
 
         // Blue Paintbrush 1000
         RecipeItem bluePaintbrush1000Recipe = new RecipeItem(
-            bluePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_BLUE_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         bluePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BLUE_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.BLUE),
-                ThemeType.TOOL,
-                "魔法畫筆 (藍)",
-                "將可染色方塊塗成藍色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BLUE_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             bluePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.BLUE,
@@ -537,22 +386,14 @@ public class ArtisticItems {
 
         // Brown Paintbrush 1000
         RecipeItem brownPaintbrush1000Recipe = new RecipeItem(
-            brownPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_BROWN_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         brownPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_BROWN_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.BROWN),
-                ThemeType.TOOL,
-                "魔法畫筆 (棕色)",
-                "將可染色方塊塗成棕色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_BROWN_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             brownPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.BROWN,
@@ -561,22 +402,14 @@ public class ArtisticItems {
 
         // Cyan Paintbrush 1000
         RecipeItem cyanPaintbrush1000Recipe = new RecipeItem(
-            cyanPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_CYAN_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         cyanPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_CYAN_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.CYAN),
-                ThemeType.TOOL,
-                "魔法畫筆 (青)",
-                "將可染色方塊塗成青色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_CYAN_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             cyanPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.CYAN,
@@ -585,22 +418,14 @@ public class ArtisticItems {
 
         // Gray Paintbrush 1000
         RecipeItem grayPaintbrush1000Recipe = new RecipeItem(
-            grayPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_GRAY_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         grayPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_GRAY_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.GRAY),
-                ThemeType.TOOL,
-                "魔法畫筆 (灰)",
-                "將可染色方塊塗成灰色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_GRAY_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             grayPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.GRAY,
@@ -609,22 +434,14 @@ public class ArtisticItems {
 
         // Green Paintbrush 1000
         RecipeItem greenPaintbrush1000Recipe = new RecipeItem(
-            greenPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_GREEN_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         greenPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_GREEN_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.GREEN),
-                ThemeType.TOOL,
-                "魔法畫筆 (綠)",
-                "將可染色方塊塗成綠色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_GREEN_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             greenPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.GREEN,
@@ -633,22 +450,14 @@ public class ArtisticItems {
 
         // Light Blue Paintbrush 1000
         RecipeItem lightBluePaintbrush1000Recipe = new RecipeItem(
-            lightBluePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_LIGHT_BLUE_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         lightBluePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIGHT_BLUE_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_BLUE),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺藍)",
-                "將可染色方塊塗成淺藍色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIGHT_BLUE_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             lightBluePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.LIGHT_BLUE,
@@ -657,22 +466,14 @@ public class ArtisticItems {
 
         // Light Gray Paintbrush 1000
         RecipeItem lightGrayPaintbrush1000Recipe = new RecipeItem(
-            lightGrayPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_LIGHT_GRAY_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         lightGrayPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIGHT_GRAY_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_GRAY),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺灰)",
-                "將可染色方塊塗成淺灰色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIGHT_GRAY_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             lightGrayPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.LIGHT_GRAY,
@@ -681,22 +482,14 @@ public class ArtisticItems {
 
         // Lime Paintbrush 1000
         RecipeItem limePaintbrush1000Recipe = new RecipeItem(
-            limePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_LIME_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         limePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_LIME_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.LIME),
-                ThemeType.TOOL,
-                "魔法畫筆 (淺綠)",
-                "將可染色方塊塗成淺綠色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_LIME_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             limePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.LIME,
@@ -705,22 +498,14 @@ public class ArtisticItems {
 
         // Magenta Paintbrush 1000
         RecipeItem magentaPaintbrush1000Recipe = new RecipeItem(
-            magentaPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_MAGENTA_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         magentaPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_MAGENTA_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.MAGENTA),
-                ThemeType.TOOL,
-                "魔法畫筆 (洋紅)",
-                "將可染色方塊塗成洋紅色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_MAGENTA_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             magentaPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.MAGENTA,
@@ -729,22 +514,14 @@ public class ArtisticItems {
 
         // Orange Paintbrush 1000
         RecipeItem orangePaintbrush1000Recipe = new RecipeItem(
-            orangePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_ORANGE_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         orangePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_ORANGE_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.ORANGE),
-                ThemeType.TOOL,
-                "魔法畫筆 (橙)",
-                "將可染色方塊塗成橙色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_ORANGE_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             orangePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.ORANGE,
@@ -753,22 +530,14 @@ public class ArtisticItems {
 
         // Pink Paintbrush 1000
         RecipeItem pinkPaintbrush1000Recipe = new RecipeItem(
-            pinkPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_PINK_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         pinkPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_PINK_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.PINK),
-                ThemeType.TOOL,
-                "魔法畫筆 (粉)",
-                "將可染色方塊塗成粉色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_PINK_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             pinkPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.PINK,
@@ -777,22 +546,14 @@ public class ArtisticItems {
 
         // Purple Paintbrush 1000
         RecipeItem purplePaintbrush1000Recipe = new RecipeItem(
-            purplePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_PURPLE_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         purplePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_PURPLE_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.PURPLE),
-                ThemeType.TOOL,
-                "魔法畫筆 (紫)",
-                "將可染色方塊塗成紫色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_PURPLE_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             purplePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.PURPLE,
@@ -801,22 +562,14 @@ public class ArtisticItems {
 
         // Red Paintbrush 1000
         RecipeItem redPaintbrush1000Recipe = new RecipeItem(
-            redPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_RED_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         redPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_RED_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.RED),
-                ThemeType.TOOL,
-                "魔法畫筆 (紅)",
-                "將可染色方塊塗成紅色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_RED_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             redPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.RED,
@@ -825,22 +578,14 @@ public class ArtisticItems {
 
         // White Paintbrush 1000
         RecipeItem whitePaintbrush1000Recipe = new RecipeItem(
-            whitePaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_WHITE_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         whitePaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_WHITE_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.WHITE),
-                ThemeType.TOOL,
-                "魔法畫筆 (白)",
-                "將可染色方塊塗成白色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_WHITE_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             whitePaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.WHITE,
@@ -849,22 +594,14 @@ public class ArtisticItems {
 
         // Yellow Paintbrush 1000
         RecipeItem yellowPaintbrush1000Recipe = new RecipeItem(
-            yellowPaintBrush100.getItem(),
+            CrystaStacks.PAINT_BRUSH_YELLOW_100,
             StoryType.HISTORICAL, 25,
             StoryType.HUMAN, 25,
             StoryType.PHILOSOPHICAL, 25
         );
         yellowPaintBrush1000 = new BasicPaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_YELLOW_1000",
-                MagicPaintbrush.getTippedBrush(DyeColor.YELLOW),
-                ThemeType.TOOL,
-                "魔法畫筆 (黃)",
-                "將可染色方塊塗成黃色.",
-                "",
-                ChatColor.GRAY + "剩餘 " + ChatColor.YELLOW + "1000" + ChatColor.GRAY + " 使用次數"
-            ),
+            CrystaStacks.PAINT_BRUSH_YELLOW_1000,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             yellowPaintbrush1000Recipe.getDisplayRecipe(),
             PaintProfile.YELLOW,
@@ -874,56 +611,35 @@ public class ArtisticItems {
         // Mystical Pigmentato
         mysticalPigmentato = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_MYSTICAL_PIGMENTATO",
-                new ItemStack(Material.PRISMARINE),
-                ThemeType.CRAFTING,
-                "神秘色素",
-                "濃縮的色彩精華"
-            ),
+            CrystaStacks.MYSTICAL_PIGMENTATO,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                getBlackPaintBrush1000().getItem(), getBluePaintBrush1000().getItem(), getBrownPaintBrush1000().getItem(),
-                getCyanPaintBrush1000().getItem(), Materials.getAmalgamateDustEpic().getItem(), getGrayPaintBrush1000().getItem(),
-                getGreenPaintBrush1000().getItem(), getLightBluePaintBrush1000().getItem(), getLightGrayPaintBrush1000().getItem(),
+                CrystaStacks.PAINT_BRUSH_BLACK_1000, CrystaStacks.PAINT_BRUSH_BLUE_1000, CrystaStacks.PAINT_BRUSH_BROWN_1000,
+                CrystaStacks.PAINT_BRUSH_CYAN_1000, CrystaStacks.AMALGAMATE_DUST_EPIC, CrystaStacks.PAINT_BRUSH_GRAY_1000,
+                CrystaStacks.PAINT_BRUSH_GREEN_1000, CrystaStacks.PAINT_BRUSH_LIGHT_BLUE_1000, CrystaStacks.PAINT_BRUSH_LIGHT_GRAY_1000
             }
         );
 
         // Mystical Tintanno
         mysticalTintanno = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_MYSTICAL_TINTANNO",
-                new ItemStack(Material.DARK_PRISMARINE),
-                ThemeType.CRAFTING,
-                "神秘廷塔諾",
-                "濃縮的色彩精華"
-            ),
+            CrystaStacks.MYSTICAL_TINTANNO,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                getLimePaintBrush1000().getItem(), getMagentaPaintBrush1000().getItem(), getOrangePaintBrush1000().getItem(),
-                getPinkPaintBrush1000().getItem(), Materials.getAmalgamateDustEpic().getItem(), getPurplePaintBrush1000().getItem(),
-                getRedPaintBrush1000().getItem(), getWhitePaintBrush1000().getItem(), getYellowPaintBrush1000().getItem(),
+                CrystaStacks.PAINT_BRUSH_LIME_1000, CrystaStacks.PAINT_BRUSH_MAGENTA_1000, CrystaStacks.PAINT_BRUSH_ORANGE_1000,
+                CrystaStacks.PAINT_BRUSH_PINK_1000, CrystaStacks.AMALGAMATE_DUST_EPIC, CrystaStacks.PAINT_BRUSH_PURPLE_1000,
+                CrystaStacks.PAINT_BRUSH_RED_1000, CrystaStacks.PAINT_BRUSH_WHITE_1000, CrystaStacks.PAINT_BRUSH_YELLOW_1000
             }
         );
 
         // Painters Resolve
         paintersResolve = new InfinitePaintbrush(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BRUSH_INFINITE",
-                MagicPaintbrush.getTippedBrush(DyeColor.WHITE, true),
-                ThemeType.TOOL,
-                "神話畫筆",
-                "繪製色彩在方塊和實體上.",
-                "可以塗上所有顏色並不會用完.",
-                "",
-                MessageFormat.format("{0}蹲下右鍵: {1}變更顏色", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
-            ),
+            CrystaStacks.PAINT_BRUSH_INFINITE,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
                 null, null, null,
-                getMysticalTintanno().getItem(), Materials.getAmalgamateIngotMythical().getItem(), getMysticalPigmentato().getItem(),
+                CrystaStacks.MYSTICAL_TINTANNO, CrystaStacks.AMALGAMATE_INGOT_MYTHICAL, CrystaStacks.MYSTICAL_PIGMENTATO,
                 null, null, null
             }
         );
@@ -937,14 +653,8 @@ public class ArtisticItems {
         );
         bodyStand = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BODY_STAND",
-                new ItemStack(Material.ARMOR_STAND),
-                ThemeType.CRAFTING,
-                "盔甲座的身體",
-                "這個架子似乎有哪裡不對勁."
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.BODY_STAND,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             bodyStandRecipe.getDisplayRecipe()
         );
 
@@ -957,14 +667,8 @@ public class ArtisticItems {
         );
         mindStand = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_MIND_STAND",
-                new ItemStack(Material.ARMOR_STAND),
-                ThemeType.CRAFTING,
-                "盔甲座的精神",
-                "這個架子似乎有哪裡不對勁."
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.MIND_STAND,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             mindStandRecipe.getDisplayRecipe()
         );
 
@@ -977,32 +681,20 @@ public class ArtisticItems {
         );
         soulStand = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_SOUL_STAND",
-                new ItemStack(Material.ARMOR_STAND),
-                ThemeType.CRAFTING,
-                "盔甲座的靈魂",
-                "這個架子似乎有哪裡不對勁."
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.SOUL_STAND,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             soulStandRecipe.getDisplayRecipe()
         );
 
         // Mystical Attitudinizer
         mysticalAttitudinizer = new UnplaceableBlock(
             ItemGroups.MATERIALS,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_MYSTICAL_ATTITUDINIZER",
-                new ItemStack(Material.BELL),
-                ThemeType.CRAFTING,
-                "神秘的態度",
-                "姿勢的濃縮精華"
-            ),
+            CrystaStacks.MYSTICAL_ATTITUDINIZER,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                Materials.getBasicFibres().getItem(), Materials.getBasicFibres().getItem(), Materials.getBasicFibres().getItem(),
-                bodyStand.getItem(), mindStand.getItem(), soulStand.getItem(),
-                Materials.getBasicFibres().getItem(), Materials.getBasicFibres().getItem(), Materials.getBasicFibres().getItem(),
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.BASIC_FIBRES, CrystaStacks.BASIC_FIBRES,
+                CrystaStacks.BODY_STAND, CrystaStacks.MIND_STAND, CrystaStacks.SOUL_STAND,
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.BASIC_FIBRES, CrystaStacks.BASIC_FIBRES,
             }
         );
 
@@ -1015,69 +707,32 @@ public class ArtisticItems {
         );
         imbuedStand = new ImbuedStand(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_IMBUED_STAND",
-                new ItemStack(Material.ARMOR_STAND),
-                ThemeType.TOOL,
-                "注魔的盔甲座",
-                "這個盔甲座可以通過",
-                "姿勢變換器隱形或變",
-                "小盔甲座."
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.IMBUED_STAND,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             imbuedStandRecipe.getDisplayRecipe()
         );
 
         // Pose Changer
         poseChanger = new PoseChanger(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_POSE_CHANGER",
-                new ItemStack(Material.BAMBOO),
-                ThemeType.TOOL,
-                "姿勢變換器",
-                "這個物品它可以",
-                "操縱盔甲座的姿勢.",
-                "可以與原版盔甲座使用,",
-                "並能對注魔的盔甲座",
-                "做額外的事情.",
-                "",
-                MessageFormat.format("{0}左鍵點擊: {1}更改選定的身體部位", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 左鍵點擊: {1}改變選定更改的方式", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}右鍵點擊: {1}應用更改 (正向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用更改 (反向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                "",
-                MessageFormat.format("{0}姿勢設置為: {1}HEAD", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}更改設置為: {1}RESET", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
-            ),
+            CrystaStacks.POSE_CHANGER,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotEpic().getItem(), Materials.getBasicFibres().getItem(),
-                Materials.getAmalgamateIngotEpic().getItem(), mysticalAttitudinizer.getItem(), Materials.getAmalgamateIngotEpic().getItem(),
-                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotEpic().getItem(), Materials.getBasicFibres().getItem(),
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.AMALGAMATE_INGOT_EPIC, CrystaStacks.BASIC_FIBRES,
+                CrystaStacks.AMALGAMATE_INGOT_EPIC, CrystaStacks.MYSTICAL_ATTITUDINIZER, CrystaStacks.AMALGAMATE_INGOT_EPIC,
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.AMALGAMATE_INGOT_EPIC, CrystaStacks.BASIC_FIBRES,
             }
         );
 
         // Pose Cloner
         poseCloner = new PoseCloner(
             ItemGroups.ARTISTIC,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_POSE_CLONER",
-                new ItemStack(Material.SEA_PICKLE),
-                ThemeType.TOOL,
-                "姿勢複製器",
-                "這個物品可以複製",
-                "注魔的盔甲座的狀態,",
-                "並與另一個匹配.",
-                "",
-                MessageFormat.format("{0}右鍵點擊: {1}複製姿勢", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-                MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用複製內容", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
-            ),
+            CrystaStacks.POSE_CLONER,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotUnique().getItem(), Materials.getBasicFibres().getItem(),
-                Materials.getAmalgamateIngotRare().getItem(), bodyStand.getItem(), Materials.getAmalgamateIngotRare().getItem(),
-                Materials.getBasicFibres().getItem(), Materials.getAmalgamateIngotUnique().getItem(), Materials.getBasicFibres().getItem(),
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.AMALGAMATE_INGOT_UNIQUE, CrystaStacks.BASIC_FIBRES,
+                CrystaStacks.AMALGAMATE_INGOT_RARE, bodyStand.getItem(), CrystaStacks.AMALGAMATE_INGOT_RARE,
+                CrystaStacks.BASIC_FIBRES, CrystaStacks.AMALGAMATE_INGOT_UNIQUE, CrystaStacks.BASIC_FIBRES,
             }
         );
 

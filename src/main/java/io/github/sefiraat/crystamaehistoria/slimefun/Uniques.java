@@ -1,16 +1,15 @@
 package io.github.sefiraat.crystamaehistoria.slimefun;
 
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
+import io.github.sefiraat.crystamaehistoria.player.GildingRank;
 import io.github.sefiraat.crystamaehistoria.player.PlayerStatistics;
 import io.github.sefiraat.crystamaehistoria.player.SpellRank;
 import io.github.sefiraat.crystamaehistoria.player.StoryRank;
-import io.github.sefiraat.crystamaehistoria.slimefun.materials.Trophy;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.DummyLiquefactionBasinCrafting;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.LiquefactionBasinCache;
-import io.github.sefiraat.crystamaehistoria.slimefun.mechanisms.liquefactionbasin.RecipeItem;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.materials.Trophy;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.mechanisms.liquefactionbasin.LiquefactionBasinCache;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.mechanisms.liquefactionbasin.RecipeItem;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
 import io.github.sefiraat.crystamaehistoria.utils.ParticleUtils;
-import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import lombok.Getter;
 import lombok.experimental.UtilityClass;
@@ -36,6 +35,8 @@ public class Uniques {
     private static Trophy storyTrophy;
     @Getter
     private static Trophy spellTrophy;
+    @Getter
+    private static Trophy gildingTrophy;
     @Getter
     private static Trophy christmasTrophy;
     @Getter
@@ -63,16 +64,8 @@ public class Uniques {
         );
         spellTrophy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_SPELL_TROPHY",
-                new ItemStack(Material.PAPER),
-                ThemeType.CRAFTING,
-                "證明: 宗師級奇術師",
-                "證明你是最棒的.",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: 法術頭銜 > 宗師級奇術師"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.SPELL_TROPHY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             spellTrophyRecipe.getDisplayRecipe(),
             location -> ParticleUtils.displayParticleEffect(
                 location.add(0, 0.2, 0),
@@ -92,22 +85,35 @@ public class Uniques {
         );
         storyTrophy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_STORY_TROPHY",
-                new ItemStack(Material.PAPER),
-                ThemeType.CRAFTING,
-                "證明: 榮譽教授",
-                "證明你是最棒的.",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.STORY_TROPHY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             storyTrophyRecipe.getDisplayRecipe(),
             location -> ParticleUtils.displayParticleEffect(
                 location.add(0, 0.2, 0),
                 0.2,
                 3,
                 new Particle.DustOptions(Color.AQUA, 1)
+            )
+        );
+
+        // Gilding Trophy
+        RecipeItem gildedTrophyRecipe = new RecipeItem(
+            CrystaStacks.RUNE_SUN,
+            StoryType.MECHANICAL, 100,
+            StoryType.HUMAN, 100,
+            StoryType.PHILOSOPHICAL, 100,
+            Uniques::isMaxGildingRank
+        );
+        gildingTrophy = new Trophy(
+            ItemGroups.UNIQUES,
+            CrystaStacks.GILDING_TROPHY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
+            gildedTrophyRecipe.getDisplayRecipe(),
+            location -> ParticleUtils.displayParticleEffect(
+                location.add(0, 0.2, 0),
+                0.2,
+                3,
+                new Particle.DustOptions(Color.MAROON, 1)
             )
         );
 
@@ -121,17 +127,8 @@ public class Uniques {
         );
         christmasTrophy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_CHRISTMAS_TROPHY",
-                new ItemStack(Material.SPRUCE_SAPLING),
-                ThemeType.CRAFTING,
-                "聖誕快樂",
-                "給你的小小禮物...",
-                "但你必須為此努力!",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: 只能在節慶時製作"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.CHRISTMAS_TROPHY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             christmasTrophyRecipe.getDisplayRecipe(),
             location -> {
                 ParticleUtils.displayParticleEffect(
@@ -159,16 +156,8 @@ public class Uniques {
         );
         valentinesTrophy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_VALENTINES_TROPHY",
-                new ItemStack(Material.PINK_DYE),
-                ThemeType.CRAFTING,
-                "情人節快樂",
-                "一點點的愛可以走很長的路",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: 只能在充滿愛情的氣氛中製作"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.VALENTINES_TROPHY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             valentinesTrophyRecipe.getDisplayRecipe(),
             location -> {
                 ParticleUtils.displayParticleEffect(
@@ -190,16 +179,8 @@ public class Uniques {
         );
         birthdayTrophyCheesy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BIRTHDAY_TROPHY_CHEESY",
-                new ItemStack(Material.CAKE),
-                ThemeType.CRAFTING,
-                "生日快樂 Cheesy!",
-                "心中的紳士",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: Cheesy的生日!"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.BIRTHDAY_TROPHY_CHEESY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             birthdayTrophyCheesyRecipe.getDisplayRecipe(),
             location -> {
                 final Location spawnLocation = location.add(0, 0.2, 0);
@@ -226,16 +207,8 @@ public class Uniques {
         );
         birthdayTrophyBWhite = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BIRTHDAY_TROPHY_BWHITE",
-                new ItemStack(Material.CAKE),
-                ThemeType.CRAFTING,
-                "生日快樂 BWhite!",
-                "有史以來最大的 Tantrum 聯合製作者!",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: BWhite的生日!"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.BIRTHDAY_TROPHY_BWHITE,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             birthdayTrophyBWhiteRecipe.getDisplayRecipe(),
             location -> {
                 final Location spawnLocation = location.add(0, 0.2, 0);
@@ -262,16 +235,8 @@ public class Uniques {
         );
         birthdayTrophyDecoy = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BIRTHDAY_TROPHY_DECOY",
-                new ItemStack(Material.CAKE),
-                ThemeType.CRAFTING,
-                "生日快樂 Decoy!",
-                "有史以來最大的 Tantrum 聯合製作者!",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: Decoy的生日!"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.BIRTHDAY_TROPHY_DECOY,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             birthdayTrophyDecoyRecipe.getDisplayRecipe(),
             location -> {
                 final Location spawnLocation = location.add(0, 0.2, 0);
@@ -298,16 +263,8 @@ public class Uniques {
         );
         birthdayTrophyOddish = new Trophy(
             ItemGroups.UNIQUES,
-            ThemeType.themedSlimefunItemStack(
-                "CRY_BIRTHDAY_TROPHY_ODDISH",
-                new ItemStack(Material.CAKE),
-                ThemeType.CRAFTING,
-                "生日快樂 Oddish!",
-                "一個等待發生的幽暗",
-                "",
-                ThemeType.CLICK_INFO.getColor() + "需求: Oddish的生日!"
-            ),
-            DummyLiquefactionBasinCrafting.TYPE,
+            CrystaStacks.BIRTHDAY_TROPHY_ODDISH,
+            CrystaRecipeTypes.LIQUEFACTION_CRAFTING,
             birthdayTrophyOddishRecipe.getDisplayRecipe(),
             location -> {
                 final Location spawnLocation = location.add(0, 0.2, 0);
@@ -327,6 +284,7 @@ public class Uniques {
 
         spellTrophy.register(plugin);
         storyTrophy.register(plugin);
+        gildingTrophy.register(plugin);
         christmasTrophy.register(plugin);
         valentinesTrophy.register(plugin);
 
@@ -352,6 +310,10 @@ public class Uniques {
 
     private static boolean isMaxSpellRank(@Nonnull Player player) {
         return PlayerStatistics.getSpellRank(player.getUniqueId()) == SpellRank.GRANDMASTER_MAGI;
+    }
+
+    private static boolean isMaxGildingRank(@Nonnull Player player) {
+        return PlayerStatistics.getGildingRank(player.getUniqueId()) == GildingRank.OWNER;
     }
 
     private static boolean isChristmas(@Nonnull Player player) {

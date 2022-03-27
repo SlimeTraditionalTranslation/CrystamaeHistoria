@@ -97,6 +97,8 @@ Miku, 默默無名邊緣人, winkoko, Ferzbow, MAGd_
 
 As usual, a big thanks to those who tested Crystamae to get it to the nice state it is in.
 
-A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me direction and drive to make these things.
+A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me
+direction and drive to make these things.
 
-Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!) sponsor. A few coffee's a month to make me feel better about making these addons <3
+Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!)
+sponsor. A few coffee's a month to make me feel better about making these addons <3
