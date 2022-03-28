@@ -229,14 +229,14 @@ public class SpellCollectionFlexGroup extends FlexItemGroup {
     private ItemStack getMechanismStack() {
         final List<String> lore = Arrays.stream(
                 new String[]{
-                    "Spells are created by combining",
-                    "liquid crystamae in a Liquefaction",
-                    "Basin.",
-                    "The highest 3 amounts of liquid",
-                    "determine the spell created (left).",
+                    "法術是通過在液化池",
+                    "中組合液態水晶而",
+                    "產生的.",
+                    "最高 3 種液體量",
+                    "所決定製作的法術.",
                     "",
-                    "Throw in a Spell Plate when ready",
-                    "to create your spell."
+                    "準備好製作你的法術時,",
+                    "進一個法術板."
                 }
             ).map(s -> ThemeType.PASSIVE.getColor() + s)
             .collect(Collectors.toList());

@@ -96,13 +96,13 @@ public class RecallingCrystaLattice extends SlimefunItem {
                 event.getPlayer().teleportAsync(location.add(1, 1, 1), PlayerTeleportEvent.TeleportCause.PLUGIN);
             } else {
                 event.getPlayer().sendActionBar(
-                    Component.text("Waystone connection isn't functional")
+                    Component.text("路石的連接並未正常運作")
                         .color(TextColor.color(200, 30, 40))
                 );
             }
         } else {
             event.getPlayer().sendMessage(
-                MessageFormat.format("{0}Bind the Lattice to a Waystone using Shift + Right Click.", ChatColor.RED)
+                MessageFormat.format("{0}使用 Shift + 右鍵 來綁定水晶回傳晶體至路石上.", ChatColor.RED)
             );
         }
     }

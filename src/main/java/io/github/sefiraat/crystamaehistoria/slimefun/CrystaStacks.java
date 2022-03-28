@@ -296,96 +296,96 @@ public class CrystaStacks {
             "CRY_AMALGAMATE_DUST_COMMON",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Common)",
-            "A dust combining all magic types."
+            "汞齊粉 (常見)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_DUST_UNCOMMON = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_DUST_UNCOMMON",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Uncommon)",
-            "A dust combining all magic types."
+            "汞齊粉 (不常見)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_DUST_RARE = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_DUST_RARE",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Rare)",
-            "A dust combining all magic types."
+            "汞齊粉 (稀有)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_DUST_EPIC = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_DUST_EPIC",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Epic)",
-            "A dust combining all magic types."
+            "汞齊粉 (史詩)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_DUST_MYTHICAL = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_DUST_MYTHICAL",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Mythical)",
-            "A dust combining all magic types."
+            "汞齊粉 (神話)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_DUST_UNIQUE = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_DUST_UNIQUE",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "Amalgamate Dust (Unique)",
-            "A dust combining all magic types."
+            "汞齊粉 (獨特)",
+            "一種結合所有魔法種類的粉."
         );
 
         AMALGAMATE_INGOT_COMMON = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_COMMON",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Common)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (常見)",
+            "由純魔法製作的錠."
         );
 
         AMALGAMATE_INGOT_UNCOMMON = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_UNCOMMON",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Uncommon)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (不常見)",
+            "由純魔法製作的錠."
         );
 
         AMALGAMATE_INGOT_RARE = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_RARE",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Rare)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (稀有)",
+            "由純魔法製作的錠."
         );
 
         AMALGAMATE_INGOT_EPIC = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_EPIC",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Epic)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (史詩)",
+            "由純魔法製作的錠."
         );
 
         AMALGAMATE_INGOT_MYTHICAL = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_MYTHICAL",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Mythical)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (神話)",
+            "由純魔法製作的錠."
         );
 
         AMALGAMATE_INGOT_UNIQUE = ThemeType.themedSlimefunItemStack(
             "CRY_AMALGAMATE_INGOT_UNIQUE",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "Amalgamate Ingot (Unique)",
-            "An ingot crafted of pure magics."
+            "汞齊錠 (獨特)",
+            "由純魔法製作的錠."
         );
 
         ARCANE_SIGIL = ThemeType.themedSlimefunItemStack(
@@ -401,55 +401,55 @@ public class CrystaStacks {
             "CRY_IMBUED_GLASS",
             new ItemStack(Material.GLASS_PANE),
             ThemeType.CRAFTING,
-            "Imbued Glass",
-            "Glass imbued with Crysta that has",
-            "some strange properties."
+            "浸透玻璃",
+            "浸透著水晶能量的玻璃,",
+            "具有一些奇怪的特性."
         );
 
         UNCANNY_PEARL = ThemeType.themedSlimefunItemStack(
             "CRY_UNCANNY_PEARL",
             new ItemStack(Material.ENDER_PEARL),
             ThemeType.CRAFTING,
-            "Uncanny Pearl",
-            "The internal resonance of this pearl",
-            "has been quelled using crysta."
+            "不可思議的珍珠",
+            "這顆珍珠的內部共振",
+            "已被水晶能量平息."
         );
 
         GILDED_PEARL = ThemeType.themedSlimefunItemStack(
             "CRY_GILDED_PEARL",
             new ItemStack(Material.ENDER_PEARL),
             ThemeType.CRAFTING,
-            "Gilded Pearl",
-            "With the pearl quelled, it can",
-            "be safely gilded and used in certain",
-            "crafts."
+            "鍍金的珍珠",
+            "當這顆珍珠被平息後,",
+            "它將可以安全的鍍金, 並用於",
+            "特定製作."
         );
 
         BASIC_FIBRES = ThemeType.themedSlimefunItemStack(
             "CRY_BASIC_FIBRES",
             new ItemStack(Material.DRIED_KELP),
             ThemeType.CRAFTING,
-            "Basic Fibres",
-            "Very basic and coarse fibres."
+            "基礎纖維",
+            "非常基礎的粗纖維."
         );
 
         POWDERED_ESSENCE = ThemeType.themedSlimefunItemStack(
             "CRY_POWDERED_ESSENCE",
             new ItemStack(Material.WHITE_DYE),
             ThemeType.CRAFTING,
-            "Powdered Essence",
-            "A refined crafting material.",
-            "Can be used as bone meal.",
+            "能量精華",
+            "一種精緻的製作材料.",
+            "可作為骨粉使用.",
             "",
-            ChatColor.YELLOW + "250 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 250次"
         );
 
         MAGICAL_MILK = ThemeType.themedSlimefunItemStack(
             "CRY_MAGICAL_MILK_POWDER",
             new ItemStack(Material.SUGAR),
             ThemeType.CRAFTING,
-            "Magical Milk Powder",
-            "This powdered milk has something about it..."
+            "魔法牛奶",
+            "這個牛奶有些特點..."
         );
 
         // Runes
@@ -697,8 +697,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BLACK_100",
             MagicPaintbrush.getTippedBrush(DyeColor.BLACK),
             ThemeType.TOOL,
-            "Magic Paintbrush (Black)",
-            "Paints colored blocks black.",
+            "魔法畫筆 (黑)",
+            "將可染色方塊塗成黑色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -707,8 +707,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BLUE_100",
             MagicPaintbrush.getTippedBrush(DyeColor.BLUE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Blue)",
-            "Paints colored blocks blue.",
+            "魔法畫筆 (藍)",
+            "將可染色方塊塗成藍色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -717,8 +717,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BROWN_100",
             MagicPaintbrush.getTippedBrush(DyeColor.BROWN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Brown)",
-            "Paints colored blocks brown.",
+            "魔法畫筆 (棕色)",
+            "將可染色方塊塗成棕色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -727,8 +727,8 @@ public class CrystaStacks {
             "CRY_BRUSH_CYAN_100",
             MagicPaintbrush.getTippedBrush(DyeColor.CYAN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Cyan)",
-            "Paints colored blocks cyan.",
+            "魔法畫筆 (青)",
+            "將可染色方塊塗成青色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -737,8 +737,8 @@ public class CrystaStacks {
             "CRY_BRUSH_GRAY_100",
             MagicPaintbrush.getTippedBrush(DyeColor.GRAY),
             ThemeType.TOOL,
-            "Magic Paintbrush (Gray)",
-            "Paints colored blocks gray.",
+            "魔法畫筆 (灰)",
+            "將可染色方塊塗成灰色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -747,8 +747,8 @@ public class CrystaStacks {
             "CRY_BRUSH_GREEN_100",
             MagicPaintbrush.getTippedBrush(DyeColor.GREEN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Green)",
-            "Paints colored blocks green.",
+            "魔法畫筆 (綠)",
+            "將可染色方塊塗成綠色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -757,8 +757,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIGHT_BLUE_100",
             MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_BLUE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Light Blue)",
-            "Paints colored blocks light blue.",
+            "魔法畫筆 (淺藍)",
+            "將可染色方塊塗成淺藍色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -767,8 +767,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIGHT_GRAY_100",
             MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_GRAY),
             ThemeType.TOOL,
-            "Magic Paintbrush (Light Gray)",
-            "Paints colored blocks light gray.",
+            "魔法畫筆 (淺灰)",
+            "將可染色方塊塗成淺灰色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -777,8 +777,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIME_100",
             MagicPaintbrush.getTippedBrush(DyeColor.LIME),
             ThemeType.TOOL,
-            "Magic Paintbrush (Lime)",
-            "Paints colored blocks lime.",
+            "魔法畫筆 (淺綠)",
+            "將可染色方塊塗成淺綠色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -787,8 +787,8 @@ public class CrystaStacks {
             "CRY_BRUSH_MAGENTA_100",
             MagicPaintbrush.getTippedBrush(DyeColor.MAGENTA),
             ThemeType.TOOL,
-            "Magic Paintbrush (Magenta)",
-            "Paints colored blocks magenta.",
+            "魔法畫筆 (洋紅)",
+            "將可染色方塊塗成洋紅色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -797,8 +797,8 @@ public class CrystaStacks {
             "CRY_BRUSH_ORANGE_100",
             MagicPaintbrush.getTippedBrush(DyeColor.ORANGE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Orange)",
-            "Paints colored blocks orange.",
+            "魔法畫筆 (橙)",
+            "將可染色方塊塗成橙色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -807,8 +807,8 @@ public class CrystaStacks {
             "CRY_BRUSH_PINK_100",
             MagicPaintbrush.getTippedBrush(DyeColor.PINK),
             ThemeType.TOOL,
-            "Magic Paintbrush (Pink)",
-            "Paints colored blocks pink.",
+            "魔法畫筆 (粉)",
+            "將可染色方塊塗成粉色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -817,8 +817,8 @@ public class CrystaStacks {
             "CRY_BRUSH_PURPLE_100",
             MagicPaintbrush.getTippedBrush(DyeColor.PURPLE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Purple)",
-            "Paints colored blocks purple.",
+            "魔法畫筆 (紫)",
+            "將可染色方塊塗成紫色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -827,8 +827,8 @@ public class CrystaStacks {
             "CRY_BRUSH_RED_100",
             MagicPaintbrush.getTippedBrush(DyeColor.RED),
             ThemeType.TOOL,
-            "Magic Paintbrush (Red)",
-            "Paints colored blocks red.",
+            "魔法畫筆 (紅)",
+            "將可染色方塊塗成紅色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -837,8 +837,8 @@ public class CrystaStacks {
             "CRY_BRUSH_WHITE_100",
             MagicPaintbrush.getTippedBrush(DyeColor.WHITE),
             ThemeType.TOOL,
-            "Magic Paintbrush (White)",
-            "Paints colored blocks white.",
+            "魔法畫筆 (白)",
+            "將可染色方塊塗成白色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -847,8 +847,8 @@ public class CrystaStacks {
             "CRY_BRUSH_YELLOW_100",
             MagicPaintbrush.getTippedBrush(DyeColor.YELLOW),
             ThemeType.TOOL,
-            "Magic Paintbrush (Yellow)",
-            "Paints colored blocks yellow.",
+            "魔法畫筆 (黃)",
+            "將可染色方塊塗成黃色.",
             "",
             LoreBuilder.usesLeft(100)
         );
@@ -857,8 +857,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BLACK_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.BLACK),
             ThemeType.TOOL,
-            "Magic Paintbrush (Black)",
-            "Paints colored blocks black.",
+            "魔法畫筆 (黑)",
+            "將可染色方塊塗成黑色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -867,8 +867,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BLUE_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.BLUE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Blue)",
-            "Paints colored blocks blue.",
+            "魔法畫筆 (藍)",
+            "將可染色方塊塗成藍色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -877,8 +877,8 @@ public class CrystaStacks {
             "CRY_BRUSH_BROWN_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.BROWN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Brown)",
-            "Paints colored blocks brown.",
+            "魔法畫筆 (棕色)",
+            "將可染色方塊塗成棕色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -887,8 +887,8 @@ public class CrystaStacks {
             "CRY_BRUSH_CYAN_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.CYAN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Cyan)",
-            "Paints colored blocks cyan.",
+            "魔法畫筆 (青)",
+            "將可染色方塊塗成青色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -897,8 +897,8 @@ public class CrystaStacks {
             "CRY_BRUSH_GRAY_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.GRAY),
             ThemeType.TOOL,
-            "Magic Paintbrush (Gray)",
-            "Paints colored blocks gray.",
+            "魔法畫筆 (灰)",
+            "將可染色方塊塗成灰色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -907,8 +907,8 @@ public class CrystaStacks {
             "CRY_BRUSH_GREEN_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.GREEN),
             ThemeType.TOOL,
-            "Magic Paintbrush (Green)",
-            "Paints colored blocks green.",
+            "魔法畫筆 (綠)",
+            "將可染色方塊塗成綠色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -917,8 +917,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIGHT_BLUE_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_BLUE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Light Blue)",
-            "Paints colored blocks light blue.",
+            "魔法畫筆 (淺藍)",
+            "將可染色方塊塗成淺藍色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -927,8 +927,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIGHT_GRAY_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.LIGHT_GRAY),
             ThemeType.TOOL,
-            "Magic Paintbrush (Light Gray)",
-            "Paints colored blocks light gray.",
+            "魔法畫筆 (淺灰)",
+            "將可染色方塊塗成淺灰色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -937,8 +937,8 @@ public class CrystaStacks {
             "CRY_BRUSH_LIME_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.LIME),
             ThemeType.TOOL,
-            "Magic Paintbrush (Lime)",
-            "Paints colored blocks lime.",
+            "魔法畫筆 (淺綠)",
+            "將可染色方塊塗成淺綠色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -947,8 +947,8 @@ public class CrystaStacks {
             "CRY_BRUSH_MAGENTA_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.MAGENTA),
             ThemeType.TOOL,
-            "Magic Paintbrush (Magenta)",
-            "Paints colored blocks magenta.",
+            "魔法畫筆 (洋紅)",
+            "將可染色方塊塗成洋紅色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -957,8 +957,8 @@ public class CrystaStacks {
             "CRY_BRUSH_ORANGE_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.ORANGE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Orange)",
-            "Paints colored blocks orange.",
+            "魔法畫筆 (橙)",
+            "將可染色方塊塗成橙色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -967,8 +967,8 @@ public class CrystaStacks {
             "CRY_BRUSH_PINK_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.PINK),
             ThemeType.TOOL,
-            "Magic Paintbrush (Pink)",
-            "Paints colored blocks pink.",
+            "魔法畫筆 (粉)",
+            "將可染色方塊塗成粉色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -977,8 +977,8 @@ public class CrystaStacks {
             "CRY_BRUSH_PURPLE_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.PURPLE),
             ThemeType.TOOL,
-            "Magic Paintbrush (Purple)",
-            "Paints colored blocks purple.",
+            "魔法畫筆 (紫)",
+            "將可染色方塊塗成紫色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -987,8 +987,8 @@ public class CrystaStacks {
             "CRY_BRUSH_RED_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.RED),
             ThemeType.TOOL,
-            "Magic Paintbrush (Red)",
-            "Paints colored blocks red.",
+            "魔法畫筆 (紅)",
+            "將可染色方塊塗成紅色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -997,8 +997,8 @@ public class CrystaStacks {
             "CRY_BRUSH_WHITE_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.WHITE),
             ThemeType.TOOL,
-            "Magic Paintbrush (White)",
-            "Paints colored blocks white.",
+            "魔法畫筆 (白)",
+            "將可染色方塊塗成白色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -1007,8 +1007,8 @@ public class CrystaStacks {
             "CRY_BRUSH_YELLOW_1000",
             MagicPaintbrush.getTippedBrush(DyeColor.YELLOW),
             ThemeType.TOOL,
-            "Magic Paintbrush (Yellow)",
-            "Paints colored blocks yellow.",
+            "魔法畫筆 (黃)",
+            "將可染色方塊塗成黃色.",
             "",
             LoreBuilder.usesLeft(1000)
         );
@@ -1017,116 +1017,116 @@ public class CrystaStacks {
             "CRY_BRUSH_INFINITE",
             MagicPaintbrush.getTippedBrush(DyeColor.WHITE, true),
             ThemeType.TOOL,
-            "Mythical Paintbrush",
-            "Paints colored blocks and entities. Can",
-            "paint in all colors and doesn't run out.",
+            "神話畫筆",
+            "繪製色彩在方塊和實體上.",
+            "可以塗上所有顏色並不會用完.",
             "",
-            MessageFormat.format("{0}Shift Left Click: {1}Change Color", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+            MessageFormat.format("{0}蹲下右鍵: {1}變更顏色", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
         );
 
         MYSTICAL_PIGMENTATO = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTICAL_PIGMENTATO",
             new ItemStack(Material.PRISMARINE),
             ThemeType.CRAFTING,
-            "Mystical Pigmentato",
-            "A condensed essence of color"
+            "神秘色素",
+            "濃縮的色彩精華"
         );
 
         MYSTICAL_TINTANNO = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTICAL_TINTANNO",
             new ItemStack(Material.DARK_PRISMARINE),
             ThemeType.CRAFTING,
-            "Mystical Tintanno",
-            "A condensed essence of color"
+            "神秘廷塔諾",
+            "濃縮的色彩精華"
         );
 
         BODY_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_BODY_STAND",
             new ItemStack(Material.ARMOR_STAND),
             ThemeType.CRAFTING,
-            "Armorstand of the Body",
-            "Something about this stand is off."
+            "盔甲座的身體",
+            "這個架子似乎有哪裡不對勁."
         );
 
         MIND_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_MIND_STAND",
             new ItemStack(Material.ARMOR_STAND),
             ThemeType.CRAFTING,
-            "Armorstand of the Mind",
-            "Something about this stand is off."
+            "盔甲座的精神",
+            "這個架子似乎有哪裡不對勁."
         );
 
         SOUL_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_SOUL_STAND",
             new ItemStack(Material.ARMOR_STAND),
             ThemeType.CRAFTING,
-            "Armorstand of the Soul",
-            "Something about this stand is off."
+            "盔甲座的靈魂",
+            "這個架子似乎有哪裡不對勁."
         );
 
         MYSTICAL_ATTITUDINIZER = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTICAL_ATTITUDINIZER",
             new ItemStack(Material.BELL),
             ThemeType.CRAFTING,
-            "Mystical Attitudinizer",
-            "A condensed essence of posture"
+            "神秘的態度",
+            "姿勢的濃縮精華"
         );
 
         IMBUED_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_IMBUED_STAND",
             new ItemStack(Material.ARMOR_STAND),
             ThemeType.TOOL,
-            "Imbued Armor Stand",
-            "This Armor Stand can be made",
-            "invisible or smaller with a pose",
-            "changer."
+            "注魔的盔甲座",
+            "這個盔甲座可以通過",
+            "姿勢變換器隱形或變",
+            "小盔甲座."
         );
 
         POSE_CHANGER = ThemeType.themedSlimefunItemStack(
             "CRY_POSE_CHANGER",
             new ItemStack(Material.BAMBOO),
             ThemeType.TOOL,
-            "Pose Changer",
-            "This item is able to manipulate",
-            "the pose of armor stands.",
-            "Works with vanilla stand and",
-            "can do additional things to",
-            "Imbued Stands.",
+            "姿勢變換器",
+            "這個物品它可以",
+            "操縱盔甲座的姿勢.",
+            "可以與原版盔甲座使用,",
+            "並能對注魔的盔甲座",
+            "做額外的事情.",
             "",
-            MessageFormat.format("{0}Left Click: {1}Change selected body part", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Left Click: {1}Change selected change method", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Right Click: {1}Apply change (positive)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Right Click: {1}Apply change (negative)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}左鍵點擊: {1}更改選定的身體部位", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift + 左鍵點擊: {1}改變選定更改的方式", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}右鍵點擊: {1}應用更改 (正向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用更改 (反向)", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
             "",
-            MessageFormat.format("{0}Pose Set To: {1}HEAD", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Change Set To: {1}RESET", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+            MessageFormat.format("{0}姿勢設置為: {1}HEAD", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}更改設置為: {1}RESET", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
         );
 
         POSE_CLONER = ThemeType.themedSlimefunItemStack(
             "CRY_POSE_CLONER",
             new ItemStack(Material.SEA_PICKLE),
             ThemeType.TOOL,
-            "Pose Cloner",
-            "This item can copy the state",
-            "of an Inbued Armorstand and",
-            "make another match to suit.",
+            "姿勢複製器",
+            "這個物品可以複製",
+            "注魔的盔甲座的狀態,",
+            "並與另一個匹配.",
             "",
-            MessageFormat.format("{0}Right Click: {1}Clone pose", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Right Click: {1}Apply stored clone", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+            MessageFormat.format("{0}右鍵點擊: {1}複製姿勢", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift + 右鍵點擊: {1}應用複製內容", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
         );
 
         EXALTED_BEACON = ThemeType.themedSlimefunItemStack(
             "CRY_EXALTED_BEACON",
             new ItemStack(Material.BEACON),
             ThemeType.EXALTED,
-            "Exalted Beacon",
-            "A powerful beacon with incredible",
-            "potential. Must be placed on a",
-            "Exaltation Stand to operate.",
+            "尊貴烽火台",
+            "一個強大的烽火台, 具有極大",
+            "的潛能. 必須放在",
+            "昇華之台上才能運作.",
             "",
-            ThemeType.CLICK_INFO + "Power: " + ThemeType.PASSIVE + "2",
+            ThemeType.CLICK_INFO + "力量: " + ThemeType.PASSIVE + "2",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         EXALTED_BAELFIRE = ThemeType.themedSlimefunItemStack(
@@ -1147,13 +1147,13 @@ public class CrystaStacks {
             "CRY_EXALTED_FERTILITY_PHARO",
             new ItemStack(Material.DIAMOND_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Fertility Pharo",
-            "A magical construct able to",
-            "breed nearby animals in a 10x10 area.",
-            "Must be placed on an Exaltation",
-            "Stand to operate.",
+            "尊貴生育法羅",
+            "一種能夠繁殖 10x10 區域",
+            "內動物的魔法結構.",
+            "必須放在昇華之台上",
+            "才能運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         EXALTED_FERTILITY_TOTEM = ThemeType.themedSlimefunItemStack(
@@ -1173,13 +1173,13 @@ public class CrystaStacks {
             "CRY_EXALTED_HARVESTER",
             new ItemStack(Material.HAY_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Harvester",
-            "A magical construct able to",
-            "harvest all crops in a 9x9 area.",
-            "Must be placed on an Exaltation",
-            "Stand to operate.",
+           "尊貴收穫祭",
+            "一種能夠收割 9x9 區域",
+            "內所有農作物的魔法結構.",
+            "必須放在昇華之台上",
+            "才能運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Spell Rank > Grandmaster Magus"
+            ThemeType.CLICK_INFO.getColor() + "需求: 法術頭銜 > 宗師級奇術師"
         );
 
         EXALTED_AGRONOMIST = ThemeType.themedSlimefunItemStack(
@@ -1199,56 +1199,56 @@ public class CrystaStacks {
             "CRY_EXALTED_DAWN",
             new ItemStack(Material.YELLOW_WOOL),
             ThemeType.EXALTED,
-            "Exalted Dawn",
-            "A magical construct that burns",
-            "brightly like the sun.",
+            "崇高的黎明",
+            "一個魔法的構造,",
+            "像太陽一樣的明亮著燃燒.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Crafted during the day"
+            ThemeType.CLICK_INFO.getColor() + "需求: 在早上時製作"
         );
 
         EXALTED_DUSK = ThemeType.themedSlimefunItemStack(
             "CRY_EXALTED_DUSK",
             new ItemStack(Material.BLACK_WOOL),
             ThemeType.EXALTED,
-            "Exalted Dusk",
-            "A magical construct shines",
-            "as vivid as the new moon",
+            "崇高的黃昏",
+            "一個魔法的結構,",
+            "就像是新月一樣的閃耀",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Crafted during the night"
+            ThemeType.CLICK_INFO.getColor() + "需求: 在晚上時製作"
         );
 
         EXALTED_SUN = ThemeType.themedSlimefunItemStack(
             "CRY_EXALTED_SUN",
             new ItemStack(Material.MAGMA_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Sun",
-            "A magical construct emanating",
-            "the power of a sun.",
+            "崇高的太陽",
+            "一個散發著太陽力量",
+            "的魔法結構.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Crafted during a clear day"
+            ThemeType.CLICK_INFO.getColor() + "需求: 在晴朗的天氣時製作"
         );
 
         EXALTED_STORM = ThemeType.themedSlimefunItemStack(
             "CRY_EXALTED_STORM",
             new ItemStack(Material.GRAY_WOOL),
             ThemeType.EXALTED,
-            "Exalted Storm",
-            "A magical construct emanating",
-            "the destruction of a storm.",
+            "崇高的暴風",
+            "一個散發著風暴的",
+            "破壞力魔法結構.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Crafted during a storm"
+            ThemeType.CLICK_INFO.getColor() + "需求: 在暴風雨時製作"
         );
 
         EXALTED_SEA_BREEZE = ThemeType.themedSlimefunItemStack(
             "CRY_SEA_BREEZE",
             new ItemStack(Material.TUBE_CORAL_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Sea Breeze",
-            "A magical construct that brings",
-            "the sea air to nearby blocks, weathering",
-            "and oxidizing them.",
+            "崇高的海風",
+            "一種神奇的構造, 可以將",
+            "海風帶到附近的方塊,",
+            "使其風化和氧化.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Crafted on a beach"
+            ThemeType.CLICK_INFO.getColor() + "需求: 在海灘上製作"
         );
 
         // Gadgets
@@ -1257,24 +1257,24 @@ public class CrystaStacks {
             "CRY_MOB_LAMP_1",
             new ItemStack(Material.LANTERN),
             ThemeType.GADGET,
-            "Abstraction Lamp",
-            "The abstraction lamp will push all",
-            "nearby mobs away from it.",
+            "抽象之燈",
+            "抽象之燈會將附近",
+            "所有怪物推走.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "5 Blocks",
-            ThemeType.CLICK_INFO.getColor() + "Force: " + ThemeType.PASSIVE.getColor() + "3 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "5 格方塊",
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "3 水晶之力™"
         );
 
         DISPERSION_LAMP = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_LAMP_2",
             new ItemStack(Material.SOUL_LANTERN),
             ThemeType.GADGET,
-            "Dispersion Lamp",
-            "The dispersion lamp will push all",
-            "nearby mobs away from it.",
+            "色散之燈",
+            "色散之燈會將附近",
+            "所有怪物推走.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7 Blocks",
-            ThemeType.CLICK_INFO.getColor() + "Force: " + ThemeType.PASSIVE.getColor() + "5 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "7 格方塊",
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "5 水晶之力™"
         );
 
         EXODUS_LAMP = ThemeType.themedSlimefunItemStack(
@@ -1285,32 +1285,32 @@ public class CrystaStacks {
             "The exodus lamp will push all",
             "nearby mobs away from it.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "10 Blocks",
-            ThemeType.CLICK_INFO.getColor() + "Force: " + ThemeType.PASSIVE.getColor() + "10 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "10 格方塊",
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "10 水晶之力™"
         );
 
         INVERSION_VACUUM = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_FAN_1",
             new ItemStack(Material.REDSTONE_LAMP),
             ThemeType.GADGET,
-            "Inversion Vacuum",
-            "Creates a magically induced vacuum",
-            "that pulls entities away from the",
-            "mechanism.",
+            "倒轉空間",
+            "創造一個魔法感應空間,",
+            "並將實體從該機制中",
+            "推開.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Push Distance: " + ThemeType.PASSIVE.getColor() + "5 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "5 格方塊"
         );
 
         ANTIPODAL_VACUUM = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_FAN_2",
             new ItemStack(Material.NOTE_BLOCK),
             ThemeType.GADGET,
-            "Antipodal Vacuum",
-            "Creates a magically induced vacuum",
-            "that pulls entities away from the",
-            "mechanism.",
+            "相對空間",
+            "創造一個魔法感應空間,",
+            "並將實體從該機制中",
+            "推開.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Push Distance: " + ThemeType.PASSIVE.getColor() + "10 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "10 格方塊"
         );
 
         COUNTERPOLE_VACUUM = ThemeType.themedSlimefunItemStack(
@@ -1322,33 +1322,33 @@ public class CrystaStacks {
             "that pulls entities away from the",
             "mechanism.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Push Distance: " + ThemeType.PASSIVE.getColor() + "15 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "15 格方塊"
         );
 
         CURSED_EARTH = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_DIRT_1",
             new ItemStack(Material.BROWN_WOOL),
             ThemeType.GADGET,
-            "Cursed Earth",
-            "Dark magics seep from this dirt giving",
-            "a very ominous vibe!",
+            "詛咒之土",
+            "黑暗魔法從這塊泥土中滲出,",
+            "給人一種非常不祥的感覺!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Tick Rate: " + ThemeType.PASSIVE.getColor() + "20",
-            ThemeType.CLICK_INFO.getColor() + "Light Level: " + ThemeType.PASSIVE.getColor() + "7",
-            ThemeType.CLICK_INFO.getColor() + "Spawns: " + ThemeType.PASSIVE.getColor() + "Basic"
+            ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "20",
+            ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "7",
+            ThemeType.CLICK_INFO.getColor() + "生成等級: " + ThemeType.PASSIVE.getColor() + "基礎"
         );
 
         DREADFUL_DIRT = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_DIRT_2",
             new ItemStack(Material.BLACK_WOOL),
             ThemeType.GADGET,
-            "Dreadful Dirt",
-            "Dark magics seep from this dirt giving",
-            "a very ominous vibe!",
+            "恐懼之土",
+            "黑暗魔法從這塊泥土中滲出,",
+            "給人一種非常不祥的感覺!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Tick Rate: " + ThemeType.PASSIVE.getColor() + "10",
-            ThemeType.CLICK_INFO.getColor() + "Light Level: " + ThemeType.PASSIVE.getColor() + "15",
-            ThemeType.CLICK_INFO.getColor() + "Spawns: " + ThemeType.PASSIVE.getColor() + "Advanced"
+            ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "10",
+            ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "15",
+            ThemeType.CLICK_INFO.getColor() + "生成等級: " + ThemeType.PASSIVE.getColor() + "進階"
         );
 
         SOULFILLED_SOIL = ThemeType.themedSlimefunItemStack(
@@ -1358,48 +1358,48 @@ public class CrystaStacks {
             "Soulfilled Soil",
             "Dark magics have been purified clean.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Tick Rate: " + ThemeType.PASSIVE.getColor() + "10",
-            ThemeType.CLICK_INFO.getColor() + "Light Level: " + ThemeType.PASSIVE.getColor() + "15",
-            ThemeType.CLICK_INFO.getColor() + "Spawns: " + ThemeType.PASSIVE.getColor() + "Friendly"
+            ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "10",
+            ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "15",
+            ThemeType.CLICK_INFO.getColor() + "生成等級: " + ThemeType.PASSIVE.getColor() + "友好"
         );
 
         SEARING_PLATE = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_PLATE_1",
             new ItemStack(Material.CRIMSON_PRESSURE_PLATE),
             ThemeType.GADGET,
-            "Searing Plate",
-            "A plate that is magically super-heated.",
-            "Anything standing on this plate gets",
-            "damaged.",
+            "灼熱之板",
+            "一塊異常灼熱的魔法板.",
+            "任何站在這個板子上的生物將會被",
+            "灼傷.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
+            ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "1",
+            ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "否"
         );
 
         DOOMED_PLATE = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_PLATE_2",
             new ItemStack(Material.WARPED_PRESSURE_PLATE),
             ThemeType.GADGET,
-            "Doomed Plate",
-            "A plate that is magically super-heated.",
-            "Anything standing on this plate gets",
-            "damaged.",
+            "毀滅之板",
+            "一塊異常灼熱的魔法板.",
+            "任何站在這個板子上的生物將會被",
+            "灼傷.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "1",
+            ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
         );
 
         EVISCERATING_PLATE = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_PLATE_3",
             new ItemStack(Material.POLISHED_BLACKSTONE_PRESSURE_PLATE),
             ThemeType.GADGET,
-            "Eviscerating Plate",
-            "A plate that is magically super-heated.",
-            "Anything standing on this plate gets",
-            "damaged.",
+            "殘虐之板",
+            "一塊異常灼熱的魔法板.",
+            "任何站在這個板子上的生物將會被",
+            "灼傷.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "2",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "2",
+            ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
         );
 
         SHREDDING_PLATE = ThemeType.themedSlimefunItemStack(
@@ -1411,44 +1411,44 @@ public class CrystaStacks {
             "Anything standing on this plate gets",
             "damaged.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "3",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "3",
+            ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
         );
 
         TRAP_PLATE = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_PLATE_TRAP",
             new ItemStack(Material.DARK_OAK_PRESSURE_PLATE),
             ThemeType.GADGET,
-            "Trap Plate",
-            "This plate no longer deals",
-            "damage but now applies potion",
-            "effects. Right click with",
-            "a potion to assign."
+            "陷阱壓力板",
+            "這個壓力板不在",
+            "造成傷害,但現在會",
+            "添加藥水效果. 手持藥水",
+            "右鍵點擊來指定."
         );
 
         EXP_COLLECTOR_BASIC = ThemeType.themedSlimefunItemStack(
             "CRY_EXP_COLLECTOR_1",
             new ItemStack(Material.LIGHTNING_ROD),
             ThemeType.GADGET,
-            "Basic Exp Collector",
-            "Infusing the Exp Collector with",
-            "magic now allows it to work",
-            "without electricity and flasks.",
+            "基礎經驗收集器",
+            "注入魔法的經驗收集器,",
+            "現在可以在沒有沒有學識之瓶",
+            "與電力提供下運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4",
-            ThemeType.CLICK_INFO.getColor() + "Capacity: " + ThemeType.PASSIVE.getColor() + "2500"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "4",
+            ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "2500"
         );
 
         EXP_COLLECTOR_INFUSED = ThemeType.themedSlimefunItemStack(
             "CRY_EXP_COLLECTOR_2",
             new ItemStack(Material.LIGHTNING_ROD),
             ThemeType.GADGET,
-            "Infused Exp Collector",
-            "Further infusion has made the",
-            "collector even more powerful.",
+            "注入經驗收集器",
+            "進一步注入使",
+            "收集器更加強大.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "8",
-            ThemeType.CLICK_INFO.getColor() + "Capacity: " + ThemeType.PASSIVE.getColor() + "10000"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
+            ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "10000"
         );
 
         EXP_COLLECTOR_ARCANE = ThemeType.themedSlimefunItemStack(
@@ -1459,75 +1459,75 @@ public class CrystaStacks {
             "Magic sigils allow for even",
             "more storage.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "8",
-            ThemeType.CLICK_INFO.getColor() + "Capacity: " + ThemeType.PASSIVE.getColor() + "999999"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
+            ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "999999"
         );
 
         ENDER_INHIBITOR_BASIC = ThemeType.themedSlimefunItemStack(
             "CRY_ENDER_INHIBITOR_1",
             new ItemStack(Material.REDSTONE_TORCH),
             ThemeType.GADGET,
-            "Basic Ender Inhibitor",
-            "By using an Enderman's own resonance",
-            "against it, we can stop theme teleporting",
-            "for a brief time.",
-            "Duration is extended if still in range.",
+            "基礎終界抑制器",
+            "通過使用終界使者的諧振",
+            "來對抗它, 我們可以在短時間的",
+            "旋律中阻止它的傳送.",
+            "如果仍在範圍內, 將會延長持續時間.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 seconds"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "4",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 秒"
         );
 
         ENDER_INHIBITOR_ADVANCED = ThemeType.themedSlimefunItemStack(
             "CRY_ENDER_INHIBITOR_2",
             new ItemStack(Material.SOUL_TORCH),
             ThemeType.GADGET,
-            "Advanced Ender Inhibitor",
-            "By using an Enderman's own resonance",
-            "against it, we can stop theme teleporting",
-            "for a brief time.",
-            "Duration is extended if still in range.",
+            "進階終界抑制器",
+            "通過使用終界使者的諧振",
+            "來對抗它, 我們可以在短時間的",
+            "旋律中阻止它的傳送.",
+            "如果仍在範圍內, 將會延長持續時間.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "8",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 seconds"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 秒"
         );
 
         MOB_CANDLE_DIM = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_CANDLE_1",
             new ItemStack(Material.BLACK_CANDLE),
             ThemeType.GADGET,
-            "Dim Verache Candle",
-            "This candle stops mobs spawning",
-            "in a radius around it.",
-            "Doesn't last forever.",
+            "黯淡的菲拉什蠟燭",
+            "這根蠟燭會阻止怪物",
+            "在它周圍半徑生成怪物.",
+            "不會永遠的持續下去.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "16",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 hour (real time)"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "16",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 小時 (現實時間)"
         );
 
         MOB_CANDLE_BRIGHT = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_CANDLE_2",
             new ItemStack(Material.BROWN_CANDLE),
             ThemeType.GADGET,
-            "Bright Verache Candle",
-            "This candle stops mobs spawning",
-            "in a radius around it.",
-            "Doesn't last forever.",
+            "明亮的菲拉什蠟燭",
+            "這根蠟燭會阻止怪物",
+            "在它周圍半徑生成怪物.",
+            "不會永遠的持續下去.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "32",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "24 hours (real time)"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "32",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "24 小時 (現實時間)"
         );
 
         MOB_CANDLE_SCINTILLATING = ThemeType.themedSlimefunItemStack(
             "CRY_MOB_CANDLE_3",
             new ItemStack(Material.WHITE_CANDLE),
             ThemeType.GADGET,
-            "Scintillating Verache Candle",
-            "This candle stops mobs spawning",
-            "in a radius around it.",
-            "Doesn't last forever.",
+            "閃爍的菲拉什蠟燭",
+            "這根蠟燭會阻止怪物",
+            "在它周圍半徑生成怪物.",
+            "不會永遠的持續下去.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "64",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "48 Hours (real time)"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "64",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "48 小時 (現實時間)"
         );
 
         MOB_CANDLE_CORUSCATING = ThemeType.themedSlimefunItemStack(
@@ -1539,92 +1539,92 @@ public class CrystaStacks {
             "in a radius around it.",
             "Doesn't last forever.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "64",
-            ThemeType.CLICK_INFO.getColor() + "Duration: " + ThemeType.PASSIVE.getColor() + "2 Weeks (real time)"
+            ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "64",
+            ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 周 (現實時間)"
         );
 
         MYSTERIOUS_POTTED_PLANT = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_POTTED_PLANT",
             new ItemStack(Material.FLOWER_POT),
             ThemeType.GADGET,
-            "Mysterious Potted Plant",
-            "Just a pinch of magic can make",
-            "wonderful things happen..."
+            "神秘盆栽",
+            "只需要一點點魔法",
+            "就能讓美妙的事情發生..."
         );
 
         MYSTERIOUS_PLANT = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_PLANT",
             new ItemStack(Material.OXEYE_DAISY),
             ThemeType.GADGET,
-            "Mysterious Plant",
-            "Removing it from that pot took work."
+            "神秘植物",
+            "把它從那個盆栽內移除來工作."
         );
 
         MYSTERIOUS_GLASS = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_GLASS",
             new ItemStack(Material.ORANGE_STAINED_GLASS),
             ThemeType.GADGET,
-            "Mysterious Glass",
-            "Like rainbow glass but far",
-            "more random."
+            "神秘玻璃",
+            "就像是彩虹玻璃,",
+            "但更加隨機."
         );
 
         MYSTERIOUS_WOOL = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_WOOL",
             new ItemStack(Material.ORANGE_WOOL),
             ThemeType.GADGET,
-            "Mysterious Wool",
-            "Like rainbow wool but far",
-            "more random."
+            "神秘羊毛",
+            "就像是彩虹羊毛,",
+            "但更加隨機."
         );
 
         MYSTERIOUS_TERRACOTTA = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_TERRACOTTA",
             new ItemStack(Material.ORANGE_TERRACOTTA),
             ThemeType.GADGET,
-            "Mysterious Terracotta",
-            "Like rainbow terracotta but far",
-            "more random."
+            "神秘陶土",
+            "就像是彩虹陶土,",
+            "但更加隨機."
         );
 
         MYSTERIOUS_GLAZED_TERRACOTTA = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_GLAZED_TERRACOTTA",
             new ItemStack(Material.ORANGE_GLAZED_TERRACOTTA),
             ThemeType.GADGET,
-            "Mysterious Glazed Terracotta",
-            "Like rainbow terracotta but far",
-            "more random."
+            "神秘釉陶",
+            "就像是彩虹釉陶,",
+            "但更加隨機."
         );
 
         MYSTERIOUS_CONCRETE = ThemeType.themedSlimefunItemStack(
             "CRY_MYSTERIOUS_CONCRETE",
             new ItemStack(Material.ORANGE_CONCRETE),
             ThemeType.GADGET,
-            "Mysterious Concrete",
-            "Like rainbow concrete but far",
-            "more random."
+            "神秘混凝土",
+            "就像是彩虹混凝土,",
+            "但更加隨機."
         );
 
         GREEN_HOUSE_GLASS = ThemeType.themedSlimefunItemStack(
             "CRY_CROP_GLASS_1",
             new ItemStack(Material.GLASS),
             ThemeType.GADGET,
-            "Greenhouse Glass",
-            "Crops under this glass will grow faster.",
-            "Works during the day in light worlds only.",
+            "溫室玻璃",
+            "在這種玻璃下的農作物會生長得更快.",
+            "僅在白天與有光的世界運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Rate: " + ThemeType.PASSIVE.getColor() + "5"
+            ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "5"
         );
 
         GREEN_HOUSE_GLASS_FOCUSED = ThemeType.themedSlimefunItemStack(
             "CRY_CROP_GLASS_2",
             new ItemStack(Material.YELLOW_STAINED_GLASS),
             ThemeType.GADGET,
-            "Focused Greenhouse Glass",
-            "Crops under this glass will grow faster.",
-            "Works during the day in light worlds only.",
+            "聚焦的溫室玻璃",
+            "在這種玻璃下的農作物會生長得更快.",
+            "僅在白天與有光的世界運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Rate: " + ThemeType.PASSIVE.getColor() + "10"
+            ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "10"
         );
 
         GREEN_HOUSE_GLASS_MAGNIFYING = ThemeType.themedSlimefunItemStack(
@@ -1635,137 +1635,137 @@ public class CrystaStacks {
             "Crops under this glass will grow faster.",
             "Works during the day in light worlds only.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Rate: " + ThemeType.PASSIVE.getColor() + "20"
+            ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "20"
         );
 
         TROPHY_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_TROPHY_DISPLAY_1",
             new ItemStack(Material.POLISHED_BLACKSTONE_BRICK_WALL),
             ThemeType.GADGET,
-            "Trophy Display",
-            "Used to place your trophies on to show",
-            "off to the world.",
+            "獎盃展示",
+            "用來放置你的獎盃",
+            "以向世界炫耀.",
             "",
-            "Currently allowable trophies include:",
-            ThemeType.CLICK_INFO.getColor() + "A block in which you have a S.M.E. rank"
+            "目前允許的獎盃包括:",
+            ThemeType.CLICK_INFO.getColor() + "一個你有 歷史見證者 頭銜的方塊"
         );
 
         EXALTATION_STAND = ThemeType.themedSlimefunItemStack(
             "CRY_EXALTATION_STAND",
             new ItemStack(Material.PRISMARINE_WALL),
             ThemeType.GADGET,
-            "Exaltation Stand",
-            "Used to place 'Exalted' items on.",
-            "These items require special conditions",
-            "and impart powerful effects while nearby."
+            "昇華之台",
+            "用於放置 '尊貴' 物品.",
+            "這些物品需要特殊條件",
+            "並在附近賦予強大的效果."
         );
 
         WAYSTONE = ThemeType.themedSlimefunItemStack(
             "CRY_WAYSTONE",
             new ItemStack(Material.END_STONE_BRICK_WALL),
             ThemeType.GADGET,
-            "Diverging Waystone",
-            "Can be used as a marker to recall",
-            "back to."
+            "岔出的路石",
+            "可以做為標記",
+            "來回傳."
         );
 
         ANGEL_BLOCK = ThemeType.themedSlimefunItemStack(
             "CRY_ANGEL_BLOCK",
             new ItemStack(Material.GLASS),
             ThemeType.GADGET,
-            "Angel Block",
-            "Can be placed anywhere, even in",
-            "the air."
+            "天使方塊",
+            "可以放置在任何地方, 甚至",
+            "在空氣中."
         );
 
         PHILOSOPHERS_SPRAY = ThemeType.themedSlimefunItemStack(
             "CRY_PHILOSOPHERS_SPRAY",
             new ItemStack(Material.DISPENSER),
             ThemeType.GADGET,
-            "Philosophers Spray",
-            "Will 'displace' the block above",
-            "this one when triggered with Redstone."
+            "賢者的噴霧",
+            "當紅石觸發時,",
+            "將會 '替換' 這個方塊上方的方塊."
         );
 
         GLASS_OF_MILK = ThemeType.themedSlimefunItemStack(
             "CRY_GLASS_OF_MILK",
             Skulls.ITEM_MILK.getPlayerHead(),
             ThemeType.GADGET,
-            "Glass of Milk",
-            "Right click, when placed, to remove",
-            "all active effects.",
+            "一杯牛奶",
+            "當放置時, 右鍵點擊",
+            "以移除所有身上效果.",
             "",
-            ThemeType.WARNING.getColor() + "Can't be recovered when broken."
+            ThemeType.WARNING.getColor() + "損壞時無法被修復."
         );
 
         FRAGMENTED_VOID = ThemeType.themedSlimefunItemStack(
             "CRY_FRAGMENTED_VOID",
             new ItemStack(Material.BLACK_CONCRETE),
             ThemeType.GADGET,
-            "Fragmented Void",
-            "A portable hole in the universe.",
-            "Will pull any nearby items into it.",
+            "碎片的虛空",
+            "宇宙中的一個可攜帶的洞.",
+            "會將附近的任何物品拉入其中.",
             "",
-            ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "5"
+            ThemeType.WARNING.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "5"
         );
 
         SHATTERED_VOID = ThemeType.themedSlimefunItemStack(
             "CRY_SHATTERED_VOID",
             new ItemStack(Material.BLACK_CONCRETE),
             ThemeType.GADGET,
-            "Shattered Void",
-            "A portable hole in the universe.",
-            "Will pull any nearby items into it.",
+            "殘缺的虛空",
+            "宇宙中的一個可攜帶的洞.",
+            "會將附近的任何物品拉入其中.",
             "",
-            ThemeType.WARNING.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7"
+            ThemeType.WARNING.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "7"
         );
 
         CHRONICLER_PANEL_1 = ThemeType.themedSlimefunItemStack(
             "CRY_CHRONICLER_PANEL_1",
             new ItemStack(Material.COBBLED_DEEPSLATE_SLAB),
             ThemeType.MECHANISM,
-            "Chronicler Panel (Tier 1)",
-            "The chronicler panel will draw out",
-            "the stories contained within a given",
-            "block over time.",
+            "記錄者面板 (等級 1)",
+            "紀錄者面板將隨著",
+            "時間繪製出屬於該",
+            "方塊的故事.",
             "",
-            "Can chronicle stories for T1-T2 blocks."
+            "可以記錄 等級1-2的方塊."
         );
 
         CHRONICLER_PANEL_2 = ThemeType.themedSlimefunItemStack(
             "CRY_CHRONICLER_PANEL_2",
             new ItemStack(Material.DEEPSLATE_TILE_SLAB),
             ThemeType.MECHANISM,
-            "Chronicler Panel (Tier 2)",
-            "The chronicler panel will draw out",
-            "the stories contained within a given",
-            "block over time.",
+            "記錄者面板 (等級 2)",
+            "紀錄者面板將隨著",
+            "時間繪製出屬於該",
+            "方塊的故事.",
             "",
-            "Can chronicle stories for T1-T3 blocks."
+            "可以記錄 等級1-3的方塊."
         );
 
         CHRONICLER_PANEL_3 = ThemeType.themedSlimefunItemStack(
             "CRY_CHRONICLER_PANEL_3",
             new ItemStack(Material.NETHER_BRICK_SLAB),
             ThemeType.MECHANISM,
-            "Chronicler Panel (Tier 3)",
-            "The chronicler panel will draw out",
-            "the stories contained within a given",
-            "block over time.",
+            "記錄者面板 (等級 3)",
+            "紀錄者面板將隨著",
+            "時間繪製出屬於該",
+            "方塊的故事.",
             "",
-            "Can chronicle stories for T1-T4 blocks."
+            "可以記錄 等級1-4的方塊."
         );
 
         CHRONICLER_PANEL_4 = ThemeType.themedSlimefunItemStack(
             "CRY_CHRONICLER_PANEL_4",
             new ItemStack(Material.DARK_PRISMARINE_SLAB),
             ThemeType.MECHANISM,
-            "Chronicler Panel (Tier 4)",
-            "The chronicler panel will draw out",
-            "the stories contained within a given",
-            "block over time.",
+            "記錄者面板 (等級 4)",
+            "紀錄者面板將隨著",
+            "時間繪製出屬於該",
+            "方塊的故事.",
             "",
-            "Can chronicle stories for T1-T5 blocks."
+            "可以記錄 等級1-5的方塊."
         );
 
         CHRONICLER_PANEL_5 = ThemeType.themedSlimefunItemStack(
@@ -1786,48 +1786,48 @@ public class CrystaStacks {
             "CRY_REALISATION_ALTAR_1",
             new ItemStack(Material.CHISELED_DEEPSLATE),
             ThemeType.MECHANISM,
-            "Realisation Altar (Tier 1)",
-            "The realisation altar takes storied",
-            "blocks and converts their stories into",
-            "a physical form.",
+            "真實祭壇 (等級 1)",
+            "真實祭壇使用有故事",
+            "的方塊並將他們的故事",
+            "轉化成物理形式.",
             "",
-            "Can realise T1 - T2."
+            "可以真實化 等級1-2."
         );
 
         REALISATION_ALTAR_2 = ThemeType.themedSlimefunItemStack(
             "CRY_REALISATION_ALTAR_2",
             new ItemStack(Material.CHISELED_NETHER_BRICKS),
             ThemeType.MECHANISM,
-            "Realisation Altar (Tier 2)",
-            "The realisation altar takes storied",
-            "blocks and converts their stories into",
-            "a physical form.",
+            "真實祭壇 (等級 2)",
+            "真實祭壇使用有故事",
+            "的方塊並將他們的故事",
+            "轉化成物理形式.",
             "",
-            "Can realise T1 - T3."
+            "可以真實化 等級1-3."
         );
 
         REALISATION_ALTAR_3 = ThemeType.themedSlimefunItemStack(
             "CRY_REALISATION_ALTAR_3",
             new ItemStack(Material.CHISELED_RED_SANDSTONE),
             ThemeType.MECHANISM,
-            "Realisation Altar (Tier 3)",
-            "The realisation altar takes storied",
-            "blocks and converts their stories into",
-            "a physical form.",
+            "真實祭壇 (等級 3)",
+            "真實祭壇使用有故事",
+            "的方塊並將他們的故事",
+            "轉化成物理形式.",
             "",
-            "Can realise T1 - T4."
+            "可以真實化 等級1-4."
         );
 
         REALISATION_ALTAR_4 = ThemeType.themedSlimefunItemStack(
             "CRY_REALISATION_ALTAR_4",
             new ItemStack(Material.CHISELED_POLISHED_BLACKSTONE),
             ThemeType.MECHANISM,
-            "Realisation Altar (Tier 4)",
-            "The realisation altar takes storied",
-            "blocks and converts their stories into",
-            "a physical form.",
+            "真實祭壇 (等級 4)",
+            "真實祭壇使用有故事",
+            "的方塊並將他們的故事",
+            "轉化成物理形式.",
             "",
-            "Can realise T1 - T5."
+            "可以真實化 等級1-5."
         );
 
         REALISATION_ALTAR_5 = ThemeType.themedSlimefunItemStack(
@@ -1848,52 +1848,52 @@ public class CrystaStacks {
             "CRY_LIQUEFACTION_BASIN_1",
             new ItemStack(Material.CAULDRON),
             ThemeType.MECHANISM,
-            "Liquefaction Basin (Tier 1)",
-            "The liquefaction basin can take",
-            "Crystals and convert them into their liquid",
-            "Crystamae form. Used for magical crafting.",
-            "Danger: Do not break while filled!",
+            "液化池 (等級 1)",
+            "液化池可以吸收水晶並",
+            "將它們轉化成液態水晶",
+            "形式. 用於製作魔法.",
+            "危險: 不要在填充時破壞這個!",
             "",
-            "Holds up to 500 Liquefied Crysta."
+            "可以容納 500 個液態水晶能量."
         );
 
         LIQUEFACTION_BASIN_2 = ThemeType.themedSlimefunItemStack(
             "CRY_LIQUEFACTION_BASIN_2",
             new ItemStack(Material.CAULDRON),
             ThemeType.MECHANISM,
-            "Liquefaction Basin (Tier 2)",
-            "The liquefaction basin can take",
-            "Crystals and convert them into their liquid",
-            "Crystamae form. Used for magical crafting.",
-            "Danger: Do not break while filled!",
+            "液化池 (等級 2)",
+            "液化池可以吸收水晶並",
+            "將它們轉化成液態水晶",
+            "形式. 用於製作魔法.",
+            "危險: 不要在填充時破壞這個!",
             "",
-            "Holds up to 1250 Liquefied Crysta."
+            "可以容納 1250 個液態水晶能量."
         );
 
         LIQUEFACTION_BASIN_3 = ThemeType.themedSlimefunItemStack(
             "CRY_LIQUEFACTION_BASIN_3",
             new ItemStack(Material.CAULDRON),
             ThemeType.MECHANISM,
-            "Liquefaction Basin (Tier 3)",
-            "The liquefaction basin can take",
-            "Crystals and convert them into their liquid",
-            "Crystamae form. Used for magical crafting.",
-            "Danger: Do not break while filled!",
+            "液化池 (等級 3)",
+            "液化池可以吸收水晶並",
+            "將它們轉化成液態水晶",
+            "形式. 用於製作魔法.",
+            "危險: 不要在填充時破壞這個!",
             "",
-            "Holds up to 2500 Liquefied Crysta."
+            "可以容納 2500 個液態水晶能量."
         );
 
         LIQUEFACTION_BASIN_4 = ThemeType.themedSlimefunItemStack(
             "CRY_LIQUEFACTION_BASIN_4",
             new ItemStack(Material.CAULDRON),
             ThemeType.MECHANISM,
-            "Liquefaction Basin (Tier 4)",
-            "The liquefaction basin can take",
-            "Crystals and convert them into their liquid",
-            "Crystamae form. Used for magical crafting.",
-            "Danger: Do not break while filled!",
+            "液化池 (等級 4)",
+            "液化池可以吸收水晶並",
+            "將它們轉化成液態水晶",
+            "形式. 用於製作魔法.",
+            "危險: 不要在填充時破壞這個!",
             "",
-            "Holds up to 5000 Liquefied Crysta."
+            "可以容納 5000 個液態水晶能量."
         );
 
         LIQUEFACTION_BASIN_5 = ThemeType.themedSlimefunItemStack(
@@ -1913,10 +1913,10 @@ public class CrystaStacks {
             "CRY_STAVE_CONFIGURATOR",
             new ItemStack(Material.CUT_COPPER),
             ThemeType.MECHANISM,
-            "Stave Configurator",
-            "The Stave Configurator allows you",
-            "to add spell plates into your",
-            "Staves."
+            "法杖配置器",
+            "法杖配置器可以讓你",
+            "將法術板添加至你的",
+            "法杖中."
         );
 
         PRISMATIC_GILDER = ThemeType.themedSlimefunItemStack(
@@ -1935,143 +1935,143 @@ public class CrystaStacks {
             "CRY_SPELL_PLATE_1",
             new ItemStack(Material.PAPER),
             ThemeType.TOOL,
-            "Basic Spell Plate",
-            "A blank plate that has the potential to",
-            "store magical energy"
+            "基礎法術板",
+            "儲存著魔法潛能的",
+            "空白板."
         );
 
         CHARGED_PLATE = ThemeType.themedSlimefunItemStack(
             "CRY_CHARGED_PLATE_1",
             new ItemStack(Material.PAPER),
             ThemeType.TOOL,
-            "Charged Basic Spell Plate",
-            "A magically charged plate storing magic",
-            "potential."
+            "充能的基礎法術板",
+            "儲存著魔法潛能的",
+            "充能魔法板."
         );
 
         STAVE_BASIC = ThemeType.themedSlimefunItemStack(
             "CRY_STAVE_1",
             new ItemStack(Material.STICK),
             ThemeType.STAVE,
-            "Basic Stave",
-            "A stave with the ability to hold",
-            "magically charged plates."
+            "基礎法杖",
+            "一根具有能力容納",
+            "魔法充能板的法杖."
         );
 
         STAVE_ADVANCED = ThemeType.themedSlimefunItemStack(
             "CRY_STAVE_2",
             new ItemStack(Material.STICK),
             ThemeType.STAVE,
-            "Advanced Stave",
-            "A stave with the ability to hold",
-            "magically charged plates."
+            "進階法杖",
+            "一根具有能力容納",
+            "魔法充能板的法杖."
         );
 
         STAVE_ARCANE = ThemeType.themedSlimefunItemStack(
             "CRY_STAVE_3",
             GeneralUtils.getPreEnchantedItemStack(Material.STICK),
             ThemeType.STAVE,
-            "Arcane Stave",
-            "A stave with the ability to hold",
-            "magically charged plates."
+            "奧術法杖",
+            "一根具有能力容納",
+            "魔法充能板的法杖."
         );
 
         REFRACTING_LENS = ThemeType.themedSlimefunItemStack(
             "CRY_REFRACTING_LENS",
             new ItemStack(Material.SPYGLASS),
             ThemeType.TOOL,
-            "Refracting Lens",
-            "This magical lens has glass that can",
-            "split the light of Crysta into its",
-            "individual elements.",
+            "折射鏡片",
+            "這個魔法鏡片的特殊玻璃,",
+            "可以將水晶的光線分別出",
+            "各自的元素.",
             "",
-            "Right click on a Crystamae Block for",
-            "details if available.",
+            "右鍵在可運作的水晶方塊上",
+            "來獲取詳細資訊.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Works with:",
-            ChatColor.DARK_BLUE + "Liquefaction Basin",
-            ChatColor.DARK_BLUE + "Exp Collector"
+            ThemeType.CLICK_INFO.getColor() + "運作於:",
+            ChatColor.DARK_BLUE + "液化池",
+            ChatColor.DARK_BLUE + "經驗收集器"
         );
 
         THAUMATURGIC_SALTS = ThemeType.themedSlimefunItemStack(
             "CRY_THAUMATURGIC_SALT",
             new ItemStack(Material.REDSTONE),
             ThemeType.TOOL,
-            "Thaumaturgic Salts",
-            "A special formulation of salts",
-            "that can absorb unwanted crysta",
-            "from a Liquefaction Basin.",
+            "奇術鹽",
+            "一種特殊調合的鹽配方,",
+            "可以從液化池中吸收掉",
+            "不想要的水晶液體.",
             "",
-            "Right click on a Liquefaction Basin",
-            "to empty it."
+            "右鍵點擊液化池",
+            "來將其清空."
         );
 
         CRYSTA_RECALL_LATTICE = ThemeType.themedSlimefunItemStack(
             "CRY_RECALL_LATTICE",
             new ItemStack(Material.NETHER_STAR),
             ThemeType.TOOL,
-            "Crystamae Recall Lattice",
-            "Right click to recall to a linked",
-            "Waystone.",
+            "水晶回傳晶體",
+            "右鍵點擊來回傳到綁定的",
+            "岔出的路石.",
             "",
-            "Shift Right Click on a Waystone",
-            "to link"
+            "蹲下右鍵在岔出的路石",
+            "來綁定"
         );
 
         EPHEMERAL_CRAFT_TABLE = ThemeType.themedSlimefunItemStack(
             "CRY_EPHEMERAL_CRAFT_TABLE",
             new ItemStack(Material.CRAFTING_TABLE),
             ThemeType.TOOL,
-            "Ephemeral Crafting Table",
-            "Right click to be able to craft",
-            "from anywhere.",
-            "Vanilla Only"
+            "臨時工作台",
+            "右鍵點擊可以",
+            "在任何地方製作.",
+            "僅限原版"
         );
 
         EPHEMERAL_WORKBENCH = ThemeType.themedSlimefunItemStack(
             "CRY_EPHEMERAL_WORKBENCH",
             new ItemStack(Material.CRAFTING_TABLE),
             ThemeType.TOOL,
-            "Ephemeral Work Bench",
-            "Right click to be able to craft",
-            "from anywhere.",
-            "Vanilla + Enhanced Crafting Table."
+            "臨時製作台",
+            "右鍵點擊可以",
+            "在任何地方製作.",
+            "原版 + 進階合成台."
         );
 
         LUMINESCENCE_SCOOP = ThemeType.themedSlimefunItemStack(
             "CRY_LUMINESCENCE_SCOOP",
             new ItemStack(Material.LANTERN),
             ThemeType.TOOL,
-            "Luminescence Scoop",
-            "Right click to place a magical",
-            "light source.",
-            "Shift Right click to scoop back.",
+            "冷光勺",
+            "右鍵點擊放置",
+            "魔法光源.",
+            "Shift右鍵點擊來舀回.",
             "",
-            ChatColor.YELLOW + "25 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 25次"
         );
 
         BRILLIANCE_SCOOP = ThemeType.themedSlimefunItemStack(
             "CRY_BRILLIANCE_SCOOP",
             new ItemStack(Material.LANTERN),
             ThemeType.TOOL,
-            "Brilliance Scoop",
-            "Right click to place a magical",
-            "light source.",
-            "Shift Right click to scoop back.",
+            "光輝勺",
+            "右鍵點擊放置",
+            "魔法光源.",
+            "Shift右鍵點擊來舀回.",
             "",
-            ChatColor.YELLOW + "75 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 75次"
         );
 
         LUSTRE_SCOOP = ThemeType.themedSlimefunItemStack(
             "CRY_LUSTRE_SCOOP",
             new ItemStack(Material.SOUL_LANTERN),
             ThemeType.TOOL,
-            "Lustre Scoop",
-            "Right click to place a magical",
-            "light source.",
-            "Shift Right click to scoop back.",
+            "光彩勺",
+            "右鍵點擊放置",
+            "魔法光源.",
+            "Shift右鍵點擊來舀回.",
             "",
-            ChatColor.YELLOW + "250 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 250次"
         );
 
         RADIANCE_SCOOP = ThemeType.themedSlimefunItemStack(
@@ -2084,35 +2084,35 @@ public class CrystaStacks {
             "Shift Right click to scoop back.",
             "Left click to change the light level.",
             "",
-            ChatColor.YELLOW + "500 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 500次"
         );
 
         CONNECTING_COMPASS = ThemeType.themedSlimefunItemStack(
             "CRY_CONNECTING_COMPASS",
             new ItemStack(Material.COMPASS),
             ThemeType.TOOL,
-            "Connecting Compass",
-            "Allows you to save a location",
-            "to find your way back to it at",
-            "a later time.",
+            "空間指向指南針",
+            "允許你保存一個位置,",
+            "以便在以後也可以找到",
+            "該儲存位置.",
             "",
-            MessageFormat.format("{0}Right Click: {1}Display Stored Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
-            MessageFormat.format("{0}Shift Right Click: {1}Store Location", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
+            MessageFormat.format("{0}右鍵點擊: {1}顯示儲存的位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor()),
+            MessageFormat.format("{0}Shift + 右鍵點擊: {1}儲存位置", ThemeType.CLICK_INFO.getColor(), ThemeType.PASSIVE.getColor())
         );
 
         SPIRITUAL_SILKEN = ThemeType.themedSlimefunItemStack(
             "CRY_SPIRITUAL_SILKEN",
             new ItemStack(Material.BONE),
             ThemeType.TOOL,
-            "Spiritual Silken",
-            "This pick has been imbued with",
-            "spiritual energies that allow it",
-            "to keep certain items whole.",
-            ChatColor.RED + "Only works on blocks that do",
-            ChatColor.RED + "not normally drop themselves",
-            ChatColor.RED + "both with and without silk.",
+            "精神絲綢",
+            "這個鎬充滿著精神能量,",
+            "使它能夠保持某些",
+            "物品的完整性.",
+            ChatColor.RED + "只對通常不會掉落",
+            ChatColor.RED + "自己的方塊起作用,",
+            ChatColor.RED + "無論是否需要絲綢.",
             "",
-            ChatColor.YELLOW + "50 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
         );
 
         INCORPOREAL_SILKEN = ThemeType.themedSlimefunItemStack(
@@ -2127,55 +2127,55 @@ public class CrystaStacks {
             ChatColor.RED + "not normally drop themselves",
             ChatColor.RED + "both with and without silk.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 1000次"
         );
 
         SIMPLE_DISPLACER = ThemeType.themedSlimefunItemStack(
             "CRY_SIMPLE_DISPLACER",
             new ItemStack(Material.TORCH),
             ThemeType.TOOL,
-            "Simple Displacer",
-            "The displacer can shift some",
-            "things out of this world and",
-            "replace it with something from",
-            "another dimension.",
-            ChatColor.YELLOW + "50 Uses " + ChatColor.GRAY + "left"
+            "簡單置換器",
+            "置換者可以將一些東西",
+            "從這個世界移出, 並用來自",
+            "另一個維度的",
+            "東西取代它.",
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 50次"
         );
 
         ARCANE_DISPLACER = ThemeType.themedSlimefunItemStack(
             "CRY_ARCANE_DISPLACER",
             new ItemStack(Material.REDSTONE_TORCH),
             ThemeType.TOOL,
-            "Arcane Displacer",
-            "The displacer can shift some",
-            "things out of this world and",
-            "replace it with something from",
-            "another dimension.",
-            ChatColor.YELLOW + "500 Uses " + ChatColor.GRAY + "left"
+            "奧術置換者",
+            "置換者可以將一些東西",
+            "從這個世界移出, 並用來自",
+            "另一個維度的",
+            "東西取代它.",
+            ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 500次"
         );
 
         SPONGE_BALMY = ThemeType.themedSlimefunItemStack(
             "CRY_SPONGE_BALMY",
             new ItemStack(Material.DEAD_FIRE_CORAL_BLOCK),
             ThemeType.TOOL,
-            "Balmy Sponge",
-            "This imbued sponge is capable",
-            "of absorbing lava instead of water.",
-            "Place near water to clean after use.",
+            "溫和的海綿",
+            "這種被灌注的海綿能",
+            "夠吸取岩漿而不是水.",
+            "使用後在水邊清洗.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "4 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "4 格方塊"
         );
 
         SPONGE_SEARING = ThemeType.themedSlimefunItemStack(
             "CRY_SPONGE_SEARING",
             GeneralUtils.getPreEnchantedItemStack(Material.DEAD_FIRE_CORAL_BLOCK),
             ThemeType.TOOL,
-            "Searing Sponge",
-            "This imbued sponge is capable",
-            "of absorbing lava instead of water.",
-            "Place near water to clean after use.",
+            "灼熱的海綿",
+            "這種被灌注的海綿能",
+            "夠吸取岩漿而不是水.",
+            "使用後在水邊清洗.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "7 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "7 格方塊"
         );
 
         SPONGE_SUPER_MASSIVE = ThemeType.themedSlimefunItemStack(
@@ -2187,18 +2187,18 @@ public class CrystaStacks {
             "of absorbing lava instead of water.",
             "Place near water to clean after use.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Range: " + ThemeType.PASSIVE.getColor() + "10 Blocks"
+            ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "10 格方塊"
         );
 
         SLEEPING_BAG = ThemeType.themedSlimefunItemStack(
             "CRY_SLEEPING_BAG",
             new ItemStack(Material.LIGHT_BLUE_BANNER),
             ThemeType.TOOL,
-            "Rune-marked Sleeping Bag",
-            "This sleeping bag emits a weak",
-            "protection magic that will defend",
-            "you in the wilds.",
-            "Does not set your respawn point."
+            "符文睡袋",
+            "這個睡袋散發出微弱的",
+            "保護魔法, 可以在野外",
+            "中保護你.",
+            "不要用於設定你的重生點."
         );
 
         DISPLACED_VOID = ThemeType.themedSlimefunItemStack(
@@ -2216,122 +2216,122 @@ public class CrystaStacks {
             "CRY_SATCHEL_1",
             new ItemStack(Material.WHITE_CONCRETE),
             ThemeType.TOOL,
-            "Apprentice's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "學徒背包",
+            "這個簡易背包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique only"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "僅限獨特"
         );
 
         SATCHEL_2 = ThemeType.themedSlimefunItemStack(
             "CRY_SATCHEL_2",
             new ItemStack(Material.GRAY_CONCRETE),
             ThemeType.TOOL,
-            "Crystamage's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "水晶魔法師的挎包",
+            "這個簡易的挎包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Common"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 常見"
         );
 
         SATCHEL_3 = ThemeType.themedSlimefunItemStack(
             "CRY_SATCHEL_3",
             new ItemStack(Material.LIME_CONCRETE),
             ThemeType.TOOL,
-            "Wizard's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "巫師的挎包",
+            "這個簡易的挎包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Uncommon"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 不常見"
         );
 
         SATCHEL_4 = ThemeType.themedSlimefunItemStack(
             "CRY_SATCHEL_4",
             new ItemStack(Material.YELLOW_CONCRETE),
             ThemeType.TOOL,
-            "Conjurer's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "咒術士的挎包",
+            "這個簡易的挎包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Rare"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 稀有"
         );
 
         SATCHEL_5 = ThemeType.themedSlimefunItemStack(
             "CRY_SATCHEL_5",
             new ItemStack(Material.PURPLE_CONCRETE),
             ThemeType.TOOL,
-            "Sorcerer's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "術士的挎包",
+            "這個簡易的挎包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Epic"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 史詩"
         );
 
         SATCHEL_6 = ThemeType.themedSlimefunItemStack(
             "CRY_SATCHEL_6",
             new ItemStack(Material.RED_CONCRETE),
             ThemeType.TOOL,
-            "Grandmaster's Satchel",
-            "This simple satchel will pick up",
-            "and hold crystals for you.",
+            "宗師級奇術師的挎包",
+            "這個簡易的挎包可以",
+            "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "Rarities: " + ThemeType.PASSIVE.getColor() + "Unique -> Mythical"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 神話"
         );
 
         CARGO_COVER = ThemeType.themedSlimefunItemStack(
             "CRY_CARGO_COVER",
             new ItemStack(Material.PAPER),
             ThemeType.TOOL,
-            "Block Veil - Cargo",
-            "Right click to place a magical",
-            "block veil over a cargo node.",
-            "The cover will mimic the block",
-            "in your offhand.",
-            "One time use per item."
+            "方塊面紗 - 物流",
+            "右鍵點擊在物流節點上",
+            "放置一個魔法面紗.",
+            "面紗將會模仿你",
+            "副手所放的方塊.",
+            "一次性使用."
         );
 
         ENERGY_NET_COVER = ThemeType.themedSlimefunItemStack(
             "CRY_ENERGY_NET_COVER",
             new ItemStack(Material.PAPER),
             ThemeType.TOOL,
-            "Block Veil - Energy Net",
-            "Right click to place a magical",
-            "block veil over a cargo node.",
-            "The cover will mimic the block",
-            "in your offhand.",
-            "One time use per item."
+            "方塊面紗 - 能源網路",
+            "右鍵點擊在能源節點上",
+            "放置一個魔法面紗.",
+            "面紗將會模仿你",
+            "副手所放的方塊.",
+            "一次性使用."
         );
 
         NETWORKS_COVER = ThemeType.themedSlimefunItemStack(
             "CRY_NETWORK_COVER",
             new ItemStack(Material.PAPER),
             ThemeType.TOOL,
-            "Block Veil - Networks",
-            "Right click to place a magical",
-            "block veil over a Networks node.",
-            "The cover will mimic the block",
-            "in your offhand.",
-            "One time use per item."
+            "方塊面紗 - 網路",
+            "右鍵點擊在網路節點上",
+            "放置一個魔法面紗.",
+            "面紗將會模仿你",
+            "副手所放的方塊.",
+            "一次性使用."
         );
 
         SPELL_TROPHY = ThemeType.themedSlimefunItemStack(
             "CRY_SPELL_TROPHY",
             new ItemStack(Material.PAPER),
             ThemeType.CRAFTING,
-            "Proofs: Grandmaster Magus",
-            "Proof that you are simply the best.",
+            "證明: 宗師級奇術師",
+            "證明你是最棒的.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Spell Rank > Grandmaster Magus"
+            ThemeType.CLICK_INFO.getColor() + "需求: 法術頭銜 > 宗師級奇術師"
         );
 
         STORY_TROPHY = ThemeType.themedSlimefunItemStack(
             "CRY_STORY_TROPHY",
             new ItemStack(Material.PAPER),
             ThemeType.CRAFTING,
-            "Proofs: Emeritus Professor",
-            "Proof that you are simply the best.",
+            "證明: 榮譽教授",
+            "證明你是最棒的.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         GILDING_TROPHY = ThemeType.themedSlimefunItemStack(
@@ -2348,61 +2348,61 @@ public class CrystaStacks {
             "CRY_CHRISTMAS_TROPHY",
             new ItemStack(Material.SPRUCE_SAPLING),
             ThemeType.CRAFTING,
-            "Merry Christmas",
-            "A little gift for you... but you",
-            "have to work for it!",
+            "聖誕快樂",
+            "給你的小小禮物...",
+            "但你必須為此努力!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Can only be crafted during the holidays"
+            ThemeType.CLICK_INFO.getColor() + "需求: 只能在節慶時製作"
         );
 
         VALENTINES_TROPHY = ThemeType.themedSlimefunItemStack(
             "CRY_VALENTINES_TROPHY",
             new ItemStack(Material.PINK_DYE),
             ThemeType.CRAFTING,
-            "Happy Valentines Day",
-            "A little love goes a long way.",
+            "情人節快樂",
+            "一點點的愛可以走很長的路",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Can only be crafted when love is in the air"
+            ThemeType.CLICK_INFO.getColor() + "需求: 只能在充滿愛情的氣氛中製作"
         );
 
         BIRTHDAY_TROPHY_CHEESY = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_CHEESY",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "Happy Birthday Cheesy!",
-            "A Gentleman at Heart",
+            "生日快樂 Cheesy!",
+            "心中的紳士",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Cheesy's Birthday!"
+            ThemeType.CLICK_INFO.getColor() + "需求: Cheesy的生日!"
         );
 
         BIRTHDAY_TROPHY_BWHITE = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_BWHITE",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "Happy Birthday BWhite!",
-            "Joint creator of the biggest Tantrum ever!",
+            "生日快樂 BWhite!",
+            "有史以來最大的 Tantrum 聯合製作者!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: BWhite's Birthday!"
+            ThemeType.CLICK_INFO.getColor() + "需求: BWhite的生日!"
         );
 
         BIRTHDAY_TROPHY_DECOY = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_DECOY",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "Happy Birthday Decoy!",
-            "Joint creator of the biggest Tantrum ever!",
+            "生日快樂 Decoy!",
+            "有史以來最大的 Tantrum 聯合製作者!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Decoy's Birthday!"
+            ThemeType.CLICK_INFO.getColor() + "需求: Decoy的生日!"
         );
 
         BIRTHDAY_TROPHY_ODDISH = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_ODDISH",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "Happy Birthday Oddish!",
-            "A Gloom waiting to happen",
+            "生日快樂 Oddish!",
+            "一個等待發生的幽暗",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Oddish's Birthday!"
+            ThemeType.CLICK_INFO.getColor() + "需求: Oddish的生日!"
         );
 
         // Recipe Types
@@ -2410,19 +2410,19 @@ public class CrystaStacks {
         RECIPE_TYPE_LIQUEFACTION_CRAFTING = ThemeType.themedItemStack(
             Material.CAULDRON,
             ThemeType.MECHANISM,
-            "Liquefaction Basin",
-            "Formed by dropping the relevant item",
-            "into a filled Liquefaction Basin containing",
-            "the correct Crystamae."
+            "液化池",
+            "通過將相應物品丟入",
+            "在液化池中填充來",
+            "形成正確的水晶."
         );
 
         RECIPE_TYPE_LIQUEFACTION_SPELL = ThemeType.themedItemStack(
             Material.CAULDRON,
             ThemeType.MECHANISM,
-            "Liquefaction Basin",
-            "Formed by dropping a basic plate into a",
-            "filled Liquefaction Basin containing",
-            "the correct Crystamae."
+            "液化池",
+            "通過將相應物品丟入",
+            "在液化池中填充來",
+            "形成正確的水晶."
         );
 
         RECIPE_TYPE_NETHER_DRAINING = ThemeType.themedItemStack(
@@ -2440,11 +2440,11 @@ public class CrystaStacks {
         RECIPE_TYPE_REALISATION_ALTAR_NORMAL = ThemeType.themedItemStack(
             Material.CHISELED_DEEPSLATE,
             ThemeType.MECHANISM,
-            "Realisation Altar",
-            "Crystals are gathered when mining the fully",
-            "formed crystals that gather around an active",
-            "Altar. Giving the Altar storied blocks will",
-            "produce crystals."
+            "真實祭壇",
+            "給予祭壇有著故事的",
+            "方塊將會產生水晶.",
+            "在真實祭壇周圍產生出的",
+            "水晶完全成長時即可開採."
         );
 
         RECIPE_TYPE_REALISATION_ALTAR_SIGIL = ThemeType.themedItemStack(
