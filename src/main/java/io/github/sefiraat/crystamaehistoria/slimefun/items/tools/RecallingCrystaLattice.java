@@ -72,7 +72,7 @@ public class RecallingCrystaLattice extends SlimefunItem {
                 container.set(Keys.newKey("location"), DataType.LOCATION, location);
                 itemStack.setItemMeta(itemMeta);
                 player.sendMessage(
-                    MessageFormat.format("{0}Type the name of this Waystone into chat.", ChatColor.LIGHT_PURPLE)
+                    MessageFormat.format("{0}在聊天室輸入這個岔出的路石的名稱.", ChatColor.LIGHT_PURPLE)
                 );
                 ChatUtils.awaitInput(player, s -> renameItem(s, itemStack));
             }
