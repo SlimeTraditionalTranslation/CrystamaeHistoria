@@ -28,6 +28,8 @@ public class MiscListener implements Listener {
     public void onPlaceStoriedBlock(BlockPlaceEvent e) {
         ItemStack itemStack = e.getItemInHand();
         if (itemStack.getType() != Material.AIR && StoryUtils.isStoried(itemStack)) {
+            final Player player = e.getPlayer();
+            player.sendMessage(ThemeType.WARNING.getColor() + "這個方塊已被水晶能量飽和, 無法再被放置.");
             e.setCancelled(true);
         }
     }
