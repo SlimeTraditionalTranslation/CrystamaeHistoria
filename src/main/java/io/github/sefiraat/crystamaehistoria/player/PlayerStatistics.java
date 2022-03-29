@@ -267,7 +267,7 @@ public class PlayerStatistics {
         int unlocked = getBlocksGilded(uuid);
         GildingRank gildingRank = GildingRank.getByPercent(((double) unlocked / total) * 100);
         return MessageFormat.format(
-            "{0}Gilding Rank: {1}{2}{0} ({3}/{4})",
+            "{0}鍍金頭銜: {1}{2}{0} ({3}/{4})",
             ThemeType.PASSIVE.getColor(),
             gildingRank.getTheme().getColor(),
             gildingRank.getTheme().getLoreLine(),

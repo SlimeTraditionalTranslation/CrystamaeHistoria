@@ -118,7 +118,7 @@ public class GuiElements {
             material,
             ThemeType.RARITY_UNIQUE,
             ThemeType.toTitleCase(material.toString()),
-            "This block has been gilded."
+            "這個方塊已鍍金."
         );
     }
 
@@ -129,7 +129,7 @@ public class GuiElements {
             ThemeType.RESEARCH,
             ThemeType.toTitleCase(material.toString()),
             MessageFormat.format("{0}{1}LOCKED", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
-            "This block has not yet been gilded."
+            "這個方塊尚未被鍍金過."
         );
     }
 

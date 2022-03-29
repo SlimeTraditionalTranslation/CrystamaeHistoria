@@ -252,44 +252,44 @@ public class CrystaStacks {
             "CRY_CRYSTAL_BLANK",
             Skulls.CRYSTAL_CLEAR.getPlayerHead(),
             ThemeType.CRAFTING,
-            "Blank Crystal",
-            "A Crystal with all of it's Crysta drained."
+            "空白水晶",
+            "一顆水晶, 它的水晶能量都已全部耗盡."
         );
 
         CRYSTAL_POLYCHROMATIC = ThemeType.themedSlimefunItemStack(
             "CRY_CRYSTAL_POLYCHROMATIC",
             Skulls.CRYSTAL_POLYCHROME.getPlayerHead(),
             ThemeType.CRAFTING,
-            "Polychromatic Crystal",
-            "A Crystal shell with multiple crysta",
-            "types infused within."
+            "多色水晶",
+            "一個水晶外殼,",
+            "內部注入了多種水晶類型."
         );
 
         CRYSTAL_KALEIDOSCOPIC = ThemeType.themedSlimefunItemStack(
             "CRY_CRYSTAL_KALEIDOSCOPIC",
             Skulls.CRYSTAL_KALEIDOSCOPIC.getPlayerHead(),
             ThemeType.CRAFTING,
-            "Kaleidoscopic Crystal",
-            "A Crystal shell with multiple crysta",
-            "types infused within."
+            "萬花筒水晶",
+            "一個水晶外殼,",
+            "內部注入了多種水晶類型."
         );
 
         CRYSTAL_MOTLEY = ThemeType.themedSlimefunItemStack(
             "CRY_CRYSTAL_MOTLEY",
             Skulls.CRYSTAL_MOTLEY.getPlayerHead(),
             ThemeType.CRAFTING,
-            "Motley Crystal",
-            "A Crystal shell with multiple crysta",
-            "types infused within."
+            "雜色水晶",
+            "一個水晶外殼,",
+            "內部注入了多種水晶類型."
         );
 
         CRYSTAL_PRISMATIC = ThemeType.themedSlimefunItemStack(
             "CRY_CRYSTAL_PRISMATIC",
             Skulls.CRYSTAL_PRISMATIC.getPlayerHead(),
             ThemeType.CRAFTING,
-            "Prismatic Crystal",
-            "This crystal has so much magic it's",
-            "near to bursting."
+            "棱鏡水晶",
+            "這顆水晶魔力如此巨大,",
+            "幾乎接近爆炸的邊緣."
         );
 
         AMALGAMATE_DUST_COMMON = ThemeType.themedSlimefunItemStack(
@@ -392,9 +392,9 @@ public class CrystaStacks {
             "CRY_ARCANE_SIGIL",
             new ItemStack(Material.GLOW_LICHEN),
             ThemeType.CRAFTING,
-            "Arcane Sigil",
-            "An ancient mark left in the world",
-            "by previous Crysta users."
+            "奧術符印",
+            "以前的水晶法師在世界上",
+            "所遺留下的古老印記."
         );
 
         IMBUED_GLASS = ThemeType.themedSlimefunItemStack(
@@ -458,237 +458,237 @@ public class CrystaStacks {
             "CRY_RUNE_BEAST",
             Skulls.RUNE_A.getPlayerHead(),
             ThemeType.RUNE,
-            "Beast Rune",
-            "Unbridled passion and drive. The howl",
-            "of the wolf echos from within."
+            "野獸符文",
+            "無拘無束的激情和動力.",
+            "狼嚎從內部中迴盪著."
         );
 
         RUNE_BEGINNING = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_BEGINNING",
             Skulls.RUNE_B.getPlayerHead(),
             ThemeType.RUNE,
-            "Rune of Beginning",
-            "Chaos formed into order. The swirling",
-            "vortex of the unknown made still."
+            "初始符文",
+            "混亂形成了秩序.",
+            "未知的漩渦變得靜止."
         );
 
         RUNE_MOON = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_MOON",
             Skulls.RUNE_C.getPlayerHead(),
             ThemeType.RUNE,
-            "Moon Rune",
-            "The clash of both compassion and",
-            "sheer destruction rage within."
+            "月亮符文",
+            "慈悲心與純粹的毀滅性",
+            "的衝突在內部肆虐."
         );
 
         RUNE_GATE = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_GATE",
             Skulls.RUNE_D.getPlayerHead(),
             ThemeType.RUNE,
-            "Gate Rune",
-            "Threads connecting worlds all pass",
-            "through the magic within these runes."
+            "傳送門符文",
+            "連接世界的線都",
+            "通過這些符文中的魔法."
         );
 
         RUNE_TRUE_EARTH = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_EARTH",
             Skulls.RUNE_E.getPlayerHead(),
             ThemeType.RUNE,
-            "True Earth Rune",
-            "The single point of power for",
-            "all earth magic."
+            "真實之土符文",
+            "所有地球魔法",
+            "的單點力量."
         );
 
         RUNE_CHANGE = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_CHANGE",
             Skulls.RUNE_F.getPlayerHead(),
             ThemeType.RUNE,
-            "Rune of Change",
-            "All unknowns and futures of the universe",
-            "are kept in harmony within."
+            "變化符文",
+            "宇宙中所有的未知與未來",
+            "都在內部保持和諧."
         );
 
         RUNE_NIGHT = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_NIGHT",
             Skulls.RUNE_G.getPlayerHead(),
             ThemeType.RUNE,
-            "Night Rune",
-            "The magic running through this rune",
-            "is the same that allows the undead to rise."
+            "黑夜符文",
+            "貫穿這個符文的魔法",
+            "也是讓不死者復活的魔法."
         );
 
         RUNE_BLACK = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_BLACK",
             Skulls.RUNE_H.getPlayerHead(),
             ThemeType.RUNE,
-            "Black Rune",
-            "The power to control minds and wills",
-            "held within."
+            "黑色符文",
+            "控制思想和意志的力量",
+            "掌握在內部之中."
         );
 
         RUNE_TRUE_HOLY = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_HOLY",
             Skulls.RUNE_I.getPlayerHead(),
             ThemeType.RUNE,
-            "True Holy Rune",
-            "All inner light stems from this",
-            "magical source."
+            "真實神聖符文",
+            "所有內部的光都源自於",
+            "這個魔法的源泉."
         );
 
         RUNE_DRAGON = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_DRAGON",
             Skulls.RUNE_J.getPlayerHead(),
             ThemeType.RUNE,
-            "Dragon Rune",
-            "The existence of dragons both created",
-            "and was caused by this magic. A paradox that",
-            "will never be unwound."
+            "龍之符文",
+            "龍的存在既創造了這魔法,",
+            "但龍也是由魔法誕生的.",
+            "這是一個永遠無法解開的悖論."
         );
 
         RUNE_TRUE_WATER = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_WATER",
             Skulls.RUNE_K.getPlayerHead(),
             ThemeType.RUNE,
-            "True Water Rune",
-            "The beginning of all flowing freely."
+            "真實之水符文",
+            "一切自由流動的開端."
         );
 
         RUNE_SOVEREIGN = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_SOVEREIGN",
             Skulls.RUNE_L.getPlayerHead(),
             ThemeType.RUNE,
-            "Sovereign Rune",
-            "Order through rule, protection from",
-            "one, protection for all."
+            "主權符文",
+            "通過統治建立秩序, 保護一個人,",
+            "直至保護所有人."
         );
 
         RUNE_SUN = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_SUN",
             Skulls.RUNE_M.getPlayerHead(),
             ThemeType.RUNE,
-            "Sun Rune",
-            "Bringer of prosperity and life but",
-            "at a toll for all."
+            "太陽符文",
+            "繁榮與生命的使者,",
+            "但它也為所有人付出了代價."
         );
 
         RUNE_DAWN = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_DAWN",
             Skulls.RUNE_N.getPlayerHead(),
             ThemeType.RUNE,
-            "Dawn Rune",
-            "The bringer of new, of regeneration",
-            "and renewal."
+            "黎明符文",
+            "帶來新的,",
+            "再生與恢復."
         );
 
         RUNE_TWILIGHT = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TWILIGHT",
             Skulls.RUNE_O.getPlayerHead(),
             ThemeType.RUNE,
-            "Twilight Rune",
-            "The removal of old, the bringer of",
-            "rest and recuperation."
+            "暮色符文",
+            "除去舊的,",
+            "帶來休息與復原."
         );
 
         RUNE_TRUE_FIRE = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_FIRE",
             Skulls.RUNE_P.getPlayerHead(),
             ThemeType.RUNE,
-            "True Fire Rune",
-            "An inferno without limits held",
-            "back by nothing but it's own tempest."
+            "真實之火符文",
+            "一個沒有限制的地獄,",
+            "除了自己的風暴之雨之外甚麼都沒有."
         );
 
         RUNE_CIRCLE = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_CIRCLE",
             Skulls.RUNE_Q.getPlayerHead(),
             ThemeType.RUNE,
-            "Circle Rune",
-            "Brings both order and routine keeping",
-            "other forms of magic in check.",
-            "Circle Rune magic is weakened in",
-            "the Minecraft world for some reason..."
+            "圓形符文",
+            "帶來秩序和常規,",
+            "使其他形式的魔法受到了制約.",
+            "由於某些原因,",
+            "圓形符文在 Minecraft 世界中被削弱了..."
         );
 
         RUNE_BLINKING = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_BLINKING",
             Skulls.RUNE_R.getPlayerHead(),
             ThemeType.RUNE,
-            "Blinking Rune",
-            "This rune contains space and in turn",
-            "itself and is used to traverse",
-            "large distances in moments."
+            "閃爍符文",
+            "這個符文包含了空間",
+            "與本身, 用來瞬間穿越",
+            "很長的距離."
         );
 
         RUNE_SOUL = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_SOUL",
             Skulls.RUNE_S.getPlayerHead(),
             ThemeType.RUNE,
-            "Souleater Rune",
-            "The rune of life and death. Both",
-            "kept in balance and check."
+            "靈魂吞噬符文",
+            "生與死的符文.",
+            "兩者都保持著平衡與制衡."
         );
 
         RUNE_PUNISHMENT = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_PUNISHMENT",
             Skulls.RUNE_T.getPlayerHead(),
             ThemeType.RUNE,
-            "Rune of Punishment",
-            "This rune imposes order by crushing",
-            "dissidence and wrong-doing, culling",
-            "magic gone-astray."
+            "懲罰符文",
+            "這個符文通過粉碎不同意見和",
+            "不法行為, 剔除誤入歧途的魔法",
+            "來建立的秩序."
         );
 
         RUNE_TRUE_LIGHTNING = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_LIGHTNING",
             Skulls.RUNE_U.getPlayerHead(),
             ThemeType.RUNE,
-            "True Lightning Rune",
-            "The tempest from above contained",
-            "within a sealing magic."
+            "真實閃電符文",
+            "封印著來自天上",
+            "蘊含著的魔法風暴."
         );
 
         RUNE_EIGHTFOLD = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_EIGHTFOLD",
             Skulls.RUNE_V.getPlayerHead(),
             ThemeType.RUNE,
-            "Eightfold Rune",
-            "The rule of reality and form.",
-            "Magics from this rune have the power to",
-            "create and form new matter."
+            "八重符文",
+            "現實和型式的規則.",
+            "來自這個符文的魔法都具有",
+            "創造和形成新物質的力量."
         );
 
         RUNE_CHARM = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_CHARM",
             Skulls.RUNE_W.getPlayerHead(),
             ThemeType.RUNE,
-            "Charm Rune",
-            "Passion, drive and love. These power",
-            "and are powered by the magic within."
+            "魅惑符文",
+            "熱情, 動力與愛. 這些力量",
+            "都是由裡面的魔法來驅動."
         );
 
         RUNE_TRUE_WIND = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_TRUE_WIND",
             Skulls.RUNE_X.getPlayerHead(),
             ThemeType.RUNE,
-            "True Wind Rune",
-            "The never ending zephyr is contained",
-            "within."
+            "真實之風符文",
+            "永無止境的和風",
+            "包含在其中."
         );
 
         RUNE_BLACK_SWORD = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_BLACK_SWORD",
             Skulls.RUNE_Y.getPlayerHead(),
             ThemeType.RUNE,
-            "Black Sword Rune",
-            "The magic of power, domination and drive."
+            "黑劍符文",
+            "魔法之力的控制與逼迫."
         );
 
         RUNE_BRIGHT_SHIELD = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_BRIGHT_SHIELD",
             Skulls.RUNE_Y.getPlayerHead(),
             ThemeType.RUNE,
-            "Bright Shield Rune",
-            "The magic of power, protection and security."
+            "白盾符文",
+            "魔法之力的保護與安全."
         );
 
         // Artistic
@@ -1124,7 +1124,7 @@ public class CrystaStacks {
             "的潛能. 必須放在",
             "昇華之台上才能運作.",
             "",
-            ThemeType.CLICK_INFO + "力量: " + ThemeType.PASSIVE + "2",
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "2",
             "",
             ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
@@ -1133,14 +1133,14 @@ public class CrystaStacks {
             "CRY_EXALTED_BAELFIRE",
             new ItemStack(Material.SOUL_CAMPFIRE),
             ThemeType.EXALTED,
-            "Exalted Baelfire",
-            "A powerful beacon with incredible",
-            "potential. Must be placed on a",
-            "Exaltation Stand to operate.",
+            "尊貴巴爾火",
+            "一個強大的烽火台, 具有極大",
+            "的潛能. 必須放在",
+            "昇華之台上才能運作.",
             "",
-            ThemeType.CLICK_INFO + "Power: " + ThemeType.PASSIVE + "3",
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "3",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         EXALTED_FERTILITY_PHARO = ThemeType.themedSlimefunItemStack(
@@ -1160,13 +1160,13 @@ public class CrystaStacks {
             "CRY_EXALTED_FERTILITY_TOTEM",
             new ItemStack(Material.EMERALD_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Fertility Totem",
-            "A magical construct able to",
-            "breed nearby animals in a 20x20 area.",
-            "Must be placed on an Exaltation",
-            "Stand to operate.",
+            "尊貴生育圖騰",
+            "一種能夠繁殖 20x20 區域",
+            "內動物的魔法結構.",
+            "必須放在昇華之台上",
+            "才能運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         EXALTED_HARVESTER = ThemeType.themedSlimefunItemStack(
@@ -1186,13 +1186,13 @@ public class CrystaStacks {
             "CRY_EXALTED_AGRONOMIST",
             new ItemStack(Material.DRIED_KELP_BLOCK),
             ThemeType.EXALTED,
-            "Exalted Agronomist",
-            "A magical construct able to",
-            "harvest all crops in a 19x19 area.",
-            "Must be placed on an Exaltation",
-            "Stand to operate.",
+            "尊貴農藝師",
+            "一種能夠收割 19x19 區域",
+            "內所有農作物的魔法結構.",
+            "必須放在昇華之台上",
+            "才能運作.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Spell Rank > Grandmaster Magus"
+            ThemeType.CLICK_INFO.getColor() + "需求: 法術頭銜 > 宗師級奇術師"
         );
 
         EXALTED_DAWN = ThemeType.themedSlimefunItemStack(
@@ -1281,9 +1281,9 @@ public class CrystaStacks {
             "CRY_MOB_LAMP_3",
             GeneralUtils.getPreEnchantedItemStack(Material.SOUL_LANTERN),
             ThemeType.GADGET,
-            "Exodus Lamp",
-            "The exodus lamp will push all",
-            "nearby mobs away from it.",
+            "埃及燈",
+            "埃及燈會將附近",
+            "所有怪物推走.",
             "",
             ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "10 格方塊",
             ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "10 水晶之力™"
@@ -1317,10 +1317,10 @@ public class CrystaStacks {
             "CRY_MOB_FAN_3",
             new ItemStack(Material.DEEPSLATE_BRICKS),
             ThemeType.GADGET,
-            "Counterpole Vacuum",
-            "Creates a magically induced vacuum",
-            "that pulls entities away from the",
-            "mechanism.",
+            "對極空間",
+            "創造一個魔法感應空間,",
+            "並將實體從該機制中",
+            "推開.",
             "",
             ThemeType.CLICK_INFO.getColor() + "推動距離: " + ThemeType.PASSIVE.getColor() + "15 格方塊"
         );
@@ -1355,8 +1355,8 @@ public class CrystaStacks {
             "CRY_MOB_DIRT_3",
             new ItemStack(Material.LIME_WOOL),
             ThemeType.GADGET,
-            "Soulfilled Soil",
-            "Dark magics have been purified clean.",
+            "充滿靈魂之土",
+            "黑暗魔法已被淨化乾淨.",
             "",
             ThemeType.CLICK_INFO.getColor() + "刻速率: " + ThemeType.PASSIVE.getColor() + "10",
             ThemeType.CLICK_INFO.getColor() + "光源等級: " + ThemeType.PASSIVE.getColor() + "15",
@@ -1406,10 +1406,10 @@ public class CrystaStacks {
             "CRY_MOB_PLATE_4",
             new ItemStack(Material.LIGHT_WEIGHTED_PRESSURE_PLATE),
             ThemeType.GADGET,
-            "Shredding Plate",
-            "A plate that is just too powerful.",
-            "Anything standing on this plate gets",
-            "damaged.",
+            "撕裂之板",
+            "一個過於強大的魔法板.",
+            "任何站在這個板子上的生物將會被",
+            "撕裂.",
             "",
             ThemeType.CLICK_INFO.getColor() + "傷害: " + ThemeType.PASSIVE.getColor() + "3",
             ThemeType.CLICK_INFO.getColor() + "玩家掉落物: " + ThemeType.PASSIVE.getColor() + "是"
@@ -1455,9 +1455,9 @@ public class CrystaStacks {
             "CRY_EXP_COLLECTOR_3",
             new ItemStack(Material.LIGHTNING_ROD),
             ThemeType.GADGET,
-            "Arcane Exp Collector",
-            "Magic sigils allow for even",
-            "more storage.",
+            "奧術經驗收集器",
+            "魔法符印讓它有",
+            "更多的儲存空間.",
             "",
             ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "8",
             ThemeType.CLICK_INFO.getColor() + "容量: " + ThemeType.PASSIVE.getColor() + "999999"
@@ -1534,10 +1534,10 @@ public class CrystaStacks {
             "CRY_MOB_CANDLE_4",
             new ItemStack(Material.MAGENTA_CANDLE),
             ThemeType.GADGET,
-            "Coruscating Verache Candle",
-            "This candle stops mobs spawning",
-            "in a radius around it.",
-            "Doesn't last forever.",
+            "凝聚的菲拉什蠟燭",
+            "這根蠟燭會阻止怪物",
+            "在它周圍半徑生成怪物.",
+            "不會永遠的持續下去.",
             "",
             ThemeType.CLICK_INFO.getColor() + "距離: " + ThemeType.PASSIVE.getColor() + "64",
             ThemeType.CLICK_INFO.getColor() + "持續時間: " + ThemeType.PASSIVE.getColor() + "2 周 (現實時間)"
@@ -1631,9 +1631,9 @@ public class CrystaStacks {
             "CRY_CROP_GLASS_3",
             new ItemStack(Material.TINTED_GLASS),
             ThemeType.GADGET,
-            "Magnifying Greenhouse Glass",
-            "Crops under this glass will grow faster.",
-            "Works during the day in light worlds only.",
+            "聚光的溫室玻璃",
+            "在這種玻璃下的農作物會生長得更快.",
+            "僅在白天與有光的世界運作.",
             "",
             ThemeType.CLICK_INFO.getColor() + "效率: " + ThemeType.PASSIVE.getColor() + "20"
         );
@@ -1772,14 +1772,14 @@ public class CrystaStacks {
             "CRY_CHRONICLER_PANEL_5",
             new ItemStack(Material.SMOOTH_QUARTZ_SLAB),
             ThemeType.MECHANISM,
-            "Chronicler Panel (Tier 5)",
-            "The chronicler panel will draw out",
-            "the stories contained within a given",
-            "block over time.",
+            "記錄者面板 (等級 5)",
+            "紀錄者面板將隨著",
+            "時間繪製出屬於該",
+            "方塊的故事.",
             "",
-            "Can chronicle stories for T1-T5 blocks.",
-            "Automatically picks up items thrown on",
-            "top of it and pushes storied items below."
+            "可以記錄 等級1-5的方塊.",
+            "自動撿起扔在上方的物品,",
+            "並將有故事的物品推出來."
         );
 
         REALISATION_ALTAR_1 = ThemeType.themedSlimefunItemStack(
@@ -1834,14 +1834,14 @@ public class CrystaStacks {
             "CRY_REALISATION_ALTAR_5",
             new ItemStack(Material.CHISELED_STONE_BRICKS),
             ThemeType.MECHANISM,
-            "Realisation Altar (Tier 5)",
-            "The realisation altar takes storied",
-            "blocks and converts their stories into",
-            "a physical form.",
+            "真實祭壇 (等級 5)",
+            "真實祭壇使用有故事",
+            "的方塊並將他們的故事",
+            "轉化成物理形式.",
             "",
-            "Can realise T1 - T5.",
-            "Automatically picks up items thrown on",
-            "top of it."
+            "可以真實化 等級1-5.",
+            "自動撿起扔在",
+            "上方的物品."
         );
 
         LIQUEFACTION_BASIN_1 = ThemeType.themedSlimefunItemStack(
@@ -1900,13 +1900,13 @@ public class CrystaStacks {
             "CRY_LIQUEFACTION_BASIN_5",
             new ItemStack(Material.CAULDRON),
             ThemeType.MECHANISM,
-            "Liquefaction Basin (Tier 5)",
-            "The liquefaction basin can take",
-            "Crystals and convert them into their liquid",
-            "Crystamae form. Used for magical crafting.",
-            "Danger: Do not break while filled!",
+            "液化池 (等級 5)",
+            "液化池可以吸收水晶並",
+            "將它們轉化成液態水晶",
+            "形式. 用於製作魔法.",
+            "危險: 不要在填充時破壞這個!",
             "",
-            "Holds up to 10000 Liquefied Crysta."
+            "可以容納 10000 個液態水晶能量."
         );
 
         STAVE_CONFIGURATOR = ThemeType.themedSlimefunItemStack(
@@ -1923,10 +1923,10 @@ public class CrystaStacks {
             "CRY_PRISMATIC_GILDER",
             new ItemStack(Material.WARPED_FENCE),
             ThemeType.MECHANISM,
-            "Prismatic Gilder",
-            "Converts Prismatic Crysta into a",
-            "Thin film that can overlay other",
-            "magical items."
+            "棱鏡鍍金器",
+            "將棱鏡水晶轉化成",
+            "可以覆蓋其他魔法",
+            "物品的薄膜."
         );
 
         // Tools
@@ -2078,11 +2078,11 @@ public class CrystaStacks {
             "CRY_RADIANCE_SCOOP",
             GeneralUtils.getPreEnchantedItemStack(Material.SOUL_LANTERN),
             ThemeType.TOOL,
-            "Radiance Scoop",
-            "Right click to place a magical",
-            "light source.",
-            "Shift Right click to scoop back.",
-            "Left click to change the light level.",
+            "璀璨勺",
+            "右鍵點擊放置",
+            "魔法光源.",
+            "Shift右鍵點擊來舀回.",
+            "左鍵來改變光源亮度.",
             "",
             ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 500次"
         );
@@ -2119,13 +2119,13 @@ public class CrystaStacks {
             "CRY_INCORPOREAL_SILKEN",
             new ItemStack(Material.BONE),
             ThemeType.TOOL,
-            "Incorporeal Silken",
-            "This pick has been imbued with",
-            "spiritual energies that allow it",
-            "to keep certain items whole.",
-            ChatColor.RED + "Only works on blocks that do",
-            ChatColor.RED + "not normally drop themselves",
-            ChatColor.RED + "both with and without silk.",
+            "虛體絲綢",
+            "這個鎬充滿著精神能量,",
+            "使它能夠保持某些",
+            "物品的完整性.",
+            ChatColor.RED + "只對通常不會掉落",
+            ChatColor.RED + "自己的方塊起作用,",
+            ChatColor.RED + "無論是否需要絲綢.",
             "",
             ChatColor.YELLOW + "剩餘次數" + ChatColor.GRAY + " 1000次"
         );
@@ -2182,10 +2182,10 @@ public class CrystaStacks {
             "CRY_SPONGE_SUPER_MASSIVE",
             GeneralUtils.getPreEnchantedItemStack(Material.DEAD_FIRE_CORAL_BLOCK),
             ThemeType.TOOL,
-            "Super Massive Sponge",
-            "This imbued sponge is capable",
-            "of absorbing lava instead of water.",
-            "Place near water to clean after use.",
+            "超級巨大海綿",
+            "這種被灌注的海綿能",
+            "夠吸取岩漿而不是水.",
+            "使用後在水邊清洗.",
             "",
             ThemeType.CLICK_INFO.getColor() + "範圍: " + ThemeType.PASSIVE.getColor() + "10 格方塊"
         );
@@ -2205,11 +2205,11 @@ public class CrystaStacks {
             "CRY_DISPLACED_VOID",
             new ItemStack(Material.COCOA_BEANS),
             ThemeType.TOOL,
-            "Displaced Void",
-            "A Shattered Void displaced into a",
-            "pocket sized and portable form.",
+            "置換虛空",
+            "一個破碎的虛空變成",
+            "口袋大小的便攜形式.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Hold Shift to pick up nearby Items"
+            ThemeType.CLICK_INFO.getColor() + "按住 Shift 來撿起附近的物品"
         );
 
         SATCHEL_1 = ThemeType.themedSlimefunItemStack(
@@ -2338,10 +2338,10 @@ public class CrystaStacks {
             "CRY_GILDING_TROPHY",
             new ItemStack(Material.PAPER),
             ThemeType.CRAFTING,
-            "Proofs: Gilding Owner",
-            "Proof that you are simply the best.",
+            "證明: 鍍金老闆",
+            "證明你是最棒的.",
             "",
-            ThemeType.CLICK_INFO.getColor() + "Requires: Gilding Rank > Owner"
+            ThemeType.CLICK_INFO.getColor() + "需求: 鍍金頭銜 > 老闆"
         );
 
         CHRISTMAS_TROPHY = ThemeType.themedSlimefunItemStack(
@@ -2428,13 +2428,13 @@ public class CrystaStacks {
         RECIPE_TYPE_NETHER_DRAINING = ThemeType.themedItemStack(
             Material.OBSIDIAN,
             ThemeType.RESEARCH,
-            "Nether Draining",
-            "Crysta has a hard time transferring",
-            "to the Nether. If it is in it's Crystal",
-            "form, all the magic will be drained.",
-            "Throw a Mythical Crystal into a nether",
-            "portal to drain it.",
-            "Any Mythical Crystal will work."
+            "地獄吸取",
+            "水晶很難被轉移至地獄.",
+            "如果它是水晶型態時,",
+            "所有魔法都會被吸取.",
+            "將一顆神話水晶扔進地獄",
+            "傳送門中以將其的魔法吸取掉.",
+            "任何神話水晶都可以."
         );
 
         RECIPE_TYPE_REALISATION_ALTAR_NORMAL = ThemeType.themedItemStack(
@@ -2450,9 +2450,9 @@ public class CrystaStacks {
         RECIPE_TYPE_REALISATION_ALTAR_SIGIL = ThemeType.themedItemStack(
             Material.CHISELED_DEEPSLATE,
             ThemeType.MECHANISM,
-            "Realisation Altar",
-            "Arcane Sigils have a small chance to be",
-            "produced when realising Gilded Items."
+            "真實祭壇",
+            "實現鍍金物品時, 有很小",
+            "的機率產生奧術符印."
         );
     }
 }

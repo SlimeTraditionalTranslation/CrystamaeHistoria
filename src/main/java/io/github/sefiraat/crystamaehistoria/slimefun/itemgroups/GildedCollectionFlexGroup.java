@@ -61,7 +61,7 @@ public class GildedCollectionFlexGroup extends FlexItemGroup {
     @Override
     @ParametersAreNonnullByDefault
     public void open(Player p, PlayerProfile profile, SlimefunGuideMode mode) {
-        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "Crystamae Gilding Compendium");
+        final ChestMenu chestMenu = new ChestMenu(ThemeType.MAIN.getColor() + "鍍金綱要");
 
         for (int slot : HEADER) {
             chestMenu.addItem(slot, ChestMenuUtils.getBackground(), (player1, i1, itemStack, clickAction) -> false);
@@ -153,12 +153,12 @@ public class GildedCollectionFlexGroup extends FlexItemGroup {
         final List<String> lore = new ArrayList<>();
         final GildingRank gildingRank = PlayerStatistics.getGildingRank(player.getUniqueId());
 
-        lore.add(MessageFormat.format("{0}Blocks Gilded: {1}{2}", color, passive, PlayerStatistics.getBlocksGilded(player.getUniqueId())));
-        lore.add(MessageFormat.format("{0}Rank: {1}{2}", color, gildingRank.getTheme().getColor(), gildingRank.getTheme().getLoreLine()));
+        lore.add(MessageFormat.format("{0}已鍍金方塊: {1}{2}", color, passive, PlayerStatistics.getBlocksGilded(player.getUniqueId())));
+        lore.add(MessageFormat.format("{0}頭銜: {1}{2}", color, gildingRank.getTheme().getColor(), gildingRank.getTheme().getLoreLine()));
 
         return new CustomItemStack(
             Material.TARGET,
-            ThemeType.MAIN.getColor() + "Gilding Statistics",
+            ThemeType.MAIN.getColor() + "鍍金統計",
             lore
         );
     }

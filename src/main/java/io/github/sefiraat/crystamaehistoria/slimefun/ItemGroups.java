@@ -89,7 +89,7 @@ public final class ItemGroups {
         Keys.newKey("runes"),
         new CustomItemStack(
             new ItemStack(Material.ENCHANTING_TABLE),
-            ThemeType.MAIN.getColor() + "Arcane Runes"
+            ThemeType.MAIN.getColor() + "奧術符文"
         )
     );
     public static final DummyItemGroup UNIQUES = new DummyItemGroup(
@@ -124,7 +124,7 @@ public final class ItemGroups {
         Keys.newKey("gilding_collection"),
         new CustomItemStack(
             new ItemStack(Material.KNOWLEDGE_BOOK),
-            ThemeType.MAIN.getColor() + "Gilding Collection"
+            ThemeType.MAIN.getColor() + "鍍金收藏"
         )
     );
 
@@ -271,13 +271,13 @@ public final class ItemGroups {
                 "CRY_GUIDE_NETHER_DRAINING",
                 Skulls.CRYSTAL_CLEAR.getPlayerHead(),
                 ThemeType.GUIDE,
-                "How To: Nether Draining",
-                "When a Mythical Crystal is thrown",
-                "through a Nether Portal the magic",
-                "will be drained out of it leaving",
-                "behind a blank crystal that is able",
-                "to have different forms of magic",
-                "re-inserted."
+                "如何: 地獄吸取",
+                "當神話水晶被扔過",
+                "地獄傳送門時, 魔法將會",
+                "被吸收並留下一個",
+                "空白水晶, 它將能",
+                "重新導入不同形式",
+                "的魔法."
             ),
             DummyGuideOnly.TYPE,
             new ItemStack[]{}
@@ -290,16 +290,16 @@ public final class ItemGroups {
                 "CRY_GUIDE_GILDING",
                 new ItemStack(Material.WARPED_FENCE),
                 ThemeType.GUIDE,
-                "How To: Gilding",
-                "The Prismatic Guider takes thrown",
-                "prismatic crystals and will convert",
-                "the energy into wild unbound magic.",
-                "You can then right click the gilder",
-                "with a fully-storied block it will",
-                "be gilded. Requires an amount of",
-                "Prismatic Crysta equal to the block",
-                "tier.",
-                "Gilded Crystals must be broken manually."
+                "如何: 鍍金",
+                "棱鏡引導者將會拿取丟出來",
+                "的棱鏡水晶,並將其的魔法",
+                "轉化成野生無束縛的魔法.",
+                "然後將一個完整記錄的方塊故事",
+                "對鍍金器右鍵, 它將會被鍍金.",
+                "棱鏡水晶需求數",
+                "與方塊等級相等.",
+                "",
+                "鍍金水晶必須手動破壞."
             ),
             DummyGuideOnly.TYPE,
             new ItemStack[]{}
