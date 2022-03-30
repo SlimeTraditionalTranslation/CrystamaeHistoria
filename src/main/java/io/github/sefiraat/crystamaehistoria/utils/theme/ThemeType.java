@@ -51,6 +51,7 @@ public enum ThemeType {
     MOD(ChatColor.of("#bf307f"), "修改模塊"),
     PROP(ChatColor.of("#bf307f"), "材料特性"),
     SPELL(ChatColor.of("#bf307f"), "法術"),
+    RUNE(ChatColor.of("#32a852"), "符文"),
     MULTIBLOCK(ChatColor.of("#ba12af"), "多重方塊"),
     RARITY_COMMON(ChatColor.of("#dbdbdb"), "常見"),
     RARITY_UNCOMMON(ChatColor.of("#97d16b"), "不常見"),
@@ -90,7 +91,15 @@ public enum ThemeType {
     RANK_BLOCK_RESEARCHED(ChatColor.of("#29ff40"), "研究過"),
     RANK_BLOCK_EXPERT_OF(ChatColor.of("#0fff29"), "專家級"),
     RANK_BLOCK_MASTER_OF(ChatColor.of("#00db18"), "大師級"),
-    RANK_BLOCK_SME(ChatColor.of("#00820e"), "歷史見證者"); // 熟知故事之人 故事聆聽者 主題專家 Subject Matter Expert
+    RANK_BLOCK_SME(ChatColor.of("#00820e"), "歷史見證者"), // 熟知故事之人 故事聆聽者 主題專家 Subject Matter Expert
+    RANK_GILDING_NOVICE(ChatColor.of("#a8ffb1"), "初學者"),
+    RANK_GILDING_MEMBER(ChatColor.of("#87ff94"), "成員"),
+    RANK_GILDING_SECRETARY(ChatColor.of("#66ff77"), "部長"),
+    RANK_GILDING_OFFICER(ChatColor.of("#4dff60"), "公務員"),
+    RANK_GILDING_EXECUTIVE(ChatColor.of("#29ff40"), "主管"),
+    RANK_GILDING_CHIEF(ChatColor.of("#0fff29"), "主任"),
+    RANK_GILDING_MANAGER(ChatColor.of("#00db18"), "經理"),
+    RANK_GILDING_OWNER(ChatColor.of("#00820e"), "老闆");
 
     /**
      * List of names to be given to ArmourStands, invisible but mods and Minimaps can see them :)

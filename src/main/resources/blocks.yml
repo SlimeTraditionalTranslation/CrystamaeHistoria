@@ -7310,7 +7310,6 @@ END_STONE_BRICK_WALL:
   elements:
     - CELESTIAL
     - HISTORICAL
-    - CELESTIAL
   story:
     name: 打倒牆壁 (終界石磚)
     type: HISTORICAL
@@ -15649,7 +15648,7 @@ PRISMARINE_STAIRS:
     - PHILOSOPHICAL
     - ANIMAL
   story:
-    name: 崛起 (閃長岩)
+    name: 崛起 (海磷石)
     type: PHILOSOPHICAL
     lore:
       - 每一步都是通往未來的榮耀,
@@ -18783,7 +18782,7 @@ STONECUTTER:
       - 0
       - 0
 STONE_AXE:
-  tier: 4
+  tier: 2
   elements:
     - HUMAN
     - PHILOSOPHICAL
@@ -18977,7 +18976,7 @@ STONE_PRESSURE_PLATE:
       - 1
       - 0
 STONE_SHOVEL:
-  tier: 4
+  tier: 2
   elements:
     - HUMAN
     - ELEMENTAL
@@ -21242,7 +21241,7 @@ WITHER_SKELETON_SKULL:
       - 0
     author: Seggan
 WOODEN_AXE:
-  tier: 4
+  tier: 1
   elements:
     - HUMAN
     - PHILOSOPHICAL
@@ -21308,7 +21307,7 @@ WOODEN_PICKAXE:
       - 0
       - 0
 WOODEN_SHOVEL:
-  tier: 4
+  tier: 1
   elements:
     - HUMAN
     - ELEMENTAL

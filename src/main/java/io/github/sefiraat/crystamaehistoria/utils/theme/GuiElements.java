@@ -1,6 +1,6 @@
 package io.github.sefiraat.crystamaehistoria.utils.theme;
 
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.stave.SpellSlot;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.stave.SpellSlot;
 import io.github.sefiraat.crystamaehistoria.utils.Skulls;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
@@ -109,6 +109,27 @@ public class GuiElements {
             "法術將會在你第一次",
             "在液化池中為板子填",
             "充時解鎖."
+        );
+    }
+
+    @ParametersAreNonnullByDefault
+    public static ItemStack getBlockGildedIcon(Material material) {
+        return ThemeType.themedItemStack(
+            material,
+            ThemeType.RARITY_UNIQUE,
+            ThemeType.toTitleCase(material.toString()),
+            "這個方塊已鍍金."
+        );
+    }
+
+    @ParametersAreNonnullByDefault
+    public static ItemStack getBlockNotGildedIcon(Material material) {
+        return ThemeType.themedItemStack(
+            Material.BARRIER,
+            ThemeType.RESEARCH,
+            ThemeType.toTitleCase(material.toString()),
+            MessageFormat.format("{0}{1}LOCKED", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
+            "這個方塊尚未被鍍金過."
         );
     }
 

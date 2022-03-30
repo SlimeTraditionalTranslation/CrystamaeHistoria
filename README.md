@@ -7,7 +7,9 @@
 任何重大的事件或經歷都會在周邊留下屬於它的印記.
 記錄允許你通過繪製來提取方塊中的原始精華.
 
-Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae  的基礎知識, 從第一部分 "施展我的第一個法術", 到第二部分 "各式各樣的小工具與工具". 我鼓勵大家觀看這兩部影片, 並享受於其中.
+Boomer_1 製作了兩部超棒的影片, 他將帶你了解 Crystamae 的基礎知識,
+從第一部分 "施展我的第一個法術", 到第二部分 "各式各樣的小工具與工具".
+我鼓勵大家觀看這兩部影片, 並享受於其中.
 
 > 此為**非官方**版本, 請勿在該作者問題追蹤內回報! <br>
 > [原作連結](https://github.com/Sefiraat/CrystamaeHistoria) | [非官方Discord](https://discord.gg/GF4CwjFXT9)
@@ -97,6 +99,8 @@ Miku, 默默無名邊緣人, winkoko, Ferzbow, MAGd_
 
 As usual, a big thanks to those who tested Crystamae to get it to the nice state it is in.
 
-A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me direction and drive to make these things.
+A big thanks to the owners of **mct.tantrum.org** who have tested nearly everything I have made and really given me
+direction and drive to make these things.
 
-Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!) sponsor. A few coffee's a month to make me feel better about making these addons <3
+Another big shoutout to **GentlemanCheesy** of **mc.talosmp.net** for being my first (and as of writing this, only!)
+sponsor. A few coffee's a month to make me feel better about making these addons <3

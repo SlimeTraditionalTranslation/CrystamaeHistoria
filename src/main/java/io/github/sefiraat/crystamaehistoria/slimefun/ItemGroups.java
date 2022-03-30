@@ -3,17 +3,20 @@ package io.github.sefiraat.crystamaehistoria.slimefun;
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.DummyGuideOnly;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.DummyItemGroup;
+import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.GildedCollectionFlexGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.MainFlexGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.SpellCollectionFlexGroup;
 import io.github.sefiraat.crystamaehistoria.slimefun.itemgroups.StoryCollectionFlexGroup;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.artistic.MagicPaintbrush;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.MagicPaintbrush;
 import io.github.sefiraat.crystamaehistoria.utils.Keys;
+import io.github.sefiraat.crystamaehistoria.utils.Skulls;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import lombok.experimental.UtilityClass;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
+import org.bukkit.block.Skull;
 import org.bukkit.inventory.ItemStack;
 
 @UtilityClass
@@ -82,6 +85,13 @@ public final class ItemGroups {
             ThemeType.MAIN.getColor() + "水晶 - 原料"
         )
     );
+    public static final DummyItemGroup RUNES = new DummyItemGroup(
+        Keys.newKey("runes"),
+        new CustomItemStack(
+            new ItemStack(Material.ENCHANTING_TABLE),
+            ThemeType.MAIN.getColor() + "奧術符文"
+        )
+    );
     public static final DummyItemGroup UNIQUES = new DummyItemGroup(
         Keys.newKey("uniques"),
         new CustomItemStack(
@@ -108,6 +118,13 @@ public final class ItemGroups {
         new CustomItemStack(
             new ItemStack(Material.KNOWLEDGE_BOOK),
             ThemeType.MAIN.getColor() + "法術收藏"
+        )
+    );
+    public static final GildedCollectionFlexGroup GILDING_COLLECTION = new GildedCollectionFlexGroup(
+        Keys.newKey("gilding_collection"),
+        new CustomItemStack(
+            new ItemStack(Material.KNOWLEDGE_BOOK),
+            ThemeType.MAIN.getColor() + "鍍金收藏"
         )
     );
 
@@ -247,6 +264,47 @@ public final class ItemGroups {
             new ItemStack[]{}
         );
 
+        // Nether Draining
+        SlimefunItem guideNetherDraining = new SlimefunItem(
+            ItemGroups.GUIDE,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_GUIDE_NETHER_DRAINING",
+                Skulls.CRYSTAL_CLEAR.getPlayerHead(),
+                ThemeType.GUIDE,
+                "如何: 地獄吸取",
+                "當神話水晶被扔過",
+                "地獄傳送門時, 魔法將會",
+                "被吸收並留下一個",
+                "空白水晶, 它將能",
+                "重新導入不同形式",
+                "的魔法."
+            ),
+            DummyGuideOnly.TYPE,
+            new ItemStack[]{}
+        );
+
+        // Prismatic Gilding
+        SlimefunItem guideGilding = new SlimefunItem(
+            ItemGroups.GUIDE,
+            ThemeType.themedSlimefunItemStack(
+                "CRY_GUIDE_GILDING",
+                new ItemStack(Material.WARPED_FENCE),
+                ThemeType.GUIDE,
+                "如何: 鍍金",
+                "棱鏡引導者將會拿取丟出來",
+                "的棱鏡水晶,並將其的魔法",
+                "轉化成野生無束縛的魔法.",
+                "然後將一個完整記錄的方塊故事",
+                "對鍍金器右鍵, 它將會被鍍金.",
+                "棱鏡水晶需求數",
+                "與方塊等級相等.",
+                "",
+                "鍍金水晶必須手動破壞."
+            ),
+            DummyGuideOnly.TYPE,
+            new ItemStack[]{}
+        );
+
         // Slimefun Registry
         ItemGroups.MAIN.register(plugin);
 
@@ -256,5 +314,7 @@ public final class ItemGroups {
         guideStave.register(plugin);
         guideMakeSpell.register(plugin);
         guideChargeSpell.register(plugin);
+        guideNetherDraining.register(plugin);
+        guideGilding.register(plugin);
     }
 }

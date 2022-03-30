@@ -24,7 +24,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.text.MessageFormat;
 import java.util.ArrayList;
@@ -284,8 +283,8 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
 
         lore.add(MessageFormat.format("{0}等級: {1}{2}", color, blockRank.getTheme().getColor(), blockRank.getTheme().getLoreLine()));
         lore.add("");
-        lore.add(MessageFormat.format("{0}總記錄時間: {1}{2} {3}", color, passive, timesChronicled, chronicleCap));
-        lore.add(MessageFormat.format("{0}總真實化時間: {1}{2} {3}", color, passive, timesRealised, realisationCap));
+        lore.add(MessageFormat.format("{0}總記錄次數: {1}{2} {3}", color, passive, timesChronicled, chronicleCap));
+        lore.add(MessageFormat.format("{0}總真實化次數: {1}{2} {3}", color, passive, timesRealised, realisationCap));
 
         return new CustomItemStack(
             Material.TARGET,

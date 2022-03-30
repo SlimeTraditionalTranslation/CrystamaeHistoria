@@ -1,15 +1,13 @@
 package io.github.sefiraat.crystamaehistoria.listeners;
 
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
-import io.github.sefiraat.crystamaehistoria.SpellMemory;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.SleepingBag;
-import io.github.sefiraat.crystamaehistoria.slimefun.tools.covers.BlockVeil;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.LuminescenceScoop;
+import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.covers.BlockVeil;
 import io.github.sefiraat.crystamaehistoria.utils.GeneralUtils;
 import io.github.sefiraat.crystamaehistoria.utils.StoryUtils;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.events.BlockPlacerPlaceEvent;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.entity.HumanEntity;
@@ -24,15 +22,14 @@ import org.bukkit.event.player.PlayerBedLeaveEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.Map;
-import java.util.UUID;
-
 public class MiscListener implements Listener {
 
     @EventHandler
     public void onPlaceStoriedBlock(BlockPlaceEvent e) {
         ItemStack itemStack = e.getItemInHand();
         if (itemStack.getType() != Material.AIR && StoryUtils.isStoried(itemStack)) {
+            final Player player = e.getPlayer();
+            player.sendMessage(ThemeType.WARNING.getColor() + "這個方塊已被水晶能量飽和, 無法再被放置.");
             e.setCancelled(true);
         }
     }
@@ -88,5 +85,18 @@ public class MiscListener implements Listener {
         if (location != null) {
             location.getBlock().setType(Material.AIR);
         }
+    }
+
+    @EventHandler(priority = EventPriority.LOWEST)
+    public void onUseScoop(PlayerInteractEvent event) {
+        final Player player = event.getPlayer();
+            final SlimefunItem item = SlimefunItem.getByItem(player.getInventory().getItemInMainHand());
+
+            if (item instanceof LuminescenceScoop) {
+                LuminescenceScoop scoop = (LuminescenceScoop) item;
+                if (scoop.isAdjustable()) {
+                    scoop.adjustLight(player);
+                }
+            }
     }
 }

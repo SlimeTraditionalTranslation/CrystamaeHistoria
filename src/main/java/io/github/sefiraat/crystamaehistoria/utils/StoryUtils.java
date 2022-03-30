@@ -3,9 +3,9 @@ package io.github.sefiraat.crystamaehistoria.utils;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
+import io.github.sefiraat.crystamaehistoria.managers.StoriesManager;
 import io.github.sefiraat.crystamaehistoria.stories.BlockDefinition;
 import io.github.sefiraat.crystamaehistoria.stories.BlockTier;
-import io.github.sefiraat.crystamaehistoria.stories.StoriesManager;
 import io.github.sefiraat.crystamaehistoria.stories.Story;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryChances;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
@@ -75,7 +75,7 @@ public class StoryUtils {
     private static boolean isAllowed(ItemStack itemStack) {
         SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
         if (slimefunItem == null) {
-            return metaBypass.contains(itemStack.getType()) || !itemStack.hasItemMeta();
+            return metaBypass.contains(itemStack.getType()) || isStoried(itemStack) || !itemStack.hasItemMeta();
         } else {
             return itemStack.getType() == Material.SPAWNER;
         }
@@ -89,7 +89,7 @@ public class StoryUtils {
      * @return true if has previously been chronicled at any point
      */
     @ParametersAreNonnullByDefault
-    public static boolean isStoried(ItemStack itemStack) {
+    public static boolean isStoried(@Nonnull ItemStack itemStack) {
         return PersistentDataAPI.hasBoolean(itemStack.getItemMeta(), Keys.PDC_IS_STORIED);
     }
 
@@ -200,13 +200,13 @@ public class StoryUtils {
         final List<StoryType> pool = definition.getPools();
         int rnd = ThreadLocalRandom.current().nextInt(1, 101);
 
-        if (rnd <= chance.mythical) {
+        if (rnd <= chance.getMythical()) {
             addStory(itemstack, pool, manager.getStoryMapMythical());
-        } else if (rnd <= chance.epic) {
+        } else if (rnd <= chance.getEpic()) {
             addStory(itemstack, pool, manager.getStoryMapEpic());
-        } else if (rnd <= chance.rare) {
+        } else if (rnd <= chance.getRare()) {
             addStory(itemstack, pool, manager.getStoryMapRare());
-        } else if (rnd <= chance.uncommon) {
+        } else if (rnd <= chance.getUncommon()) {
             addStory(itemstack, pool, manager.getStoryMapUncommon());
         } else {
             addStory(itemstack, pool, manager.getStoryMapCommon());
