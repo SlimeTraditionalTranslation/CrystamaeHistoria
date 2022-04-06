@@ -1926,7 +1926,9 @@ public class CrystaStacks {
             "棱鏡鍍金器",
             "將棱鏡水晶轉化成",
             "可以覆蓋其他魔法",
-            "物品的薄膜."
+            "物品的薄膜.",
+            "",
+            ThemeType.CLICK_INFO.getColor() + "需求: 故事頭銜 > 榮譽教授"
         );
 
         // Tools
