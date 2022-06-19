@@ -4,6 +4,7 @@ import io.github.sefiraat.crystamaehistoria.magic.CastInformation;
 import io.github.sefiraat.crystamaehistoria.magic.CastResult;
 import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.stave.SpellSlot;
 import io.github.sefiraat.crystamaehistoria.utils.Keys;
+import io.github.sefiraat.crystamaehistoria.utils.TextUtils;
 import io.github.sefiraat.crystamaehistoria.utils.datatypes.DataTypeMethods;
 import io.github.sefiraat.crystamaehistoria.utils.datatypes.PersistentStaveDataType;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
@@ -55,9 +56,9 @@ public class InstanceStave {
             final InstancePlate instancePlate = this.spellInstanceMap.get(slot);
             if (instancePlate != null) {
                 finalLore.add("");
-                final String magic = ThemeType.toTitleCase(instancePlate.getStoredSpell().getSpName());
+                final String magic = TextUtils.toTitleCase(instancePlate.getStoredSpell().getSpName());
                 final String crysta = String.valueOf(instancePlate.getCrysta());
-                finalLore.add(ThemeType.RARITY_MYTHICAL.getColor() + ThemeType.toTitleCase(SpellSlot.getByActionName(slot.name())));
+                finalLore.add(ThemeType.RARITY_MYTHICAL.getColor() + TextUtils.toTitleCase(SpellSlot.getByActionName(slot.name())));
                 finalLore.add(ThemeType.PASSIVE.getColor() + "法術: " + ThemeType.NOTICE.getColor() + magic);
                 finalLore.add(ThemeType.PASSIVE.getColor() + "水晶能量: " + ThemeType.NOTICE.getColor() + crysta);
             }

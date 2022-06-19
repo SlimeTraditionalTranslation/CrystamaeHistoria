@@ -2,6 +2,7 @@ package io.github.sefiraat.crystamaehistoria.utils.theme;
 
 import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.stave.SpellSlot;
 import io.github.sefiraat.crystamaehistoria.utils.Skulls;
+import io.github.sefiraat.crystamaehistoria.utils.TextUtils;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import lombok.experimental.UtilityClass;
@@ -78,9 +79,9 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             material,
             ThemeType.RARITY_UNIQUE,
-            ThemeType.toTitleCase(material.toString()),
+            TextUtils.toTitleCase(material.toString()),
             "這個獨特故事已被",
-            "紀錄."
+            "記錄."
         );
     }
 
@@ -89,7 +90,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             Material.BARRIER,
             ThemeType.RESEARCH,
-            ThemeType.toTitleCase(material.toString()),
+            TextUtils.toTitleCase(material.toString()),
             MessageFormat.format("{0}{1}已鎖定", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
             "這個獨特故事還沒有",
             "解鎖.",
@@ -103,7 +104,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             Material.BARRIER,
             ThemeType.RESEARCH,
-            ThemeType.toTitleCase(id),
+            TextUtils.toTitleCase(id),
             MessageFormat.format("{0}{1}已鎖定", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
             "這個法術尚未解鎖.",
             "法術將會在你第一次",
@@ -117,7 +118,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             material,
             ThemeType.RARITY_UNIQUE,
-            ThemeType.toTitleCase(material.toString()),
+            TextUtils.toTitleCase(material.toString()),
             "這個方塊已鍍金."
         );
     }
@@ -127,7 +128,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             Material.BARRIER,
             ThemeType.RESEARCH,
-            ThemeType.toTitleCase(material.toString()),
+            TextUtils.toTitleCase(material.toString()),
             MessageFormat.format("{0}{1}LOCKED", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
             "這個方塊尚未被鍍金過."
         );
@@ -137,7 +138,7 @@ public class GuiElements {
     public static CustomItemStack getSpellSlotPane(SpellSlot spellSlot) {
         return new CustomItemStack(
             Material.RED_STAINED_GLASS_PANE,
-            ChatColor.GRAY + "法術欄位 : " + ThemeType.toTitleCase((SpellSlot.getByActionName(spellSlot.name())))
+            ChatColor.GRAY + "法術欄位 : " + TextUtils.toTitleCase(SpellSlot.getByActionName(spellSlot.name()))
         );
     }
 

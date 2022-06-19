@@ -16,7 +16,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import lombok.experimental.UtilityClass;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
-import org.bukkit.block.Skull;
 import org.bukkit.inventory.ItemStack;
 
 @UtilityClass
@@ -102,7 +101,7 @@ public final class ItemGroups {
     public static final DummyItemGroup GUIDE = new DummyItemGroup(
         Keys.newKey("guide"),
         new CustomItemStack(
-            new ItemStack(Material.BOOK),
+            new ItemStack(Material.KNOWLEDGE_BOOK),
             ThemeType.MAIN.getColor() + "水晶 - 雜項指南"
         )
     );

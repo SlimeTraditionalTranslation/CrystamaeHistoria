@@ -8,6 +8,7 @@ import io.github.sefiraat.crystamaehistoria.slimefun.ItemGroups;
 import io.github.sefiraat.crystamaehistoria.slimefun.Materials;
 import io.github.sefiraat.crystamaehistoria.stories.BlockDefinition;
 import io.github.sefiraat.crystamaehistoria.stories.definition.StoryType;
+import io.github.sefiraat.crystamaehistoria.utils.TextUtils;
 import io.github.sefiraat.crystamaehistoria.utils.theme.GuiElements;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup;
@@ -225,7 +226,7 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
     private ItemStack getPoolsItemStack(BlockDefinition definition) {
         final List<StoryType> storyTypes = definition.getPools();
         final List<String> lore = Arrays.stream(new String[]{
-            "當你紀錄下這個物品時,",
+            "當你記錄下這個物品時,",
             "你可以描繪出潛藏在這個",
             "物品深處的那些故事.",
             ""

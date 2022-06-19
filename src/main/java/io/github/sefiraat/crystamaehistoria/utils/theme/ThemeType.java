@@ -7,7 +7,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import lombok.Getter;
 import net.kyori.adventure.text.format.TextColor;
 import net.md_5.bungee.api.ChatColor;
-import org.apache.commons.lang.WordUtils;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.Particle;
@@ -159,7 +158,12 @@ public enum ThemeType {
      */
     @Nonnull
     @ParametersAreNonnullByDefault
-    public static SlimefunItemStack themedSlimefunItemStack(String id, ItemStack itemStack, ThemeType themeType, String name, String... lore) {
+    public static SlimefunItemStack themedSlimefunItemStack(String id,
+                                                            ItemStack itemStack,
+                                                            ThemeType themeType,
+                                                            String name,
+                                                            String... lore
+    ) {
         ChatColor passiveColor = ThemeType.PASSIVE.getColor();
         List<String> finalLore = new ArrayList<>();
         finalLore.add("");
@@ -262,19 +266,6 @@ public enum ThemeType {
             default:
                 throw new IllegalStateException("Unexpected value: " + storyType);
         }
-    }
-
-    /**
-     * converts given string to Title Case
-     *
-     * @param string The input string
-     * @return A new {@link String} in Title Case
-     */
-    @Nonnull
-    @ParametersAreNonnullByDefault
-    public static String toTitleCase(String string) {
-        final char[] delimiters = {' ', '_'};
-        return WordUtils.capitalizeFully(string, delimiters).replace("_", " ");
     }
 
     @Nonnull
