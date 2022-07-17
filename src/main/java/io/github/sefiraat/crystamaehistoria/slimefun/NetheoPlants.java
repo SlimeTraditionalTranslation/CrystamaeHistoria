@@ -21,405 +21,405 @@ public class NetheoPlants {
         "CRY_ELEMENTAL_COMMON_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "Common Elemental Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Elemental Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見元素水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack MECHANICAL_COMMON_SEED = Theme.themedSeed(
         "CRY_MECHANICAL_COMMON_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "Common Mechanical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Mechanical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見機械水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ALCHEMICAL_COMMON_SEED = Theme.themedSeed(
         "CRY_ALCHEMICAL_COMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Common Alchemical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Alchemical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見煉金水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HISTORICAL_COMMON_SEED = Theme.themedSeed(
         "CRY_HISTORICAL_COMMON_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "Common Historical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Historical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見歷史水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HUMAN_COMMON_SEED = Theme.themedSeed(
         "CRY_HUMAN_COMMON_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "Common Human Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Human Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見人類水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ANIMAL_COMMON_SEED = Theme.themedSeed(
         "CRY_ANIMAL_COMMON_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "Common Animal Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Animal Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見動物水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack CELESTIAL_COMMON_SEED = Theme.themedSeed(
         "CRY_CELESTIAL_COMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Common Celestial Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Celestial Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見天體水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack VOID_COMMON_SEED = Theme.themedSeed(
         "CRY_VOID_COMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Common Void Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Void Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見虛無水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack PHILOSOPHICAL_COMMON_SEED = Theme.themedSeed(
         "CRY_PHILOSOPHICAL_COMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Common Philosophical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Philosophical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "常見哲學水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
     
     public static final SlimefunItemStack ELEMENTAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_ELEMENTAL_UNCOMMON_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Elemental Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Elemental Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見元素水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack MECHANICAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_MECHANICAL_UNCOMMON_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Mechanical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Mechanical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見機械水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ALCHEMICAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_ALCHEMICAL_UNCOMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Alchemical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Alchemical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見煉金水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HISTORICAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_HISTORICAL_UNCOMMON_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Historical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Historical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見歷史水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HUMAN_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_HUMAN_UNCOMMON_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Human Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Human Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見人類水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ANIMAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_ANIMAL_UNCOMMON_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Animal Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Animal Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見動物水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack CELESTIAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_CELESTIAL_UNCOMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Celestial Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Celestial Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見天體水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack VOID_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_VOID_UNCOMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Void Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Void Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見虛無水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack PHILOSOPHICAL_UNCOMMON_SEED = Theme.themedSeed(
         "CRY_PHILOSOPHICAL_UNCOMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Uncommon Philosophical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Philosophical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "不常見哲學水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
     
     public static final SlimefunItemStack ELEMENTAL_RARE_SEED = Theme.themedSeed(
         "CRY_ELEMENTAL_RARE_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "Rare Elemental Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Elemental Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有元素水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack MECHANICAL_RARE_SEED = Theme.themedSeed(
         "CRY_MECHANICAL_RARE_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "Rare Mechanical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Mechanical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有機械水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ALCHEMICAL_RARE_SEED = Theme.themedSeed(
         "CRY_ALCHEMICAL_RARE_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Rare Alchemical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Alchemical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有煉金水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HISTORICAL_RARE_SEED = Theme.themedSeed(
         "CRY_HISTORICAL_RARE_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "Rare Historical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Historical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有歷史水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HUMAN_RARE_SEED = Theme.themedSeed(
         "CRY_HUMAN_RARE_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "Rare Human Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Human Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有人類水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ANIMAL_RARE_SEED = Theme.themedSeed(
         "CRY_ANIMAL_RARE_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "Rare Animal Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Animal Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有動物水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack CELESTIAL_RARE_SEED = Theme.themedSeed(
         "CRY_CELESTIAL_RARE_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Rare Celestial Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Celestial Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有天體水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack VOID_RARE_SEED = Theme.themedSeed(
         "CRY_VOID_RARE_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Rare Void Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Void Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有虛無水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack PHILOSOPHICAL_RARE_SEED = Theme.themedSeed(
         "CRY_PHILOSOPHICAL_RARE_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Rare Philosophical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Philosophical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "稀有哲學水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
     
     public static final SlimefunItemStack ELEMENTAL_EPIC_SEED = Theme.themedSeed(
         "CRY_ELEMENTAL_EPIC_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "Epic Elemental Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Elemental Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩元素水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack MECHANICAL_EPIC_SEED = Theme.themedSeed(
         "CRY_MECHANICAL_EPIC_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "Epic Mechanical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Mechanical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩機械水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ALCHEMICAL_EPIC_SEED = Theme.themedSeed(
         "CRY_ALCHEMICAL_EPIC_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Epic Alchemical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Alchemical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩煉金水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HISTORICAL_EPIC_SEED = Theme.themedSeed(
         "CRY_HISTORICAL_EPIC_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "Epic Historical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Historical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩歷史水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HUMAN_EPIC_SEED = Theme.themedSeed(
         "CRY_HUMAN_EPIC_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "Epic Human Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Human Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩人類水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ANIMAL_EPIC_SEED = Theme.themedSeed(
         "CRY_ANIMAL_EPIC_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "Epic Animal Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Animal Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩動物水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack CELESTIAL_EPIC_SEED = Theme.themedSeed(
         "CRY_CELESTIAL_EPIC_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Epic Celestial Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Celestial Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩天體水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack VOID_EPIC_SEED = Theme.themedSeed(
         "CRY_VOID_EPIC_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Epic Void Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Void Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩虛無水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack PHILOSOPHICAL_EPIC_SEED = Theme.themedSeed(
         "CRY_PHILOSOPHICAL_EPIC_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Epic Philosophical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Philosophical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "史詩哲學水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
     
     public static final SlimefunItemStack ELEMENTAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_ELEMENTAL_MYTHICAL_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "Mythical Elemental Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Elemental Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話元素水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack MECHANICAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_MECHANICAL_MYTHICAL_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "Mythical Mechanical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Mechanical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話機械水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ALCHEMICAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_ALCHEMICAL_MYTHICAL_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Mythical Alchemical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Alchemical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話煉金水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HISTORICAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_HISTORICAL_MYTHICAL_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "Mythical Historical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Historical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話歷史水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack HUMAN_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_HUMAN_MYTHICAL_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "Mythical Human Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Human Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話人類水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack ANIMAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_ANIMAL_MYTHICAL_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "Mythical Animal Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Animal Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話動物水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack CELESTIAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_CELESTIAL_MYTHICAL_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "Mythical Celestial Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Celestial Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話天體水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack VOID_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_VOID_MYTHICAL_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Mythical Void Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Void Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話虛無水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static final SlimefunItemStack PHILOSOPHICAL_MYTHICAL_SEED = Theme.themedSeed(
         "CRY_PHILOSOPHICAL_MYTHICAL_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "Mythical Philosophical Crysta Seed",
-        new String[]{"This seed, when fully grown, will", "provide Philosophical Crysta when", "harvested."},
-        Stacks.getCanBePlacedOnLore("Nether Grass (or better)")
+        "神話哲學水晶種子",
+        new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
+        Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
 
     public static void setup() {

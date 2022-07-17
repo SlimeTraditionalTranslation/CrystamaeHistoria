@@ -251,7 +251,7 @@ public class CrystamaeHistoria extends AbstractAddon {
             try {
                 NetheoPlants.setup();
             } catch (NoClassDefFoundError e) {
-                getLogger().severe("Netheopoiesis must be updated to meet Crystamaes requirements.");
+                getLogger().severe("Netheopoiesis 必須更新才能達到水晶編年史的條件.");
             }
         }
     }
