@@ -3,6 +3,10 @@ rules:
   - base: master
     upstream: Sefiraat:master
     mergeMethod: merge
+    reviewers:
+      - weiii-joe
+      - xwinhyukx
+      - xMikux
     conflictReviewers:
       - weiii-joe
       - xwinhyukx
