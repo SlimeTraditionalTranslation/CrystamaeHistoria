@@ -236,6 +236,7 @@ public class CrystaStacks {
     public static final SlimefunItemStack BIRTHDAY_TROPHY_BWHITE;
     public static final SlimefunItemStack BIRTHDAY_TROPHY_DECOY;
     public static final SlimefunItemStack BIRTHDAY_TROPHY_ODDISH;
+    public static final SlimefunItemStack ANNIVERSARY_TROPHY;
 
     // Recipe Types
     public static final ItemStack RECIPE_TYPE_LIQUEFACTION_CRAFTING;
@@ -2405,6 +2406,16 @@ public class CrystaStacks {
             "一個等待發生的幽暗",
             "",
             ThemeType.CLICK_INFO.getColor() + "需求: Oddish的生日!"
+        );
+
+        ANNIVERSARY_TROPHY = ThemeType.themedSlimefunItemStack(
+            "CRY_ANNIVERSARY_TROPHY",
+            new ItemStack(Material.COOKIE),
+            ThemeType.CRAFTING,
+            "Slimefun 的 10 周年紀念",
+            "10 年的快樂（黏液科技）",
+            "",
+            ThemeType.CLICK_INFO.getColor() + "需求: Slimefun 周年紀念日時"
         );
 
         // Recipe Types
