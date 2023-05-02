@@ -59,7 +59,7 @@ public class CrystamaeHistoria extends AbstractAddon {
     private SupportedPluginManager supportedPluginManager;
 
     public CrystamaeHistoria() {
-        super("Sefiraat", "CrystamaeHistoria", "master", "auto-update");
+        super("SlimeTraditionalTranslation", "CrystamaeHistoria", "master", "auto-update");
     }
 
     public static CrystamaeHistoria getInstance() {

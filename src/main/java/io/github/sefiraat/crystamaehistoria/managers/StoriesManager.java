@@ -1,6 +1,8 @@
 package io.github.sefiraat.crystamaehistoria.managers;
 
 import com.google.common.base.Preconditions;
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.sefiraat.crystamaehistoria.CrystamaeHistoria;
 import io.github.sefiraat.crystamaehistoria.stories.BlockDefinition;
 import io.github.sefiraat.crystamaehistoria.stories.BlockTier;
@@ -253,7 +255,7 @@ public class StoriesManager {
 
     @ParametersAreNonnullByDefault
     private static void setName(ItemStack itemStack, ItemMeta im) {
-        TextComponent name = new TextComponent("有故事的 " + TextUtils.toTitleCase(itemStack.getType().toString()));
+        TextComponent name = new TextComponent("有故事的" + Translate.getMaterial(Locale.zh_tw, itemStack.getType()));
         name.setColor(ThemeType.MAIN.getColor());
         name.setBold(true);
         im.setDisplayName(name.toLegacyText());

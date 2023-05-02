@@ -168,6 +168,12 @@
             <version>1.0.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.SlimeTraditionalTranslation</groupId>
+            <artifactId>Locale-API</artifactId>
+            <version>v1.0.1</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!-- Supported Plugins -->
         <dependency>
@@ -223,7 +229,7 @@
         <dependency>
             <groupId>io.github.SlimeTraditionalTranslation</groupId>
             <artifactId>InfinityLib</artifactId>
-            <version>2135234</version>
+            <version>7a28e65c33</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

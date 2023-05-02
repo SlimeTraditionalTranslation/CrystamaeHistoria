@@ -1,5 +1,7 @@
 package io.github.sefiraat.crystamaehistoria.utils.theme;
 
+import de.unpixelt.locale.Locale;
+import de.unpixelt.locale.Translate;
 import io.github.sefiraat.crystamaehistoria.slimefun.items.tools.stave.SpellSlot;
 import io.github.sefiraat.crystamaehistoria.utils.Skulls;
 import io.github.sefiraat.crystamaehistoria.utils.TextUtils;
@@ -79,7 +81,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             material,
             ThemeType.RARITY_UNIQUE,
-            TextUtils.toTitleCase(material.toString()),
+            Translate.getMaterial(Locale.zh_tw, material),
             "這個獨特故事已被",
             "記錄."
         );
@@ -90,7 +92,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             Material.BARRIER,
             ThemeType.RESEARCH,
-            TextUtils.toTitleCase(material.toString()),
+            Translate.getMaterial(Locale.zh_tw, material),
             MessageFormat.format("{0}{1}已鎖定", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
             "這個獨特故事還沒有",
             "解鎖.",
@@ -118,7 +120,7 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             material,
             ThemeType.RARITY_UNIQUE,
-            TextUtils.toTitleCase(material.toString()),
+            Translate.getMaterial(Locale.zh_tw, material),
             "這個方塊已鍍金."
         );
     }
@@ -128,8 +130,8 @@ public class GuiElements {
         return ThemeType.themedItemStack(
             Material.BARRIER,
             ThemeType.RESEARCH,
-            TextUtils.toTitleCase(material.toString()),
-            MessageFormat.format("{0}{1}LOCKED", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
+            Translate.getMaterial(Locale.zh_tw, material),
+            MessageFormat.format("{0}{1}已鎖定", ThemeType.RESEARCH.getColor(), ChatColor.BOLD),
             "這個方塊尚未被鍍金過."
         );
     }

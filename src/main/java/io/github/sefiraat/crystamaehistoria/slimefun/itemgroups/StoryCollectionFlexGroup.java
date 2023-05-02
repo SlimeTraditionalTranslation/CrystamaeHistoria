@@ -111,7 +111,7 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
         reapplyFooter(player, profile, mode, menu, page, totalPages);
 
         // Back
-        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(player, Slimefun.getLocalization().getMessage("guide.back.guide")));
+        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(player, "", ThemeType.PASSIVE.getColor() + Slimefun.getLocalization().getMessage(player, "guide.back.guide")));
         menu.addMenuClickHandler(GUIDE_BACK, (player1, slot, itemStack, clickAction) -> {
             SlimefunGuide.openItemGroup(profile, ItemGroups.MAIN, mode, 1);
             return false;
@@ -148,7 +148,7 @@ public class StoryCollectionFlexGroup extends FlexItemGroup {
     @ParametersAreNonnullByDefault
     private void displayDefinition(Player p, PlayerProfile profile, SlimefunGuideMode mode, ChestMenu menu, int returnPage, BlockDefinition definition) {
         // Back Button
-        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(p, Slimefun.getLocalization().getMessage("guide.back.guide")));
+        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(p, "", ThemeType.PASSIVE.getColor() + Slimefun.getLocalization().getMessage(p, "guide.back.guide")));
         menu.addMenuClickHandler(GUIDE_BACK, (player1, slot, itemStack, clickAction) -> {
             setupPage(player1, profile, mode, menu, returnPage);
             return false;

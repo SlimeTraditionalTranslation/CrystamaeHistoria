@@ -91,7 +91,7 @@ public class GildedCollectionFlexGroup extends FlexItemGroup {
         reapplyFooter(player, profile, mode, menu, page, totalPages);
 
         // Back
-        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(player, Slimefun.getLocalization().getMessage("guide.back.guide")));
+        menu.replaceExistingItem(GUIDE_BACK, ChestMenuUtils.getBackButton(player, "", ThemeType.PASSIVE.getColor() + Slimefun.getLocalization().getMessage(player, "guide.back.guide")));
         menu.addMenuClickHandler(GUIDE_BACK, (player1, slot, itemStack, clickAction) -> {
             SlimefunGuide.openItemGroup(profile, ItemGroups.MAIN, mode, 1);
             return false;

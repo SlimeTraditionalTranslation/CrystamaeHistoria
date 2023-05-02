@@ -305,7 +305,7 @@ public class CrystaStacks {
             "CRY_AMALGAMATE_DUST_UNCOMMON",
             new ItemStack(Material.GLOWSTONE_DUST),
             ThemeType.CRAFTING,
-            "汞齊粉 (不常見)",
+            "汞齊粉 (罕見)",
             "一種結合所有魔法種類的粉."
         );
 
@@ -353,7 +353,7 @@ public class CrystaStacks {
             "CRY_AMALGAMATE_INGOT_UNCOMMON",
             new ItemStack(Material.GOLD_INGOT),
             ThemeType.CRAFTING,
-            "汞齊錠 (不常見)",
+            "汞齊錠 (罕見)",
             "由純魔法製作的錠."
         );
 
@@ -2245,7 +2245,7 @@ public class CrystaStacks {
             "這個簡易的挎包可以",
             "為你撿取與儲存水晶.",
             "",
-            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 不常見"
+            ThemeType.WARNING.getColor() + "稀有性: " + ThemeType.PASSIVE.getColor() + "獨特 -> 罕見"
         );
 
         SATCHEL_4 = ThemeType.themedSlimefunItemStack(

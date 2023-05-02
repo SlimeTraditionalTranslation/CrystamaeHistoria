@@ -102,7 +102,7 @@ public class NetheoPlants {
         "CRY_ELEMENTAL_UNCOMMON_SEED",
         Skulls.SEED_RED.getPlayerHead(),
         Theme.SEED,
-        "不常見元素水晶種子",
+        "罕見元素水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予元素水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -111,7 +111,7 @@ public class NetheoPlants {
         "CRY_MECHANICAL_UNCOMMON_SEED",
         Skulls.SEED_ORANGE.getPlayerHead(),
         Theme.SEED,
-        "不常見機械水晶種子",
+        "罕見機械水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予機械水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -120,7 +120,7 @@ public class NetheoPlants {
         "CRY_ALCHEMICAL_UNCOMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "不常見煉金水晶種子",
+        "罕見煉金水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予煉金水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -129,7 +129,7 @@ public class NetheoPlants {
         "CRY_HISTORICAL_UNCOMMON_SEED",
         Skulls.SEED_GREEN.getPlayerHead(),
         Theme.SEED,
-        "不常見歷史水晶種子",
+        "罕見歷史水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予歷史水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -138,7 +138,7 @@ public class NetheoPlants {
         "CRY_HUMAN_UNCOMMON_SEED",
         Skulls.SEED_BLUE.getPlayerHead(),
         Theme.SEED,
-        "不常見人類水晶種子",
+        "罕見人類水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予人類水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -147,7 +147,7 @@ public class NetheoPlants {
         "CRY_ANIMAL_UNCOMMON_SEED",
         Skulls.SEED_CYAN.getPlayerHead(),
         Theme.SEED,
-        "不常見動物水晶種子",
+        "罕見動物水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予動物水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -156,7 +156,7 @@ public class NetheoPlants {
         "CRY_CELESTIAL_UNCOMMON_SEED",
         Skulls.SEED_YELLOW.getPlayerHead(),
         Theme.SEED,
-        "不常見天體水晶種子",
+        "罕見天體水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予天體水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -165,7 +165,7 @@ public class NetheoPlants {
         "CRY_VOID_UNCOMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "不常見虛無水晶種子",
+        "罕見虛無水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予虛無水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );
@@ -174,7 +174,7 @@ public class NetheoPlants {
         "CRY_PHILOSOPHICAL_UNCOMMON_SEED",
         Skulls.SEED_PURPLE.getPlayerHead(),
         Theme.SEED,
-        "不常見哲學水晶種子",
+        "罕見哲學水晶種子",
         new String[]{"這顆種子完全成熟時,", "將會在採收時", "給予哲學水晶."},
         Stacks.getCanBePlacedOnLore("地獄草地 (或是其他更好的)")
     );

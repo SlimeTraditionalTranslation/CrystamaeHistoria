@@ -53,7 +53,7 @@ public enum ThemeType {
     RUNE(ChatColor.of("#32a852"), "符文"),
     MULTIBLOCK(ChatColor.of("#ba12af"), "多重方塊"),
     RARITY_COMMON(ChatColor.of("#dbdbdb"), "常見"),
-    RARITY_UNCOMMON(ChatColor.of("#97d16b"), "不常見"),
+    RARITY_UNCOMMON(ChatColor.of("#97d16b"), "罕見"),
     RARITY_RARE(ChatColor.of("#d1db5c"), "稀有"),
     RARITY_EPIC(ChatColor.of("#b355d9"), "史詩"),
     RARITY_MYTHICAL(ChatColor.of("#c42336"), "神話"),
